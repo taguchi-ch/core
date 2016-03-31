@@ -736,7 +736,7 @@ msgid ""
 "resolve this location. When using a SSL certificate, make sure both this "
 "name and the cert name are equal."
 msgstr "ログインページをリダイレクトする ( このマシンの ) ホスト名。"
-"空白の場合はこのインタフェースの IP アドレスを使用します。設定した場合は、クライアントが
+"空白の場合はこのインタフェースの IP アドレスを使用します。設定した場合は、クライアントが"
 "この場所を名前解決する DNS にアクセスできるか確認してください。"
 "SSL 証明書を使用する場合は、この名前と証明書名を同一にしてください。"
 
@@ -1002,12 +1002,13 @@ msgstr "このキューに接続されたパイプ"
 msgid ""
 "Weight of this queue (1..100), used to prioritize within a pipe. (1 is low, "
 "100 is high)"
-msgstr ""
+msgstr "このキューの重み (1..100)。パイプ内での優先度設定に使用します。"
+"( 1 が最低、100 が最大 )"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 78
 msgid "order in which the rule will be evaluated (lowest first)"
-msgstr ""
+msgstr "ルールが評価される順序 ( 一番下が最初です )"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 81
@@ -1015,42 +1016,43 @@ msgid ""
 "secondary interface, matches packets going traveling from interface (1) to "
 "interface (2).\n"
 "        "
-msgstr ""
+msgstr "セカンダリインタフェイス。一致するパケットはインタフェース (1) から"
+"インタフェース (2) へ流れます。\n"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 79
 msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
-msgstr ""
+msgstr "送信元 IP もしくはネットワーク。例: 10.0.0.0/24, 10.0.0.1"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 80
 msgid "source port number or well known name (imap,imaps, http,https,...)"
-msgstr ""
+msgstr "送信元ポート番号、もしくは知られたプロトコル名 (imap,imaps, http,https,...)"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 81
 msgid "destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
-msgstr ""
+msgstr "送信先 IP もしくはネットワーク。例: 10.0.0.0/24, 10.0.0.1"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 82
 msgid "destination port number or well known name (imap,imaps, http,https,...)"
-msgstr ""
+msgstr "送信先ポート番号、もしくは知られたプロトコル名 (imap,imaps, http,https,...)"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 87
 msgid "matches incoming or outgoing packets or both (default)"
-msgstr ""
+msgstr "着信、発信、もしくは双方に一致するパケット ( デフォルト )"
 
 #
 # File: lang/dynamic/helpers/controllers.php, line: 84
 msgid "target pipe or queue"
-msgstr ""
+msgstr "対象となるパイプもしくはキュー"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 35
 msgid "Root"
-msgstr ""
+msgstr "ルート"
 
 msgid "Dashboard"
 msgstr "ダッシュボード"
@@ -1067,14 +1069,14 @@ msgstr "ログアウト"
 #
 # File: src/www/index.php, line: 354
 msgid "Lobby"
-msgstr ""
+msgstr "ロビー"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 38
 # File: lang/dynamic/helpers/models.php, line: 40
 # File: lang/dynamic/helpers/models.php, line: 42
 msgid "workAround"
-msgstr ""
+msgstr "回避方法"
 
 msgid "Certificates"
 msgstr "証明書"
@@ -1082,38 +1084,38 @@ msgstr "証明書"
 #
 # File: lang/dynamic/helpers/models.php, line: 41
 msgid "Authorities"
-msgstr ""
+msgstr "機関"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 43
 msgid "Revocation"
-msgstr ""
+msgstr "失効"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 47
 msgid "Trust"
-msgstr ""
+msgstr "信頼"
 
 msgid "none"
 msgstr "なし"
 
 #, fuzzy
 msgid "History"
-msgstr "構成履歴"
+msgstr "履歴"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 47
 msgid "Backups"
-msgstr ""
+msgstr "バックアップ"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 51
 msgid "Configuration"
-msgstr ""
+msgstr "構成"
 
 #, fuzzy
 msgid "Crash Reporter"
-msgstr "クラッシュ報告者"
+msgstr "クラッシュレポート"
 
 msgid "Firmware"
 msgstr "ファームウェア"
@@ -1121,16 +1123,16 @@ msgstr "ファームウェア"
 #
 # File: src/www/system_hasync.php, line: 97
 msgid "Synchronization"
-msgstr ""
+msgstr "同期"
 
 #
 # File: src/www/carp_status.php, line: 99
 msgid "CARP Status"
-msgstr ""
+msgstr "CARP ステータス"
 
 #, fuzzy
 msgid "High Availability"
-msgstr "高可用性同期"
+msgstr "高可用性"
 
 msgid "Edit"
 msgstr "編集"
@@ -1153,7 +1155,7 @@ msgstr "ステータス"
 # File: src/www/diag_logs_proxy.php, line: 49
 # File: src/www/diag_logs_relayd.php, line: 48
 msgid "Log File"
-msgstr ""
+msgstr ログファイル""
 
 msgid "Routes"
 msgstr "ルート"
@@ -1164,7 +1166,7 @@ msgstr "グループ"
 #
 # File: src/www/status_gateway_groups.php, line: 60
 msgid "Group Status"
-msgstr ""
+msgstr "グループステータス"
 
 msgid "Gateways"
 msgstr "ゲートウェイ"
@@ -1188,7 +1190,7 @@ msgstr "通知"
 #
 # File: lang/dynamic/helpers/models.php, line: 79
 msgid "Logs/Reports"
-msgstr ""
+msgstr "ログ / レポート"
 
 msgid "Miscellaneous"
 msgstr "その他"
@@ -1196,7 +1198,7 @@ msgstr "その他"
 #
 # File: src/www/system_advanced_sysctl.php, line: 119
 msgid "Tunables"
-msgstr ""
+msgstr "調整パラメータ"
 
 msgid "Settings"
 msgstr "設定"
@@ -1204,18 +1206,18 @@ msgstr "設定"
 #
 # File: lang/dynamic/helpers/models.php, line: 82
 msgid "Step"
-msgstr ""
+msgstr "ステップ"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 83
 msgid "Wizard"
-msgstr ""
+msgstr "ウィザード"
 
 #
 # File: src/www/system_groupmanager_addprivs.php, line: 48
 # File: src/www/system_usermanager_addprivs.php, line: 48
 msgid "Privileges"
-msgstr ""
+msgstr "権限"
 
 msgid "Users"
 msgstr "ユーザ"
@@ -1229,12 +1231,12 @@ msgstr "サーバ"
 #
 # File: lang/dynamic/helpers/models.php, line: 93
 msgid "Tester"
-msgstr ""
+msgstr "テスタ"
 
 #
 # File: src/www/diag_logs_pills.inc, line: 45
 msgid "Access"
-msgstr ""
+msgstr "アクセス"
 
 msgid "Factory Defaults"
 msgstr "出荷時の規定値"
@@ -1263,7 +1265,7 @@ msgstr "概要"
 #
 # File: lang/dynamic/helpers/models.php, line: 107
 msgid "Assignments"
-msgstr ""
+msgstr "割当て"
 
 msgid "Bridge"
 msgstr "ブリッジ"
@@ -1286,18 +1288,18 @@ msgstr "VLAN"
 #
 # File: lang/dynamic/helpers/models.php, line: 122
 msgid "Other Types"
-msgstr ""
+msgstr "その他のタイプ"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 124
 # File: lang/dynamic/helpers/models.php, line: 128
 msgid "Devices"
-msgstr ""
+msgstr "デバイス"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 126
 msgid "Point-to-Point"
-msgstr ""
+msgstr "ポイントツーポイント"
 
 msgid "Wireless"
 msgstr "無線"
@@ -1321,7 +1323,7 @@ msgstr "Traceroute"
 # File: lang/dynamic/helpers/models.php, line: 128
 # File: lang/dynamic/helpers/models.php, line: 166
 msgid "Details"
-msgstr ""
+msgstr "詳細"
 
 msgid "Traffic Graph"
 msgstr "トラフィックグラフ"
@@ -1332,7 +1334,7 @@ msgstr "インタフェース"
 #
 # File: lang/dynamic/helpers/models.php, line: 140
 msgid "NoneEdit"
-msgstr ""
+msgstr "編集なし"
 
 msgid "None"
 msgstr "なし"
@@ -1340,7 +1342,7 @@ msgstr "なし"
 #
 # File: lang/dynamic/helpers/models.php, line: 144
 msgid "IPs"
-msgstr ""
+msgstr "IP"
 
 msgid "Ports"
 msgstr "ポート"
@@ -1349,12 +1351,12 @@ msgstr "ポート"
 # File: lang/dynamic/helpers/models.php, line: 73
 # File: src/www/firewall_aliases.php, line: 178
 msgid "URLs"
-msgstr ""
+msgstr "URL"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 97
 msgid "Import"
-msgstr ""
+msgstr "インポート"
 
 msgid "Aliases"
 msgstr "エイリアス"
@@ -1362,7 +1364,7 @@ msgstr "エイリアス"
 #
 # File: lang/dynamic/helpers/models.php, line: 92
 msgid "RulesEdit"
-msgstr ""
+msgstr "ルールの編集"
 
 msgid "Floating"
 msgstr "フローティング"
@@ -1376,7 +1378,7 @@ msgstr "ルール"
 #
 # File: lang/dynamic/helpers/models.php, line: 83
 msgid "NatEdit"
-msgstr ""
+msgstr "NAT の編集"
 
 msgid "Port Forward"
 msgstr "ポートフォワード"
@@ -1384,7 +1386,7 @@ msgstr "ポートフォワード"
 #
 # File: lang/dynamic/helpers/models.php, line: 86
 msgid "OneOnOneEdit"
-msgstr ""
+msgstr "1:1 の編集"
 
 msgid "1:1"
 msgstr "1:1"
@@ -1392,7 +1394,7 @@ msgstr "1:1"
 #
 # File: lang/dynamic/helpers/models.php, line: 88
 msgid "OutboundEdit"
-msgstr ""
+msgstr "外向きの編集"
 
 msgid "Outbound"
 msgstr "外向き"
@@ -1400,12 +1402,12 @@ msgstr "外向き"
 #
 # File: lang/dynamic/helpers/models.php, line: 106
 msgid "NPTEdit"
-msgstr ""
+msgstr "NPT の編集"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 107
 msgid "NPT (IPv6)"
-msgstr ""
+msgstr "NPT (IPv6)"
 
 msgid "NAT"
 msgstr "NAT"
@@ -1413,12 +1415,12 @@ msgstr "NAT"
 #
 # File: lang/dynamic/helpers/models.php, line: 165
 msgid "TrafficShaper"
-msgstr ""
+msgstr "トラフィックシェーパ"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 99
 msgid "VirtualIPEdit"
-msgstr ""
+msgstr "仮想 IP の編集"
 
 msgid "Virtual IPs"
 msgstr "仮想 IP"
@@ -1426,7 +1428,7 @@ msgstr "仮想 IP"
 #
 # File: lang/dynamic/helpers/models.php, line: 96
 msgid "SchedulesEdit"
-msgstr ""
+msgstr "スケジュールの編集"
 
 msgid "Schedules"
 msgstr "スケジュール"
@@ -1444,12 +1446,12 @@ msgstr "pfTop"
 # File: lang/dynamic/helpers/models.php, line: 167
 # File: src/www/diag_tables.php, line: 76
 msgid "pfTables"
-msgstr ""
+msgstr "PF テーブル"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 232
 msgid "SocketsDetails"
-msgstr ""
+msgstr "ソケットの詳細"
 
 msgid "Sockets"
 msgstr "ソケット"
@@ -1457,12 +1459,12 @@ msgstr "ソケット"
 #
 # File: lang/dynamic/helpers/models.php, line: 170
 msgid "States Dump"
-msgstr ""
+msgstr "ステータスダンプ"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 171
 msgid "States Reset"
-msgstr ""
+msgstr "ステータスリセット"
 
 msgid "States Summary"
 msgstr "ステータス概要"
@@ -1486,7 +1488,7 @@ msgstr "概要表示"
 # File: lang/dynamic/helpers/models.php, line: 142
 # File: src/www/diag_logs_filter_plain.php, line: 52
 msgid "Plain View"
-msgstr ""
+msgstr "プレーン表示"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 71
@@ -1504,7 +1506,7 @@ msgstr ""
 # File: src/www/diag_logs_settings.php, line: 215
 # File: src/www/diag_logs_wireless.php, line: 52
 msgid "Log Files"
-msgstr ""
+msgstr "ログファイル"
 
 msgid "Firewall"
 msgstr "ファイアウォール"
@@ -1512,7 +1514,7 @@ msgstr "ファイアウォール"
 #
 # File: lang/dynamic/helpers/models.php, line: 189
 msgid "Tab"
-msgstr ""
+msgstr "タブ"
 
 msgid "Server"
 msgstr "サーバ"
@@ -1521,13 +1523,13 @@ msgstr "サーバ"
 # File: lang/dynamic/helpers/models.php, line: 192
 # File: lang/dynamic/helpers/models.php, line: 199
 msgid "Relay"
-msgstr ""
+msgstr "リレー"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 194
 # File: lang/dynamic/helpers/models.php, line: 201
 msgid "Leases"
-msgstr ""
+msgstr "リース"
 
 msgid "DHCP"
 msgstr "DHCP"
@@ -1535,7 +1537,7 @@ msgstr "DHCP"
 #
 # File: lang/dynamic/helpers/models.php, line: 197
 msgid "RA"
-msgstr ""
+msgstr "RA"
 
 msgid "DHCPv6"
 msgstr "DHCPv6"
@@ -1543,13 +1545,13 @@ msgstr "DHCPv6"
 #
 # File: src/www/firewall_aliases_edit.php, line: 442
 msgid "Hosts"
-msgstr ""
+msgstr "ホスト"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 204
 # File: lang/dynamic/helpers/models.php, line: 207
 msgid "Domains"
-msgstr ""
+msgstr "ドメイン"
 
 msgid "DNS Forwarder"
 msgstr "DNS フォワーダ"
@@ -1558,7 +1560,7 @@ msgstr "DNS フォワーダ"
 # File: lang/dynamic/helpers/models.php, line: 210
 # File: src/www/services_unbound_overrides.php, line: 92
 msgid "Overrides"
-msgstr ""
+msgstr "上書き"
 
 msgid "Advanced"
 msgstr "詳細設定"
@@ -1572,7 +1574,7 @@ msgstr "DNS リゾルバ"
 #
 # File: lang/dynamic/helpers/models.php, line: 214
 msgid "DynDNS"
-msgstr ""
+msgstr "ダイナミック DNS"
 
 msgid "RFC 2136"
 msgstr "RFC 2136"
@@ -1580,12 +1582,12 @@ msgstr "RFC 2136"
 #
 # File: lang/dynamic/helpers/models.php, line: 219
 msgid "DNS Tools"
-msgstr ""
+msgstr "DNS ツール"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 127
 msgid "IGMPProxyEdit"
-msgstr ""
+msgstr "IGMP プロキシの編集"
 
 msgid "IGMP Proxy"
 msgstr "IGMP プロキシ"
@@ -1597,32 +1599,32 @@ msgstr "監視"
 # File: lang/dynamic/helpers/models.php, line: 199
 # File: src/www/load_balancer_pool.php, line: 87
 msgid "Pool Setup"
-msgstr ""
+msgstr "プールの設定"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 200
 # File: src/www/status_lb_pool.php, line: 56
 msgid "Pool Status"
-msgstr ""
+msgstr "プールのステータス"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 204
 # File: src/www/load_balancer_virtual_server.php, line: 125
 msgid "Virtual Server Setup"
-msgstr ""
+msgstr "仮想サーバの設定"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 205
 # File: src/www/status_lb_vs.php, line: 44
 msgid "Virtual Server Status"
-msgstr ""
+msgstr "仮想サーバのステータス"
 
 msgid "Load Balancer"
 msgstr "ロードバランサ"
 
 #, fuzzy
 msgid "GPS"
-msgstr "PPS"
+msgstr "GPS"
 
 msgid "PPS"
 msgstr "PPS"
@@ -1634,7 +1636,7 @@ msgstr "PPS"
 # File: src/www/services_ntpd_pps.php, line: 92
 # File: src/www/status_ntpd.php, line: 147
 msgid "Network Time"
-msgstr ""
+msgstr "ネットワーク時刻"
 
 msgid "Type"
 msgstr "タイプ"
@@ -1645,12 +1647,12 @@ msgstr "PPPoE サーバ"
 #
 # File: lang/dynamic/helpers/models.php, line: 216
 msgid "More"
-msgstr ""
+msgstr "詳細"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 248
 msgid "Proxy"
-msgstr ""
+msgstr "プロキシ"
 
 msgid "SNMP"
 msgstr "SNMP"
@@ -1660,12 +1662,12 @@ msgstr "SNMP"
 # File: lang/dynamic/helpers/models.php, line: 173
 # File: src/www/status_upnp.php, line: 44
 msgid "Universal Plug and Play"
-msgstr ""
+msgstr "ユニバーサルプラグアンドプレイ"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 145
 msgid "WoLEdit"
-msgstr ""
+msgstr "Wake-on-LAN の編集"
 
 msgid "Wake on LAN"
 msgstr "Wake-on-LAN"
@@ -3362,7 +3364,7 @@ msgid ""
 "%sWarning: traffic shaper rule removed (interface '%s' does not exist "
 "anymore)."
 msgstr ""
-"%s警告: トラフィックシェイパルールが削除されました ( インタフェース '%s' は現"
+"%s警告: トラフィックシェーパルールが削除されました ( インタフェース '%s' は現"
 "在存在しません )"
 
 #, php-format
@@ -3370,7 +3372,7 @@ msgid ""
 "%sWarning: traffic shaper rule removed (source network '%s' does not exist "
 "anymore)."
 msgstr ""
-"%s警告: トラフィックシェイパルールが削除されました ( 送信元ネットワーク '%s' "
+"%s警告: トラフィックシェーパルールが削除されました ( 送信元ネットワーク '%s' "
 "は現在存在しません )"
 
 #, php-format
@@ -3378,7 +3380,7 @@ msgid ""
 "%sWarning: traffic shaper rule removed (destination network '%s' does not "
 "exist anymore)."
 msgstr ""
-"%s警告: トラフィックシェイパルールが削除されました ( 送信先ネットワーク '%s' "
+"%s警告: トラフィックシェーパルールが削除されました ( 送信先ネットワーク '%s' "
 "は現在存在しません )"
 
 #, php-format
