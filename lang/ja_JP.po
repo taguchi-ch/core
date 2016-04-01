@@ -1155,7 +1155,7 @@ msgstr "ステータス"
 # File: src/www/diag_logs_proxy.php, line: 49
 # File: src/www/diag_logs_relayd.php, line: 48
 msgid "Log File"
-msgstr ログファイル""
+msgstr "ログファイル"
 
 msgid "Routes"
 msgstr "ルート"
@@ -1675,12 +1675,12 @@ msgstr "Wake-on-LAN"
 #
 # File: lang/dynamic/helpers/models.php, line: 229
 msgid "Phase1"
-msgstr ""
+msgstr "フェーズ 1"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 230
 msgid "Phase2"
-msgstr ""
+msgstr "フェーズ 2"
 
 msgid "Tunnel Settings"
 msgstr "トンネル設定"
@@ -1689,7 +1689,7 @@ msgstr "トンネル設定"
 # File: lang/dynamic/helpers/models.php, line: 232
 # File: src/www/vpn_ipsec_mobile.php, line: 197
 msgid "Mobile Clients"
-msgstr ""
+msgstr "モバイルクライアント"
 
 msgid "Pre-Shared Keys"
 msgstr "事前共有鍵"
@@ -1706,25 +1706,25 @@ msgstr "動作"
 # File: lang/dynamic/helpers/models.php, line: 237
 # File: src/www/diag_ipsec.php, line: 64
 msgid "Status Overview"
-msgstr ""
+msgstr "ステータス概要"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 238
 # File: src/www/diag_ipsec_leases.php, line: 35
 msgid "Lease Status"
-msgstr ""
+msgstr "リースステータス"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 239
 # File: src/www/diag_ipsec_sad.php, line: 36
 msgid "Security Association Database"
-msgstr ""
+msgstr "セキュリティアソシエーションデータベース"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 240
 # File: src/www/diag_ipsec_spd.php, line: 36
 msgid "Security Policy Database"
-msgstr ""
+msgstr "セキュリティポリシーデータベース"
 
 msgid "IPsec"
 msgstr "IPsec"
@@ -1735,7 +1735,7 @@ msgstr "L2TP"
 #
 # File: lang/dynamic/helpers/models.php, line: 256
 msgid "Server Settings"
-msgstr ""
+msgstr "サーバ設定"
 
 msgid "Client Settings"
 msgstr "クライアント設定"
@@ -1745,17 +1745,17 @@ msgstr "クライアント固有の上書き"
 
 #, fuzzy
 msgid "Client Export"
-msgstr "クライアント"
+msgstr "クライアントのエクスポート"
 
 #, fuzzy
 msgid "Shared Key Export"
-msgstr "共有鍵"
+msgstr "共有鍵のエクスポート"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 257
 # File: src/www/status_openvpn.php, line: 70
 msgid "Connection Status"
-msgstr ""
+msgstr "接続ステータス"
 
 msgid "OpenVPN"
 msgstr "OpenVPN"
@@ -1784,7 +1784,7 @@ msgstr "有償サポート"
 #
 # File: lang/dynamic/helpers/models.php, line: 262
 msgid "User Forum"
-msgstr ""
+msgstr "ユーザフォーラム"
 
 msgid "Help"
 msgstr "ヘルプ"
@@ -1792,18 +1792,18 @@ msgstr "ヘルプ"
 #
 # File: lang/dynamic/helpers/models.php, line: 207
 msgid "menu"
-msgstr ""
+msgstr "メニュー"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 215
 # File: lang/dynamic/helpers/models.php, line: 282
 msgid "Administration"
-msgstr ""
+msgstr "管理"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 283
 msgid "Sessions"
-msgstr ""
+msgstr "セッション"
 
 msgid "Vouchers"
 msgstr "バウチャー"
@@ -1814,61 +1814,61 @@ msgstr "キャプティブポータル"
 #
 # File: lang/dynamic/helpers/models.php, line: 289
 msgid "Maximum number of zones reached"
-msgstr ""
+msgstr "ゾーンの最大数に達しました"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 290
 msgid "Idle timeout must be between 0(no timeout) and 10080 (a week)"
-msgstr ""
+msgstr "アイドルタイムアウトの範囲は、0( タイムアウトを使用しない ) - 10080( 1 週間 ) です"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 291
 msgid "Hard timeout must be between 0(no timeout) and 10080 (a week)"
-msgstr ""
+msgstr "ハードタイムアウトの範囲は、0( タイムアウトを使用しない ) - 10080( 1 週間 ) です"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 292
 msgid "Please select a valid certificate from the list"
-msgstr ""
+msgstr "リストから有効な証明書を選択してください"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 293
 msgid "Please enter a valid servername, ip address or leave this option blank"
-msgstr ""
+msgstr "有効なサーバ名、IP アドレスを入力してください。もしくはこのオプションを空白のままにしてください"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 294
 msgid "Please enter valid addresses"
-msgstr ""
+msgstr "有効なアドレスを入力してください"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 295
 msgid "Please enter valid mac addresses"
-msgstr ""
+msgstr "有効な MAC アドレスを入力してください"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 296
 msgid "Related template not found"
-msgstr ""
+msgstr "関連するテンプレートが見つかりません"
 
 #, fuzzy
 msgid "Description should be a string between 1 and 255 characters"
-msgstr "優先度は 1 - 255 の整数です"
+msgstr "説明は、1 - 255 文字の文字列です"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 298
 msgid "Fileid should be an internally generated unique number"
-msgstr ""
+msgstr "ファイル ID は、内部生成された固有番号です"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 299
 msgid "Template name should be a string between 1 and 255 characters"
-msgstr ""
+msgstr "テンプレート名は、1 - 255 文字の文字列です"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 300
 msgid "File content should be in (base64 encoded) zip format"
-msgstr ""
+msgstr "ファイルコンテンツは ZIP 形式 (base64 エンコード ) です"
 
 #
 # File: lang/dynamic/helpers/models.php, line: 241
