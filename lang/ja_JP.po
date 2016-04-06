@@ -2998,12 +2998,12 @@ msgstr "無効 - 圧縮なし"
 #
 # File: src/etc/inc/openvpn.inc, line: 103
 msgid "Enabled with Adaptive Compression"
-msgstr "連続文字圧縮を有効"
+msgstr "アダプティブ圧縮を有効"
 
 #
 # File: src/etc/inc/openvpn.inc, line: 104
 msgid "Enabled without Adaptive Compression"
-msgstr "連続文字圧縮不使用を有効"
+msgstr "アダプティブ圧縮不使用を有効"
 
 msgid "None (No Encryption)"
 msgstr "なし ( 暗号化なし )"
@@ -3103,31 +3103,31 @@ msgstr ""
 msgid ""
 "Alias archive is a .zip file which cannot be decompressed because utility is "
 "missing!"
-msgstr ""
+msgstr "エイリアスアーカイブは ZIP ファイルですが、ユーティリティが見つからないため解凍できません！"
 
 #, fuzzy, php-format
 msgid "Could not open %s/aliases for writing!"
-msgstr "書き込み用として %s を開けません"
+msgstr "書き込み用として %s もしくはエイリアスを開けません！"
 
 #
 # File: src/etc/inc/pfsense-utils.inc, line: 1557
 # File: src/etc/inc/pfsense-utils.inc, line: 1589
 #, php-format
 msgid "The following file could not be read %s from %s"
-msgstr ""
+msgstr "以下のファイルの %s を %s から読み込めませんでした"
 
 #
 # File: src/etc/inc/pfsense-utils.inc, line: 1573
 msgid ""
 "Alias archive is a .tar/tgz file which cannot be decompressed because "
 "utility is missing!"
-msgstr ""
+msgstr "エイリアスアーカイブは tar/tgz ファイルですが、ユーティリティが見つからないため解凍できません！"
 
 #
 # File: src/etc/inc/rrd.inc, line: 74
 #, php-format
 msgid "RRD create failed exited with %s, the error is: %s"
-msgstr ""
+msgstr "RRD 作成に失敗したため終了しました: %s エラー: %s"
 
 msgid "Generating RRD graphs..."
 msgstr "RRD グラフを生成しています..."
@@ -3139,7 +3139,7 @@ msgstr "RRD 更新スクリプトを作成しています"
 # File: src/etc/inc/services.inc, line: 425
 #, php-format
 msgid "DHCP leases restore failed exited with %s, the error is: %s"
-msgstr ""
+msgstr "DHCP リースリストアに失敗したため終了しました: %s エラー: %s"
 
 msgid "Starting DHCP service..."
 msgstr "DHCP サービス を開始しています..."
@@ -3169,14 +3169,14 @@ msgstr "DHCPv6 リレーサービスを開始しています..."
 #
 # File: src/etc/inc/services.inc, line: 1739
 msgid "Starting dynamic DNS clients..."
-msgstr ""
+msgstr "ダイナミック DNS クライアントを起動しています..."
 
 msgid "Starting DNS forwarder..."
 msgstr "DNS フォワーダを起動しています..."
 
 #, fuzzy
 msgid "Starting DNS Resolver..."
-msgstr "DNS フォワーダを起動しています..."
+msgstr "DNS リゾルバを起動しています..."
 
 msgid "Starting SNMP daemon... "
 msgstr "SNMP デーモンを起動しています... "
@@ -3189,13 +3189,13 @@ msgstr "エラー: services_snmpd_configure(): snmpd.conf を開けません%s"
 # File: src/etc/inc/services.inc, line: 2253
 #, php-format
 msgid "Dynamic DNS updated IP Address (A) for %s on %s (%s) to %s"
-msgstr ""
+msgstr "ダイナミック DNS は %s に対する %s (%s) の IP アドレス (A) を %s にアップデートしました"
 
 #
 # File: src/etc/inc/services.inc, line: 2268
 #, php-format
 msgid "Dynamic DNS updated IPv6 Address (AAAA) for %s on %s (%s) to %s"
-msgstr ""
+msgstr "ダイナミック DNS は %s に対する %s (%s) の IPv6 アドレス (AAAA) を %s にアップデートしました"
 
 msgid "Starting UPnP service... "
 msgstr "UPnP サービスを開始しています... "
@@ -3218,7 +3218,7 @@ msgstr "ルータ広告デーモン"
 #
 # File: src/etc/inc/services.inc, line: 2476
 msgid "Unbound DNS Resolver"
-msgstr ""
+msgstr "Unbound DNS リゾルバ"
 
 msgid "NTP clock sync"
 msgstr "NTP 時刻同期"
@@ -3234,7 +3234,7 @@ msgstr "DHCP サービス"
 
 #, fuzzy
 msgid "Gateway Monitoring Daemon"
-msgstr "ゲートウェイ監視"
+msgstr "ゲートウェイ監視デーモン"
 
 msgid "SNMP Service"
 msgstr "SNMP サービス"
@@ -3250,14 +3250,14 @@ msgstr "IPSec VPN"
 
 #, fuzzy
 msgid "Secure Shell Daemon"
-msgstr "SSH"
+msgstr "SSH デーモン"
 
 msgid "Server load balancing daemon"
 msgstr "サーバ負荷分散デーモン"
 
 #, fuzzy
 msgid "Proxy server"
-msgstr "プロキシユーザ名"
+msgstr "プロキシサーバ"
 
 msgid "Running"
 msgstr "実行しています"
@@ -3285,7 +3285,7 @@ msgstr "%s サービスの起動"
 # File: src/etc/inc/system.inc, line: 611
 #, php-format
 msgid "DNSCACHE: Found old IP %s and new IP %s"
-msgstr ""
+msgstr "DNS キャッシュ: 古い IP %s と新しい IP %s が見つかりました"
 
 #, php-format
 msgid "Static Routes: Gateway IP could not be found for %s"
@@ -3326,7 +3326,7 @@ msgstr "タイムゾーンを設定しています..."
 # File: src/etc/inc/upgrade_config.inc, line: 40
 #, php-format
 msgid "RRD dump failed exited with %s, the error is: %s"
-msgstr ""
+msgstr "RRD ダンプに失敗したため終了しました: %s エラー: %s"
 
 #
 # File: src/etc/inc/upgrade_config.inc, line: 56
@@ -3334,13 +3334,14 @@ msgstr ""
 msgid ""
 "Import RRD has %s DS values and %s RRA databases, new format RRD has %s DS "
 "values and %s RRA databases"
-msgstr ""
+msgstr "インポートする RRD の DS 値は %s、RRA データベースは %s、"
+"新規フォーマットの RRD の DS 値は %s、RRA データベースは %s です"
 
 #
 # File: src/etc/inc/upgrade_config.inc, line: 140
 #, php-format
 msgid "The new RRD now has %s DS values and %s RRA databases"
-msgstr ""
+msgstr "新規 RRD の現在の DS 値は %s、RRA データベースは %s です"
 
 #, php-format
 msgid "%sWarning: filter rule removed (interface '%s' does not exist anymore)."
@@ -3409,12 +3410,12 @@ msgid ""
 "accessed a particular page (the lock will be freed if the user leaves or "
 "saves the page form)."
 msgstr ""
-"このユーザが、特定のページにアクセスすることで、個別の HTML ページをロックす"
-"るかどうかを示します。( ロックはユーザが特に設定しないか、もしくはページ"
-"フォームを保存することで解除されます )"
+"このユーザが、特定のページにアクセスした場合に、HTML ページを個別にロックす"
+"るかどうかを示します。( 該当ユーザがページから離れるか、"
+"ページフォームを保存することでロック解除されます )"
 
 msgid "Indicates whether this user is able to login for example via SSH."
-msgstr "このユーザが、例えば SSH 経由でログイン可能かどうかを示します。"
+msgstr "このユーザが SSH 等を経由してログイン可能かどうかを示します。"
 
 #, php-format
 msgid ""
@@ -3542,7 +3543,7 @@ msgstr "警告: 関数 lock() のパラメータとして「名前」が必要�
 
 #, fuzzy, php-format
 msgid "The command '%s' returned exit code '%d', the output was '%s'"
-msgstr "コマンド %1$s は終了コード %2$d を返しました。出力は %3$s です"
+msgstr "コマンド $s は終了コード $d を返しました。出力は $s です"
 
 msgid "Configuring IPsec VPN... "
 msgstr "IPsec VPN を構成しています... "
@@ -3574,12 +3575,11 @@ msgstr "エラー: %s のフェーズ 1 証明書ファイルを書き込めま�
 #, fuzzy, php-format
 msgid "Ignoring IPsec reload since there are no tunnels on interface %s"
 msgstr ""
-"IPsec racoon デーモンの再読み込みを無視しています。インタフェース %s にトンネ"
-"ルがありません。"
+"IPsec の再読み込みを無視しています。インタフェース %s にトンネルがありません。"
 
 #, fuzzy
 msgid "Forcefully reloading IPsec"
-msgstr "強制的に IPsec racoon デーモンを再読み込みしています"
+msgstr "強制的に IPsec を再読み込みしています"
 
 msgid "Configuring PPTP VPN service... "
 msgstr "PPTP の VPN サービスの構成をしています..."
@@ -3637,7 +3637,7 @@ msgstr "エラー: vpn_l2tp_configure(): mpd.secret を開けません"
 # File: src/www/interfaces.php, line: 92
 #, php-format
 msgid "XML error: %s at line %d cannot occur more than once"
-msgstr ""
+msgstr "XML エラー: %s: %d 行: 複数設定できません"
 
 msgid "Error: could not open XML input"
 msgstr "エラー: XML 入力を開けませんでした"
@@ -3646,7 +3646,7 @@ msgstr "エラー: XML 入力を開けませんでした"
 # File: src/etc/inc/xmlparse.inc, line: 165
 #, php-format
 msgid "XML error: %s at line %d in %s"
-msgstr ""
+msgstr "XML エラー: %s: %d 行: %s"
 
 #, php-format
 msgid "XML error: no %s object found!"
@@ -3659,13 +3659,13 @@ msgstr "XMLRPC クライアントから構成をマージしました ( %s セ�
 #
 # File: src/etc/rc.bootup, line: 143
 msgid "Default interfaces not found -- Running interface assignment option."
-msgstr ""
+msgstr "デフォルトインタフェースが見つかりません -- オプション割当てのインタフェースで動作しています"
 
 #
 # File: src/etc/rc.initial.password, line: 37
 #, php-format
 msgid "The %s password will be reset to the factory default of `%s'."
-msgstr ""
+msgstr "%s パスワードは %s の出荷時の規定値でリセットされます。"
 
 #, fuzzy, php-format
 msgid "Do you want to proceed [y|n]? "
@@ -3675,41 +3675,41 @@ msgstr "続行してもよろしいですか？"
 # File: src/etc/rc.initial.password, line: 48
 #, php-format
 msgid "The User manager authentication server is set to \"%s\"."
-msgstr ""
+msgstr "ユーザ管理認証サーバは %s に設定されます。"
 
 #
 # File: src/etc/rc.initial.password, line: 50
 #, php-format
 msgid "Do you want to set it back to Local Database [y|n]? "
-msgstr ""
+msgstr "設定をローカルデータベースに戻しますか？ [y|n]"
 
 #, fuzzy
 msgid "password changed from console menu"
-msgstr "コンソールメニューをパスワードで保護"
+msgstr "コンソールメニューからパスワードが変更されました"
 
 #, fuzzy, php-format
 msgid "The password has been reset."
-msgstr "パスワードが一致しません"
+msgstr "パスワードがリセットされました"
 
 #
 # File: src/etc/rc.initial.password, line: 80
 #, php-format
 msgid "Please change the password as soon as you log in!"
-msgstr ""
+msgstr "ログインしたら、なるべく早くパスワードを変更してください！"
 
 #, fuzzy, php-format
 msgid "Do you want to enable the %s server on %s?"
-msgstr "本当にこのサーバを削除しますか？"
+msgstr "%s サーバを %s で有効にしますか？"
 
 #, fuzzy, php-format
 msgid "Configure %s address %s interface via %s?"
-msgstr "新しい無線インタフェース %s をクローンしています"
+msgstr "%s アドレス %s インタフェース %s 経由、で設定しますか？"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 262
 #, php-format
 msgid "Enter the new %s %s address.  Press <ENTER> for none:"
-msgstr ""
+msgstr "新しい %s %s アドレスを入力してください。入力しない場合は <ENTER> を押してください: "
 
 #, fuzzy
 msgid "This IP address conflicts with another interface or a VIP"
@@ -3720,41 +3720,41 @@ msgstr ""
 # File: src/etc/rc.initial.setlanip, line: 273
 #, php-format
 msgid "Subnet masks are entered as bit counts (as in CIDR notation) in %s."
-msgstr ""
+msgstr "%s のサブネットマスクはビットカウント ( CIDR 表記法 ) として入力されています。"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 288
 #, php-format
 msgid "Enter the new %s %s subnet bit count (1 to %s):"
-msgstr ""
+msgstr "新しい %s %s サブネットビットカウントを入力してください ( 1 - %s ):"
 
 #, fuzzy
 msgid "You cannot set network address to an interface"
-msgstr "サブネット範囲の一番最初はネットワークアドレスのため、使用できません"
+msgstr "インタフェースのネットワークアドレスを設定できません"
 
 #, fuzzy
 msgid "You cannot set broadcast address to an interface"
 msgstr ""
-"サブネット範囲の一番最後はブロードキャストアドレスのため、使用できません"
+"インタフェースのブロードキャストアドレスを設定できません"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 313
 #, php-format
 msgid "For a WAN, enter the new %s %s upstream gateway address."
-msgstr ""
+msgstr "WAN に対して、新しい %s %s アップストリームゲートウェイアドレスを入力してください。"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 314
 msgid "For a LAN, press <ENTER> for none:"
-msgstr ""
+msgstr "LAN に対して入力してください、入力しない場合は <ENTER> を押してください: "
 
 #, fuzzy, php-format
 msgid "not an %s IP address!"
-msgstr "ローカル IP アドレス"
+msgstr "%s IP アドレスではありません！"
 
 #, fuzzy
 msgid "not in subnet!"
-msgstr " サブネット"
+msgstr "サブネットの範囲内ではありません！"
 
 #, fuzzy, php-format
 msgid "Enter the start address of the %s client address range:"
