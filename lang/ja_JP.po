@@ -3758,73 +3758,73 @@ msgstr "サブネットの範囲内ではありません！"
 
 #, fuzzy, php-format
 msgid "Enter the start address of the %s client address range:"
-msgstr "クライアント IP アドレスサブネットの開始アドレスを指定してください"
+msgstr "%s クライアントアドレス範囲の開始アドレスを入力してください: "
 
 #, fuzzy
 msgid "This IP address must be in the interface's subnet"
-msgstr "%s サブネット内の IP アドレスを指定してください"
+msgstr "この IP アドレスはインタフェースのサブネット内で指定してください"
 
 #, fuzzy, php-format
 msgid "Enter the end address of the %s client address range:"
-msgstr "クライアント IP アドレスサブネットの開始アドレスを指定してください"
+msgstr "%s クライアントアドレス範囲の終了アドレスを入力してください: "
 
 #
 # File: src/etc/rc.initial.setlanip, line: 391
 msgid "The end address of the DHCP range must be >= the start address"
-msgstr ""
+msgstr "DHCP 範囲は、終了アドレス >= 開始アドレス です"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 402
 #, php-format
 msgid "Disabling %s DHCPD..."
-msgstr ""
+msgstr "%s DHCPD を無効にしています..."
 
 #
 # File: src/etc/rc.initial.setlanip, line: 415
 msgid "Do you want to revert to HTTP as the webConfigurator protocol?"
-msgstr ""
+msgstr "Web 設定管理画面のプロトコルを HTTP に戻しますか？"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 422
 #, php-format
 msgid "Note: the anti-lockout rule on %s has been re-enabled."
-msgstr ""
+msgstr "注意: %s のアンチロックアウトルールは再有効化されています。"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 451
 #, php-format
 msgid "%s IP configuration from console menu"
-msgstr ""
+msgstr "コンソールメニューからの %s IP 構成"
 
 #, fuzzy, php-format
 msgid "The IPv4 %s address has been set to %s"
-msgstr "ブートスライスに設定: "
+msgstr "IPv4 %s アドレスは %s に設定されています"
 
 #, fuzzy, php-format
 msgid "The IPv6 %s address has been set to %s"
-msgstr "ブートスライスに設定: "
+msgstr "IPv6 %s アドレスは %s に設定されています"
 
 #
 # File: src/etc/rc.initial.setlanip, line: 485
 msgid ""
 "You can now access the webConfigurator by opening the following URL in your "
 "web browser:"
-msgstr ""
+msgstr "次の URL をブラウザで開くことで Web 設定管理画面にアクセスできます: "
 
 #, fuzzy
 msgid "Press <ENTER> to continue."
-msgstr "続行には Enter キーを押してください"
+msgstr "続行するには Enter キーを押してください。"
 
 #, fuzzy
 msgid "WARNING: You must give a name as parameter to try_lock() function."
-msgstr "警告: 関数 lock() のパラメータとして「名前」が必要です"
+msgstr "警告: 関数 try_lock() のパラメータとして「名前」が必要です。"
 
 #
 # File: src/etc/rc.openvpn, line: 88
 msgid ""
 "Could not obtain openvpn lock for executing rc.openvpn for more than 10 "
 "seconds continuing..."
-msgstr ""
+msgstr "10 秒以上続行していますが、rc.openvpn の実行で openvpn のロックを取得できません..."
 
 msgid "n/j/y H:i:s"
 msgstr "n/j/y H:i:s"
@@ -3834,11 +3834,11 @@ msgstr "不明"
 
 #, fuzzy
 msgid "Unknown Page"
-msgstr "不明"
+msgstr "不明なページ"
 
 #, fuzzy
 msgid "No backups found in the configuration history."
-msgstr "構成の復元後に、base_package メニューが復元されます"
+msgstr "構成履歴にバックアップがありません"
 
 #, fuzzy
 msgid "Which configuration would you like to restore?"
@@ -3846,7 +3846,7 @@ msgstr "どの構成でリストアしますか？"
 
 #, fuzzy
 msgid "That is not a valid backup number.\n"
-msgstr "有効なポート番号を入力してください。"
+msgstr "有効なバックアップ番号ではありません。\n"
 
 #
 # File: src/etc/rc.restore_config_backup, line: 67
