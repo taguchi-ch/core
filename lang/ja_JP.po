@@ -3411,7 +3411,7 @@ msgid ""
 "saves the page form)."
 msgstr ""
 "このユーザが、特定のページにアクセスした場合に、HTML ページを個別にロックす"
-"るかどうかを示します。( 該当ユーザがページから離れるか、"
+"るかどうかを示します。( 該当ユーザがページから移動するか、"
 "ページフォームを保存することでロック解除されます )"
 
 msgid "Indicates whether this user is able to login for example via SSH."
@@ -3824,7 +3824,7 @@ msgstr "警告: 関数 try_lock() のパラメータとして「名前」が必�
 msgid ""
 "Could not obtain openvpn lock for executing rc.openvpn for more than 10 "
 "seconds continuing..."
-msgstr "10 秒以上続行していますが、rc.openvpn の実行で openvpn のロックを取得できません..."
+msgstr "10 秒以上 rc.openvpn の実行を継続しましたが、openvpn のロックを取得できませんでした..."
 
 msgid "n/j/y H:i:s"
 msgstr "n/j/y H:i:s"
@@ -3851,43 +3851,44 @@ msgstr "有効なバックアップ番号ではありません。\n"
 #
 # File: src/etc/rc.restore_config_backup, line: 67
 msgid "Is this the backup you wish to restore?"
-msgstr ""
+msgstr "このバックアップをリストアしますか？"
 
 #
 # File: src/etc/rc.restore_config_backup, line: 71
 msgid "Y/N?"
-msgstr ""
+msgstr "Y/N?"
 
 #
 # File: src/etc/rc.restore_config_backup, line: 73
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #
 # File: src/etc/rc.restore_config_backup, line: 76
 # File: src/www/diag_confbak.php, line: 47
 #, php-format
 msgid "Successfully reverted to timestamp %s with description \"%s\"."
-msgstr ""
+msgstr "タイムスタンプを %s に戻すことに成功しました: 説明 %s"
 
 #
 # File: src/etc/rc.restore_config_backup, line: 78
 msgid ""
 "You may need to reboot the firewall or restart services before the restored "
 "configuration is fully active."
-msgstr ""
+msgstr "リストアした構成を完全に有効にする前に、ファイアウォールを再起動するか、"
+"サービスの再起動をする必要があります。"
 
 msgid "Unable to revert to the selected configuration."
 msgstr "選択した構成に戻せませんでした"
 
 #, fuzzy
 msgid "Restore canceled."
-msgstr "リストアはキャンセルされました"
+msgstr "リストアはキャンセルされました。"
 
 #
 # File: src/etc/rc.restore_config_backup, line: 86
 msgid "Restore canceled due to invalid input."
-msgstr ""
+msgstr "無効な入力により、リストアはキャンセルされました。"
 
 #, fuzzy
 msgid "Restore Backup from Configuration History"
@@ -3895,7 +3896,7 @@ msgstr "構成履歴からバックアップをリストア"
 
 #, fuzzy
 msgid "List Backups"
-msgstr "RRD バックアップ"
+msgstr "バックアップリスト"
 
 #, fuzzy
 msgid "Restore Backup"
@@ -3904,114 +3905,115 @@ msgstr "バックアップをリストア"
 #
 # File: src/etc/rc.restore_config_backup, line: 96
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #, fuzzy
 msgid "Please select an option to continue"
-msgstr "有効な鍵長を選択してください。"
+msgstr "継続するオプションを選択してください"
 
 #
 # File: src/etc/rc.restore_config_backup, line: 103
 msgid "quit"
-msgstr ""
+msgstr "終了"
 
 #
 # File: src/etc/rc.sshd, line: 132
 msgid "Started creating your SSH keys. SSH startup is being delayed a wee bit."
-msgstr ""
+msgstr "SSH 鍵の生成を開始しました。SSH の起動にわずかな遅延が発生しています。"
 
 #
 # File: src/etc/rc.sshd, line: 139
 msgid "Completed creating your SSH keys. SSH will now be started."
-msgstr ""
+msgstr "SSH 鍵の生成が完了しました。SSH を起動しています。"
 
 #, fuzzy, php-format
 msgid "Could not process aliases from alias: %s"
-msgstr "リストからエイリアスを一括インポート"
+msgstr "次のエイリアスからエイリアス処理ができません: %s"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 54
 msgid "Connection error."
-msgstr ""
+msgstr "接続エラー。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 57
 msgid "Repository problem."
-msgstr ""
+msgstr "リポジトリに問題があります。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 60
 msgid "There are no updates available."
-msgstr ""
+msgstr "利用可能な更新はありません。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 68
 msgid ""
 "There is a mandatory update for the package manager available. Please "
 "install and fetch updates again."
-msgstr ""
+msgstr "パッケージ管理の必須更新が利用可能です。"
+"もう一度更新を取得してインストールしてください。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 77
 #, php-format
 msgid "There is %s update available, total download size is %s."
-msgstr ""
+msgstr "%s 更新が利用可能です。合計ダウンロードサイズは %s です。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 83
 #, php-format
 msgid "There are %s updates available, total download size is %s."
-msgstr ""
+msgstr "%s 更新が利用可能です。合計ダウンロードサイズは %s です。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 84
 msgid "This update requires a reboot."
-msgstr ""
+msgstr "この更新には再起動が必要です。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 89
 msgid "Current status is unknown."
-msgstr ""
+msgstr "現在のステータスは不明です。"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 98
 msgid "Disconnect selected client?"
-msgstr ""
+msgstr "選択したクライアントを切断しますか？"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 131
 msgid "Session"
-msgstr ""
+msgstr "セッション"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 132
 msgid "userName"
-msgstr ""
+msgstr "ユーザ名"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 133
 msgid "macAddress"
-msgstr ""
+msgstr "MAC アドレス"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 134
 msgid "ipAddress"
-msgstr ""
+msgstr "IP アドレス"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 135
 msgid "connected since"
-msgstr ""
+msgstr "接続開始時間: "
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 63
 msgid "Error reconfiguring captiveportal"
-msgstr ""
+msgstr "キャプティブポータルの再構成中にエラーが発生しました"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 167
 msgid "Error uploading template"
-msgstr ""
+msgstr "テンプレートのアップロード中にエラーが発生しました"
 
 msgid "Zones"
 msgstr "ゾーン"
@@ -4019,18 +4021,18 @@ msgstr "ゾーン"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 181
 msgid "Templates"
-msgstr ""
+msgstr "テンプレート"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 86
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 409
 msgid "Enabled"
-msgstr ""
+msgstr "有効"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 87
 msgid "Zoneid"
-msgstr ""
+msgstr "ゾーン ID"
 
 msgid "Description"
 msgstr "説明"
@@ -4038,7 +4040,7 @@ msgstr "説明"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 89
 msgid "Commands"
-msgstr ""
+msgstr "コマンド"
 
 msgid "ID"
 msgstr "ID"
@@ -4046,7 +4048,7 @@ msgstr "ID"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 214
 msgid "Fileid"
-msgstr ""
+msgstr "ファイル ID"
 
 msgid "Name"
 msgstr "名前"
@@ -4055,22 +4057,22 @@ msgstr "名前"
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 111
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 505
 msgid "Apply"
-msgstr ""
+msgstr "適用"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 251
 msgid "Upload file"
-msgstr ""
+msgstr "ファイルをアップロード"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 257
 msgid "Template name"
-msgstr ""
+msgstr "テンプレート名"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 261
 msgid "File input"
-msgstr ""
+msgstr "ファイルをインプット"
 
 msgid "Upload"
 msgstr "アップロード"
@@ -4078,22 +4080,22 @@ msgstr "アップロード"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 52
 msgid "Please setup a voucher server first "
-msgstr ""
+msgstr "最初にバウチャーサーバを設定してください"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 52
 msgid "goto auth servers"
-msgstr ""
+msgstr "認証サーバに移動"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 139
 msgid "Remove voucher group"
-msgstr ""
+msgstr "バウチャーグループを削除"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 140
 msgid "All vouchers within this group will be deleted"
-msgstr ""
+msgstr "このグループに含まれる全てのバウチャーは削除されます"
 
 msgid "Yes"
 msgstr "はい"
@@ -4104,12 +4106,12 @@ msgstr "バウチャー"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 240
 msgid "Valid from"
-msgstr ""
+msgstr "有効期間の開始"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 241
 msgid "Valid to"
-msgstr ""
+msgstr "有効時間の終了"
 
 msgid "State"
 msgstr "ステータス"
@@ -4117,80 +4119,80 @@ msgstr "ステータス"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 256
 msgid "Create vouchers"
-msgstr ""
+msgstr "バウチャーを作成"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 276
 msgid "Generate vouchers"
-msgstr ""
+msgstr "バウチャーを生成"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 282
 msgid "Validity"
-msgstr ""
+msgstr "有効性"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 283
 msgid "Number of vouchers"
-msgstr ""
+msgstr "バウチャーの数"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 284
 msgid "Groupname"
-msgstr ""
+msgstr "グループ名"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 291
 msgid "4 hours"
-msgstr ""
+msgstr "4 時間"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 292
 msgid "8 hours"
-msgstr ""
+msgstr "8 時間"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 293
 msgid "1 day"
-msgstr ""
+msgstr "1 日"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 294
 msgid "2 days"
-msgstr ""
+msgstr "2 日"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 295
 msgid "3 days"
-msgstr ""
+msgstr "3 日"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 296
 msgid "4 days"
-msgstr ""
+msgstr "4 日"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 297
 msgid "5 days"
-msgstr ""
+msgstr "5 日"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 298
 msgid "6 days"
-msgstr ""
+msgstr "6 日"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 299
 msgid "1 week"
-msgstr ""
+msgstr "1 週間"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 300
 msgid "2 weeks"
-msgstr ""
+msgstr "2 週間"
 
 msgid "Generate"
-msgstr "新規鍵を生成"
+msgstr "生成"
 
 msgid "Close"
 msgstr "閉じる"
@@ -4198,59 +4200,59 @@ msgstr "閉じる"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 39
 msgid "Fetching... (may take up to 30 seconds)"
-msgstr ""
+msgstr "取得しています...( 30 秒程度かかります )"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 57
 msgid "Package Name"
-msgstr ""
+msgstr "パッケージ名"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 58
 msgid "Current Version"
-msgstr ""
+msgstr "現在のバージョン"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 58
 msgid "New Version"
-msgstr ""
+msgstr "新バージョン"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 64
 msgid "NEW"
-msgstr ""
+msgstr "NEW"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 67
 msgid "REINSTALL"
-msgstr ""
+msgstr "再インストール"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 85
 msgid "Upgrading... (do not leave this page while upgrade is in progress)"
-msgstr ""
+msgstr "アップグレードしています...( アップグレード中はこのページから移動しないでください )"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 100
 msgid "Executing... (do not leave this page while execute is in progress)"
-msgstr ""
+msgstr "実行しています...( 実行中はこのページから移動しないでください )"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 146
 msgid "Upgrade done!"
-msgstr ""
+msgstr "アップグレードが終了しました！"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 152
 msgid "Your device is rebooting"
-msgstr ""
+msgstr "デバイスを再起動しています"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 157
 msgid ""
 "The upgrade has finished and your device is being rebooted at the moment, "
 "please wait..."
-msgstr ""
+msgstr "アップグレードが終了しました。デバイスは現在再起動しています。少しお待ちください..."
 
 msgid "Size"
 msgstr "サイズ"
@@ -4264,17 +4266,17 @@ msgstr "コメント"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 248
 msgid "Fetch updates to view available plugins."
-msgstr ""
+msgstr "利用可能なプラグインを表示して更新を取得します。"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
 msgid "Upgrade now"
-msgstr ""
+msgstr "今すぐアップグレード"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 208
 msgid "Fetch updates"
-msgstr ""
+msgstr "更新を取得"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 209
