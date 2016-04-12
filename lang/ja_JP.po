@@ -3950,8 +3950,7 @@ msgstr "利用可能な更新はありません。"
 msgid ""
 "There is a mandatory update for the package manager available. Please "
 "install and fetch updates again."
-msgstr "パッケージ管理の必須更新が利用可能です。"
-"もう一度更新を取得してインストールしてください。"
+msgstr "パッケージ管理の必須更新が利用可能です。インストールして、もう一度更新を取得してください。"
 
 #
 # File: src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 77
@@ -4266,7 +4265,7 @@ msgstr "コメント"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 248
 msgid "Fetch updates to view available plugins."
-msgstr "利用可能なプラグインを表示して更新を取得します。"
+msgstr "更新を取得して利用可能なプラグインを表示します。"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 207
@@ -4281,32 +4280,32 @@ msgstr "更新を取得"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 209
 msgid "Click to check for updates."
-msgstr ""
+msgstr "クリックで更新を確認します。"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 215
 msgid "Packages"
-msgstr ""
+msgstr "パッケージ"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 307
 msgid "Plugins"
-msgstr ""
+msgstr "プラグイン"
 
 #
 # File: src/www/widgets/widgets/system_information.widget.php, line: 108
 msgid "Updates"
-msgstr ""
+msgstr "更新"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 217
 msgid "Progress"
-msgstr ""
+msgstr "進行状況"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 116
 msgid "Jobs"
-msgstr ""
+msgstr "ジョブ"
 
 msgid "IP"
 msgstr "IP"
@@ -4315,19 +4314,19 @@ msgstr "IP"
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 79
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 79
 msgid "MAC"
-msgstr ""
+msgstr "MAC"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 80
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 80
 msgid "Manufacturer"
-msgstr ""
+msgstr "製造元"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 82
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 82
 msgid "Interface name"
-msgstr ""
+msgstr "インタフェース名"
 
 msgid "Hostname"
 msgstr "ホスト名"
@@ -4335,14 +4334,14 @@ msgstr "ホスト名"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 90
 msgid "NOTE: Local IPv6 peers use NDP instead of ARP."
-msgstr ""
+msgstr "注意: ローカル IPv6 ピアは ARP ではなく NDP を使用します。"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 100
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/ndp.volt, line: 94
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 128
 msgid "Refresh"
-msgstr ""
+msgstr "更新"
 
 msgid "IPv6"
 msgstr "IPv6"
@@ -4350,57 +4349,57 @@ msgstr "IPv6"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 100
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 101
 msgid "USERNAME"
-msgstr ""
+msgstr "USERNAME"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 102
 msgid "PRI"
-msgstr ""
+msgstr "PRI"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 103
 msgid "NICE"
-msgstr ""
+msgstr "NICE"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 104
 msgid "SIZE"
-msgstr ""
+msgstr "SIZE"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 105
 msgid "RES"
-msgstr ""
+msgstr "RES"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 106
 msgid "STATE"
-msgstr ""
+msgstr "STATE"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 107
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 108
 msgid "TIME"
-msgstr ""
+msgstr "TIME"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 109
 msgid "WCPU"
-msgstr ""
+msgstr "WCPU"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemactivity.volt, line: 110
 msgid "COMMAND"
-msgstr ""
+msgstr "COMMAND"
 
 msgid "seconds"
 msgstr "秒"
@@ -4417,32 +4416,32 @@ msgstr "分"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 336
 msgid "Year(s)"
-msgstr ""
+msgstr "年"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 338
 msgid "Days"
-msgstr ""
+msgstr "日"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 340
 msgid "Hours"
-msgstr ""
+msgstr "時間"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 342
 msgid "Minutes"
-msgstr ""
+msgstr "分"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 369
 msgid "full date & time"
-msgstr ""
+msgstr "日付・時間"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 371
 msgid "timestamp"
-msgstr ""
+msgstr "タイムスタンプ"
 
 msgid "Options"
 msgstr "オプション"
@@ -4450,10 +4449,10 @@ msgstr "オプション"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 578
 msgid "Zoom level"
-msgstr ""
+msgstr "ズームレベル"
 
 msgid "Inverse"
-msgstr "逆"
+msgstr "反転"
 
 msgid "Off"
 msgstr "オフ"
@@ -4464,7 +4463,7 @@ msgstr "オン"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 602
 msgid "Resolution"
-msgstr ""
+msgstr "解像度"
 
 msgid "Standard"
 msgstr "標準"
@@ -4478,37 +4477,37 @@ msgstr "高"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 622
 msgid "Show Tables"
-msgstr ""
+msgstr "テーブル表示"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 646
 msgid "Please wait while loading data..."
-msgstr ""
+msgstr "データを読み込んでいます。お待ちください..."
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 643
 msgid "Current detail is showing"
-msgstr ""
+msgstr "現在の詳細情報を表示しています"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 643
 msgid "averages"
-msgstr ""
+msgstr "平均"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 668
 msgid "Current View - Overview"
-msgstr ""
+msgstr "現在の表示 - 概要"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 692
 msgid "Current View - Details"
-msgstr ""
+msgstr "現在の表示 - 詳細"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 696
 msgid "Toggle Timeview"
-msgstr ""
+msgstr "時間表示の切替"
 
 msgid "Timestamp"
 msgstr "タイムスタンプ"
@@ -4519,16 +4518,18 @@ msgid ""
 "Full Date &\n"
 "                                Time"
 msgstr ""
+"日付・\n"
+"                                時間"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 712
 msgid "Download as CSV"
-msgstr ""
+msgstr "CVS でダウンロード"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 383
 msgid "Alerts"
-msgstr ""
+msgstr "アラート"
 
 msgid "Schedule"
 msgstr "スケジュール"
@@ -4536,29 +4537,29 @@ msgstr "スケジュール"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 399
 msgid "rulesets"
-msgstr ""
+msgstr "ルールセット"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 408
 msgid "Last updated"
-msgstr ""
+msgstr "最終更新"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 418
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 455
 msgid "disable selected"
-msgstr ""
+msgstr "選択したものを無効"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 419
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 456
 msgid "enable selected"
-msgstr ""
+msgstr "選択したものを有効"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 443
 msgid "sid"
-msgstr ""
+msgstr "SID"
 
 msgid "Action"
 msgstr "動作"
@@ -4569,27 +4570,27 @@ msgstr "送信元"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 445
 msgid "ClassType"
-msgstr ""
+msgstr "クラスタイプ"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
 msgid "Message"
-msgstr ""
+msgstr "メッセージ"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 447
 msgid "Info / enabled"
-msgstr ""
+msgstr "情報 / 有効"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 481
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 482
 msgid "Query"
-msgstr ""
+msgstr "クエリ"
 
 msgid "Destination"
 msgstr "送信先"
@@ -4597,7 +4598,7 @@ msgstr "送信先"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 495
 msgid "Alert"
-msgstr ""
+msgstr "アラート"
 
 msgid "Info"
 msgstr "情報"
@@ -4605,19 +4606,20 @@ msgstr "情報"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 506
 msgid "Download & Update Rules"
-msgstr ""
+msgstr "ダウンロードしてルールを更新"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 508
 msgid ""
 "Please use \"Download & Update Rules\" to fetch your initial ruleset, "
 "automatic updating can be scheduled after the first download"
-msgstr ""
+msgstr "「ダウンロードしてルールを更新」を初期ルールセットの取得に使用してください。"
+"初回ダウンロードの後に、自動アップデートがスケジュール可能になります。"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 519
 msgid "Processing request..."
-msgstr ""
+msgstr "リクエストを処理しています..."
 
 #
 # File: src/www/firewall_aliases_edit.php, line: 324
@@ -4640,7 +4642,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 730
 # File: src/www/vpn_openvpn_server.php.orig, line: 730
 msgid "full help"
-msgstr ""
+msgstr "全てのヘルプ"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 234
