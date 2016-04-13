@@ -4655,28 +4655,33 @@ msgid ""
 "under <b>Forward Proxy -> Access Control List</b>.\n"
 "                    "
 msgstr ""
+"\n"
+"                    ブラックリストに登録するリモート ACL を取得して、テーブルに項目を追加します。<br/>\n"
+"                    ブラックリストにするリストは有効無効を選択できます。<br/>\n"
+"                    アクティブなブラックリストは<b>プロキシ転送 -> アクセスコントロールリスト</b>の下の設定とマージされます。\n"
+"                    "
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 88
 msgid "Error reconfiguring trafficshaper"
-msgstr ""
+msgstr "トラフィックシェーパの再構成にエラーが発生しました"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 102
 msgid "Pipes"
-msgstr ""
+msgstr "パイプ"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 103
 msgid "Queues"
-msgstr ""
+msgstr "キュー"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 112
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 142
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 171
 msgid "Origin"
-msgstr ""
+msgstr "オリジン"
 
 msgid "Number"
 msgstr "数"
@@ -4687,30 +4692,30 @@ msgstr "帯域幅"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 116
 msgid "Metric"
-msgstr ""
+msgstr "メトリック"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 117
 msgid "Burst"
-msgstr ""
+msgstr "バースト"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 118
 msgid "Mask"
-msgstr ""
+msgstr "マスク"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 145
 msgid "Pipe"
-msgstr ""
+msgstr "パイプ"
 
 msgid "Weight"
-msgstr "重み付け"
+msgstr "重み"
 
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 170
 msgid "#"
-msgstr ""
+msgstr "#"
 
 msgid "Protocol"
 msgstr "プロトコル"
@@ -4718,18 +4723,18 @@ msgstr "プロトコル"
 #
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 176
 msgid "Target"
-msgstr ""
+msgstr "ターゲット"
 
 #
 # File: src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 73
 # File: src/opnsense/mvc/app/views/layout_partials/base_form.volt, line: 63
 msgid "advanced mode"
-msgstr ""
+msgstr "詳細モード"
 
 #
 # File: src/opnsense/mvc/app/views/layout_partials/form_input_tr.volt, line: 61
 msgid "Clear All"
-msgstr ""
+msgstr "全てクリア"
 
 #, php-format
 msgid ""
@@ -4747,30 +4752,31 @@ msgstr "CARP は有効になりました"
 msgid ""
 "CARP has detected a problem and this unit has been demoted to BACKUP status."
 msgstr ""
+"CARP が問題を検出したため、このユニットはバックアップステータスに降格されました。"
 
 #
 # File: src/www/carp_status.php, line: 95
 msgid "Check link status on all interfaces with configured CARP VIPs."
-msgstr ""
+msgstr "CARP VIP として構成している全てのインタフェースのリンクステータスを確認してください。"
 
 #, fuzzy
 msgid "Enable CARP"
-msgstr "次を有効: DHCP+"
+msgstr "CARP を有効"
 
 #
 # File: src/www/carp_status.php, line: 117
 msgid "Temporarily Disable CARP"
-msgstr ""
+msgstr "CARP を一時的に無効"
 
 #
 # File: src/www/carp_status.php, line: 122
 msgid "Enter Persistent CARP Maintenance Mode"
-msgstr ""
+msgstr "パーシステント CARP メンテナンスモードに移動"
 
 #
 # File: src/www/carp_status.php, line: 120
 msgid "Leave Persistent CARP Maintenance Mode"
-msgstr ""
+msgstr "パーシステント CARP メンテナンスモードを終了"
 
 msgid "CARP Interface"
 msgstr "CARP インタフェース"
@@ -4786,36 +4792,36 @@ msgstr "pfSync ノード"
 
 #, fuzzy
 msgid "Luckily we have not detected a programming bug."
-msgstr "残念ですが、プログラムのバグを検出しました。"
+msgstr "幸運にも、プログラムのバグは検出されていません。"
 
 #
 # File: src/www/crash_reporter.php, line: 115
 msgid "Thank you for submitting this crash report."
-msgstr ""
+msgstr "クラッシュレポートを送信していただき、ありがとうございました。"
 
 #
 # File: src/www/crash_reporter.php, line: 117
 msgid "Please consider submitting a crash report if the error persists."
-msgstr ""
+msgstr "エラーが解決しない場合は、クラッシュレポートの送信をお願いします。"
 
 #
 # File: src/www/crash_reporter.php, line: 156
 msgid "Dismiss this report"
-msgstr ""
+msgstr "このレポートを破棄"
 
 #
 # File: src/www/crash_reporter.php, line: 157
 msgid "Submit this report"
-msgstr ""
+msgstr "このレポートを送信"
 
 #, fuzzy
 msgid "Unfortunately we have detected at least one programming bug."
-msgstr "残念ですが、プログラムのバグを検出しました。"
+msgstr "残念ですが、1 つ以上のプログラムのバグを検出しました。"
 
 #
 # File: src/www/crash_reporter.php, line: 150
 msgid "Would you like to submit this crash report to the developers?"
-msgstr ""
+msgstr "このクラッシュレポートを開発者に送信しますか？"
 
 #
 # File: src/www/crash_reporter.php, line: 174
@@ -4824,11 +4830,13 @@ msgid ""
 "description. Please note that providing your contact information greatly "
 "improves the chances of bugs being fixed."
 msgstr ""
+"あなたの連絡先情報、および、問題の説明を追加していただけると、解決により役立ちます。"
+"連絡先情報の提供は、バグを修正する可能性が大きく上がることにつながることをご了解ください。"
 
 #
 # File: src/www/crash_reporter.php, line: 176
 msgid "your@email.com"
-msgstr ""
+msgstr "your@email.com"
 
 #
 # File: src/www/crash_reporter.php, line: 177
