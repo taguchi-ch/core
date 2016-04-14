@@ -4831,7 +4831,7 @@ msgid ""
 "improves the chances of bugs being fixed."
 msgstr ""
 "あなたの連絡先情報、および、問題の説明を追加していただけると、解決により役立ちます。"
-"連絡先情報の提供は、バグを修正する可能性が大きく上がることにつながることをご了解ください。"
+"連絡先情報の提供は、バグを修正する可能性が大きく上がることにつながります。ご了承ください。"
 
 #
 # File: src/www/crash_reporter.php, line: 176
@@ -4841,7 +4841,7 @@ msgstr "your@email.com"
 #
 # File: src/www/crash_reporter.php, line: 177
 msgid "A short problem description or steps to reproduce."
-msgstr ""
+msgstr "問題の簡潔な説明、もしくは、再現手順"
 
 #
 # File: src/www/crash_reporter.php, line: 156
@@ -4849,11 +4849,12 @@ msgid ""
 "Please double-check the following contents to ensure you are comfortable "
 "submitting the following information."
 msgstr ""
+"送信する情報が次の内容で間違いがないかどうか、再度見直してください。"
 
 #
 # File: src/www/crash_reporter.php, line: 170
 msgid "Report an issue"
-msgstr ""
+msgstr "バグを報告"
 
 msgid "is not a valid authentication server"
 msgstr "有効な認証サーバではありません"
@@ -4876,7 +4877,7 @@ msgstr "認証に失敗しました"
 #
 # File: src/www/diag_authentication.php, line: 105
 msgid "Test a server"
-msgstr ""
+msgstr "サーバをテスト"
 
 msgid "Authentication Server"
 msgstr "認証サーバ"
@@ -4945,8 +4946,8 @@ msgid ""
 "The uploaded file does not appear to contain an encrypted OPNsense "
 "configuration."
 msgstr ""
-"アップロードされたファイルには、暗号化された pfsense 構成が含まれていないよう"
-"です"
+"アップロードされたファイルには、暗号化された OPNsense 構成が含まれていないよう"
+"です。"
 
 msgid ""
 "You have selected to restore an area but we could not locate the correct xml "
@@ -4956,7 +4957,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Upgrading m0n0wall configuration to OPNsense."
-msgstr "m0n0wall 構成を pfsense にアップグレードしています"
+msgstr "m0n0wall 構成を OPNsense にアップグレードしています。"
 
 msgid ""
 "The configuration area has been restored.  You may need to reboot the "
@@ -4972,12 +4973,12 @@ msgstr "構成はリストアできませんでした"
 
 #, fuzzy
 msgid "Google Drive communication failure"
-msgstr "クライアント間通信"
+msgstr "Google ドライブとの通信に失敗しました"
 
 #
 # File: src/www/diag_backup.php, line: 524
 msgid "Backup succesfull, current filelist:"
-msgstr ""
+msgstr "バックアップに成功しました。現在のファイルリスト: "
 
 msgid "The firewall configuration has been changed."
 msgstr "ファイアウォールの構成が変更されました"
@@ -5047,7 +5048,7 @@ msgstr "ファイアウォールは構成のリストア後に再起動します
 #
 # File: src/www/diag_backup.php, line: 734
 msgid "Google Drive"
-msgstr ""
+msgstr "Google ドライブ"
 
 msgid "Enable"
 msgstr "有効"
@@ -5057,29 +5058,29 @@ msgstr "電子メールアドレス"
 
 #, fuzzy
 msgid "(not loaded)"
-msgstr "ダウンロード済"
+msgstr "( 未ロード )"
 
 #
 # File: src/www/diag_backup.php, line: 759
 msgid "(replace)"
-msgstr ""
+msgstr "( 置換 )"
 
 #, fuzzy
 msgid "P12 key"
-msgstr "TX 鍵"
+msgstr "P12 鍵"
 
 #
 # File: src/www/diag_backup.php, line: 760
 msgid "Folder ID"
-msgstr ""
+msgstr "フォルダ ID"
 
 #, fuzzy
 msgid "Backup Count"
-msgstr "バックアップ構成"
+msgstr "バックアップ数"
 
 #, fuzzy
 msgid "Password protect your data"
-msgstr "コンソールメニューをパスワードで保護"
+msgstr "データをパスワードで保護"
 
 msgid "Password :"
 msgstr "パスワード : "
@@ -5092,34 +5093,34 @@ msgstr "確認 : "
 # File: src/www/diag_backup.php, line: 207
 # File: src/www/diag_backup.php, line: 765
 msgid "Setup/Test Google Drive"
-msgstr ""
+msgstr "Google ドライブの設定 / テスト"
 
 #
 # File: src/www/diag_confbak.php, line: 42
 msgid "Changed backup revision count."
-msgstr ""
+msgstr "バックアップリビジョン数を変更しました。"
 
 #
 # File: src/www/diag_confbak.php, line: 59
 #, php-format
 msgid "Deleted backup with timestamp %s and description \"%s\"."
-msgstr ""
+msgstr "バックアップを削除しました。タイムスタンプ: %s 説明: %s"
 
 #
 # File: src/www/diag_confbak.php, line: 61
 msgid "Unable to delete the selected configuration."
-msgstr ""
+msgstr "選択した構成を削除できませんでした。"
 
 #, fuzzy
 msgid "Restore from Configuration Backup"
-msgstr "構成のリストア"
+msgstr "構成のバックアップからリストア"
 
 msgid "No"
 msgstr "いいえ"
 
 #, fuzzy
 msgid "Remove Configuration Backup"
-msgstr "構成のリストア"
+msgstr "構成のバックアップを削除"
 
 #
 # File: src/www/diag_confbak.php, line: 248
@@ -5136,7 +5137,8 @@ msgstr "保存"
 msgid ""
 "NOTE: Be aware of how much space is consumed by backups before adjusting "
 "this value. Current space used by backups: "
-msgstr ""
+msgstr "注意: この値を調整する前に、バックアップがどの程度の容量を消費しているか確認してください。"
+"現在のバックアップによる使用量: "
 
 msgid "Configuration diff from"
 msgstr "次からの構成差分: "
@@ -5147,7 +5149,7 @@ msgstr "to"
 #
 # File: src/www/diag_confbak.php, line: 271
 msgid "View differences"
-msgstr ""
+msgstr "差分表示"
 
 #
 # File: src/www/diag_confbak.php, line: 266
@@ -5157,6 +5159,8 @@ msgid ""
 "options and select the newer configuration in the right column, then press "
 "the button."
 msgstr ""
+"古い構成と新しい構成の差分を表示するには、ラジオオプションの左側の列を使用して古い構成を選択、"
+"右側の列を使用して新しい構成を選択してから、ボタンを押してください。"
 
 msgid "Diff"
 msgstr "差分"
