@@ -5127,7 +5127,7 @@ msgstr "構成のバックアップを削除"
 msgid ""
 "Enter the number of older configurations to keep in the local backup cache. "
 "By default this is 30."
-msgstr ""
+msgstr "ローカルバックアップキャッシュに保持する古い構成の数を入力してください。デフォルトは 30 です。"
 
 msgid "Save"
 msgstr "保存"
@@ -5193,7 +5193,7 @@ msgstr ""
 #
 # File: src/www/diag_defaults.php, line: 50
 msgid "If you click \"Yes\", the firewall will:"
-msgstr ""
+msgstr "「はい」をクリックすると、ファイアウォールは次を実行します: "
 
 msgid "Reset to factory defaults"
 msgstr "出荷時の規定値にリセット"
@@ -5214,7 +5214,7 @@ msgstr "WAN インタフェースは DHCP サーバからアドレスを自動�
 
 #, fuzzy
 msgid "webConfigurator admin username will be reset to 'root'"
-msgstr "Web 設定管理画面の管理者ユーザー名は 'admin' にリセット"
+msgstr "Web 設定管理画面の管理者ユーザー名は「root」にリセット"
 
 msgid "webConfigurator admin password will be reset to"
 msgstr "Web 設定管理画面の管理者パスワードは次の通りにリセット: "
@@ -5237,7 +5237,7 @@ msgstr "ホスト名または IP"
 #
 # File: src/www/diag_dns.php, line: 90
 msgid "Response"
-msgstr ""
+msgstr "応答"
 
 msgid "Address"
 msgstr "アドレス"
@@ -5280,7 +5280,7 @@ msgstr "Kill"
 
 #, fuzzy
 msgid "Int"
-msgstr "Int."
+msgstr "Int"
 
 msgid "Proto"
 msgstr "プロトコル"
@@ -5325,11 +5325,11 @@ msgstr "本当にシステムを停止してもよろしいですか？"
 # File: src/www/diag_ipsec.php, line: 91
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 127
 msgid "Connection"
-msgstr ""
+msgstr "接続"
 
 #, fuzzy
 msgid "Local ID"
-msgstr "ローカル IP"
+msgstr "ローカル ID"
 
 msgid "Local IP"
 msgstr "ローカル IP"
@@ -5344,12 +5344,12 @@ msgstr "リモート IP"
 #
 # File: src/www/diag_ipsec.php, line: 97
 msgid "Local Auth"
-msgstr ""
+msgstr "ローカル認証"
 
 #
 # File: src/www/diag_ipsec.php, line: 98
 msgid "Remote Auth"
-msgstr ""
+msgstr "リモート認証"
 
 #, fuzzy
 msgid "Local subnets"
@@ -5358,7 +5358,7 @@ msgstr "ローカルサブネット"
 #
 # File: src/www/diag_ipsec.php, line: 148
 msgid "SPI(s)"
-msgstr ""
+msgstr "SPI"
 
 #, fuzzy
 msgid "Remote subnets"
@@ -5367,17 +5367,17 @@ msgstr "リモートサブネット"
 #
 # File: src/www/diag_ipsec.php, line: 151
 msgid "Stats"
-msgstr ""
+msgstr "統計"
 
 #
 # File: src/www/diag_ipsec.php, line: 162
 msgid "in"
-msgstr ""
+msgstr "IN"
 
 #
 # File: src/www/diag_ipsec.php, line: 163
 msgid "out"
-msgstr ""
+msgstr "OUT"
 
 msgid "Time"
 msgstr "時間"
@@ -5385,24 +5385,24 @@ msgstr "時間"
 #
 # File: src/www/diag_ipsec.php, line: 174
 msgid "Bytes in"
-msgstr ""
+msgstr "IN バイト"
 
 #
 # File: src/www/diag_ipsec.php, line: 175
 msgid "Bytes out"
-msgstr ""
+msgstr "OUT バイト"
 
 #, fuzzy
 msgid "Pool: "
-msgstr "プール"
+msgstr "プール: "
 
 #, fuzzy
 msgid "usage: "
-msgstr "CPU 使用率"
+msgstr "CPU 使用率: "
 
 #, fuzzy
 msgid "online: "
-msgstr "オンライン"
+msgstr "オンライン: "
 
 msgid "Host"
 msgstr "ホスト"
@@ -5410,11 +5410,11 @@ msgstr "ホスト"
 #
 # File: src/www/diag_ipsec_leases.php, line: 90
 msgid "No leases from this pool yet."
-msgstr ""
+msgstr "このプールからはまだリースされていません。"
 
 #, fuzzy
 msgid "No IPsec pools."
-msgstr "IPsec セキュリティポリシはありません"
+msgstr "IPsec プールはありません"
 
 msgid "SPI"
 msgstr "SPI"
@@ -5449,7 +5449,7 @@ msgstr "IPsec セキュリティポリシはありません"
 #
 # File: src/www/diag_limiter_info.php, line: 37
 msgid "We could not find any limiters on this system."
-msgstr ""
+msgstr "このシステムにリミッタが見つかりませんでした。"
 
 msgid "Gathering Limiter information, please wait..."
 msgstr "リミッタ情報を収集しています。しばらくお待ちください..."
@@ -5520,7 +5520,7 @@ msgstr "不明な許可エラーです"
 #
 # File: src/www/diag_logs_filter.php, line: 43
 msgid "Cannot resolve"
-msgstr ""
+msgstr "解決できませんでした"
 
 msgid "The rule that triggered this action is"
 msgstr "この動作のトリガとなったルール: "
@@ -5528,22 +5528,22 @@ msgstr "この動作のトリガとなったルール: "
 #
 # File: src/www/diag_logs_filter.php, line: 627
 msgid "Time and interface"
-msgstr ""
+msgstr "時間とインタフェース"
 
 #
 # File: src/www/diag_logs_filter.php, line: 628
 msgid "Source and destination IP Address"
-msgstr ""
+msgstr "送信元と送信先の IP アドレス"
 
 #
 # File: src/www/diag_logs_filter.php, line: 629
 msgid "Source and destination port"
-msgstr ""
+msgstr "送信元と送信先のポート"
 
 #
 # File: src/www/diag_logs_filter.php, line: 642
 msgid "Source IP Address"
-msgstr ""
+msgstr "送信元 IP アドレス"
 
 msgid "Source Port"
 msgstr "送信元ポート"
@@ -5554,7 +5554,7 @@ msgstr "数量"
 #
 # File: src/www/diag_logs_filter.php, line: 654
 msgid "Destination IP Address"
-msgstr ""
+msgstr "送信先 IP アドレス"
 
 msgid "Destination Port"
 msgstr "送信先ポート"
@@ -5562,7 +5562,7 @@ msgstr "送信先ポート"
 #
 # File: src/www/diag_logs_filter.php, line: 656
 msgid "Protocol Flags"
-msgstr ""
+msgstr "プロトコルフラグ"
 
 msgid "Any"
 msgstr "任意"
@@ -5578,7 +5578,7 @@ msgstr "最新 %s ファイアウォールログエントリ"
 # File: src/www/diag_logs_filter.php, line: 706
 #, php-format
 msgid "Showing %s matching log entries (maximum is %s)."
-msgstr ""
+msgstr "一致するログエントリ %s を表示しています ( 最大は %s )"
 
 msgid "If"
 msgstr "IF"
@@ -5589,11 +5589,11 @@ msgstr "ルール"
 #
 # File: src/www/diag_logs_filter.php, line: 748
 msgid "Direction=OUT"
-msgstr ""
+msgstr "方向 = OUT"
 
 #, fuzzy
 msgid "Click to resolve"
-msgstr "確認をクリックしてください"
+msgstr "クリックして解決"
 
 msgid "Easy Rule: Add to Block List"
 msgstr "簡易ルール: 拒否リストに追加"
@@ -5604,27 +5604,27 @@ msgstr "簡易ルール: このトラフィックを許可"
 #
 # File: src/www/diag_logs_filter.php, line: 790
 msgid "Icon Easy Rule: Pass this traffic"
-msgstr ""
+msgstr "アイコン簡易ルール: このトラフィックを許可"
 
 #
 # File: src/www/diag_logs_filter.php, line: 837
 msgid "added block rule"
-msgstr ""
+msgstr "拒否ルールを追加しました"
 
 #
 # File: src/www/diag_logs_filter.php, line: 859
 msgid "added pass rule"
-msgstr ""
+msgstr "許可ルールを追加しました"
 
 #
 # File: src/www/diag_logs_filter_dynamic.php, line: 101
 #, php-format
 msgid "Showing last %s records."
-msgstr ""
+msgstr "最新 %s レコードを表示しています。"
 
 #, fuzzy
 msgid "Pause"
-msgstr "一時停止: "
+msgstr "一時停止"
 
 #, php-format
 msgid "Last %s firewall log entries"
@@ -5660,7 +5660,7 @@ msgstr "その他"
 msgid ""
 "The following summaries have been collected from the last %s lines of the "
 "firewall log (maximum is %s)."
-msgstr ""
+msgstr "次の概要はファイアウォールログの最新 %s 行から収集しています ( 最大は %s )。"
 
 msgid "Count"
 msgstr "合計"
@@ -5686,28 +5686,28 @@ msgstr "PPTP 生"
 #
 # File: src/www/diag_logs_pills.inc, line: 44
 msgid "Cache"
-msgstr ""
+msgstr "キャッシュ"
 
 #
 # File: src/www/diag_logs_pills.inc, line: 42
 msgid "Store"
-msgstr ""
+msgstr "ストア"
 
 #, fuzzy
 msgid "The log files have been reset."
-msgstr "ここのオプションは次に移転しました: "
+msgstr "ログファイルはリセットされました。"
 
 #
 # File: src/www/status_rrd_graph_settings.php, line: 40
 msgid "RRD data has been cleared."
-msgstr ""
+msgstr "RRD データは消去されました。"
 
 #, fuzzy
 msgid ""
 "A valid IP address/hostname or IP/hostname:port must be specified for remote "
 "syslog server #1."
 msgstr ""
-"リモート syslog サーバ #1 に有効な IP/hostname、または、IP/hostname:port を指"
+"リモート syslog サーバ #1 に、有効な IP/hostname、または IP/hostname:port を指"
 "定してください。"
 
 #, fuzzy
@@ -5715,7 +5715,7 @@ msgid ""
 "A valid IP address/hostname or IP/hostname:port must be specified for remote "
 "syslog server #2."
 msgstr ""
-"リモート syslog サーバ #2 に有効な IP/hostname、または、IP/hostname:port を指"
+"リモート syslog サーバ #2 に、有効な IP/hostname、または IP/hostname:port を指"
 "定してください。"
 
 #, fuzzy
@@ -5723,7 +5723,7 @@ msgid ""
 "A valid IP address/hostname or IP/hostname:port must be specified for remote "
 "syslog server #3."
 msgstr ""
-"リモート syslog サーバ #3 に有効な IP/hostname、または、IP/hostname:port を指"
+"リモート syslog サーバ #3 に、有効な IP/hostname、または IP/hostname:port を指"
 "定してください。"
 
 msgid "Number of log entries to show must be between 5 and 2000."
@@ -5731,7 +5731,7 @@ msgstr "表示するログエントリの数は 5 - 2000 です。"
 
 #, fuzzy
 msgid "Log file size must be a positive integer greater than 5120."
-msgstr "重み付けは 1 - 100 の整数です。"
+msgstr "ログファイルサイズは 5120 以上の正の整数です。"
 
 msgid "webConfigurator configuration has changed. Restarting webConfigurator."
 msgstr ""
@@ -5740,7 +5740,7 @@ msgstr ""
 #
 # File: src/www/diag_logs_settings.php, line: 163
 msgid "WebGUI process is restarting."
-msgstr ""
+msgstr "WebGUI プロセスは再起動しています。"
 
 msgid ""
 "Do you really want to reset the RRD graphs? This will erase all graph data."
@@ -5752,17 +5752,17 @@ msgid ""
 "Do you really want to reset the log files? This will erase all local log "
 "data."
 msgstr ""
-"本当に RRD グラフをリセットしますか？全てのグラフデータが消去されます。"
+"本当にログファイルをリセットしますか？全てのローカルログデータが消去されます。"
 
 #
 # File: src/www/diag_logs_settings.php, line: 339
 msgid "Reporting Database Options"
-msgstr ""
+msgstr "データベースオプションをレポートしています"
 
 #
 # File: src/www/diag_logs_settings.php, line: 342
 msgid "Round-Robin-Database"
-msgstr ""
+msgstr "ラウンドロビンデータベース"
 
 msgid "Enables the RRD graphing backend."
 msgstr "RRD グラフバックエンドを有効"
@@ -5780,12 +5780,12 @@ msgstr ""
 #
 # File: src/www/diag_logs_settings.php, line: 371
 msgid "Local Logging Options"
-msgstr ""
+msgstr "ローカルログオプション"
 
 #
 # File: src/www/diag_logs_settings.php, line: 378
 msgid "Reverse Display"
-msgstr ""
+msgstr "反転表示"
 
 msgid "Show log entries in reverse order (newest entries on top)"
 msgstr "ログエントリを逆順に表示 ( 最新エントリを一番上にする )"
@@ -5793,7 +5793,7 @@ msgstr "ログエントリを逆順に表示 ( 最新エントリを一番上に
 #
 # File: src/www/diag_logs_settings.php, line: 315
 msgid "GUI Log Entries to Display"
-msgstr ""
+msgstr "GUI ログエントリを表示"
 
 msgid ""
 "Hint: This is only the number of log entries displayed in the GUI. It does "
