@@ -5805,7 +5805,7 @@ msgstr ""
 #
 # File: src/www/diag_logs_settings.php, line: 321
 msgid "Log File Size (Bytes)"
-msgstr ""
+msgstr "ログファイルサイズ ( バイト )"
 
 #
 # File: src/www/diag_logs_settings.php, line: 283
@@ -5815,6 +5815,9 @@ msgid ""
 "By default this is approximately 500KB per log file, and there are nearly 20 "
 "such log files."
 msgstr ""
+"ログは、一定の大きさの循環ログファイルに保持されます。このフィールドは、それぞれのログファイルの"
+"大きさと、それに従ってログ内部にいくつのエントリが存在しうるかをコントロールします。"
+"デフォルトでは、ログファイル毎に 500KB 程度、ログファイルの数は 20 程度です。"
 
 #
 # File: src/www/diag_logs_settings.php, line: 285
@@ -5824,6 +5827,9 @@ msgid ""
 "options to set the size, then clear all logs using the \"Reset Log Files\" "
 "option farther down this page. "
 msgstr ""
+"注意: ログのサイズは、次回ログファイルを消去もしくは削除した際に変更されます。"
+"すぐにログファイルサイズを増やすには、まずはじめに、サイズを設定するオプションを保存し、"
+"それから、このページのかなり下の方にある「ログファイルをリセット」オプションを使用して全てのログを消去します。"
 
 #
 # File: src/www/diag_logs_settings.php, line: 286
@@ -5831,25 +5837,27 @@ msgid ""
 "Be aware that increasing this value increases every log file size, so disk "
 "usage will increase significantly."
 msgstr ""
+"この値を増やすと全てのログファイルの値が増えることになります。"
+"ディスク使用量が著しく増えることにつながりますので、ご注意ください。"
 
 #
 # File: src/www/diag_logs_settings.php, line: 287
 msgid "Disk space currently used by log files: "
-msgstr ""
+msgstr "ログファイルが使用している現在のディスク容量: "
 
 #
 # File: src/www/diag_logs_settings.php, line: 288
 msgid "Remaining disk space for log files: "
-msgstr ""
+msgstr "ログファイルに対する残りのディスク容量: "
 
 #
 # File: src/www/diag_logs_settings.php, line: 333
 msgid "Log Firewall Default Blocks"
-msgstr ""
+msgstr "ファイアウォールのデフォルト拒否をログに記録"
 
 #, fuzzy
 msgid "Log packets matched from the default block rules put in the ruleset"
-msgstr "デフォルトルールで拒否されたパケットをログに記録"
+msgstr "ルールセットのデフォルト拒否ルールと一致したパケットをログに記録"
 
 msgid ""
 "Hint: packets that are blocked by the implicit default block rule will not "
@@ -5858,11 +5866,11 @@ msgid ""
 msgstr ""
 "ヒント: このオプションをチェックしない場合、暗黙のデフォルト拒否ルールが拒否"
 "したパケットは、ログに記録されません。ルール毎のログオプションには影響しませ"
-"ん"
+"ん。"
 
 #, fuzzy
 msgid "Log packets matched from the default pass rules put in the ruleset"
-msgstr "デフォルトルールで拒否されたパケットをログに記録"
+msgstr "ルールセットのデフォルト許可ルールと一致したパケットをログに記録"
 
 #, fuzzy
 msgid ""
@@ -5870,27 +5878,27 @@ msgid ""
 "logged if you check this option. Per-rule logging options are still "
 "respected."
 msgstr ""
-"ヒント: このオプションをチェックしない場合、暗黙のデフォルト拒否ルールが拒否"
-"したパケットは、ログに記録されません。ルール毎のログオプションには影響しませ"
-"ん"
+"ヒント: このオプションをチェックすると、暗黙のデフォルト許可ルールが許可"
+"したパケットをログに記録します。ルール毎のログオプションには影響しませ"
+"ん。"
 
 #, fuzzy
 msgid "Log packets blocked by 'Block Bogon Networks' rules"
-msgstr "デフォルトルールで拒否されたパケットをログに記録"
+msgstr "「bogon ネットワークを拒否」ルールで拒否されたパケットをログに記録"
 
 #, fuzzy
 msgid "Log packets blocked by 'Block Private Networks' rules"
-msgstr "デフォルトルールで拒否されたパケットをログに記録"
+msgstr "「プライベートネットワークを拒否」ルールで拒否されたパケットをログに記録"
 
 #
 # File: src/www/diag_logs_settings.php, line: 351
 msgid "Web Server Log"
-msgstr ""
+msgstr "Web サーバログ"
 
 #
 # File: src/www/diag_logs_settings.php, line: 312
 msgid "Log errors from the web server process."
-msgstr ""
+msgstr "Web サーバプロセスのエラーをログに記録"
 
 #
 # File: src/www/diag_logs_settings.php, line: 313
@@ -5898,26 +5906,28 @@ msgid ""
 "Hint: If this is checked, errors from the lighttpd web server process for "
 "the GUI or Captive Portal will appear in the main system log."
 msgstr ""
+"ヒント: これがチェックされていると、GUI もしくはキャプティブポータルで使用する lighttpd Web サーバ"
+"プロセスのエラーがメインシステムログに表示されます。"
 
 #
 # File: src/www/diag_logs_settings.php, line: 357
 msgid "Filter descriptions"
-msgstr ""
+msgstr "フィルタの説明"
 
 #
 # File: src/www/diag_logs_settings.php, line: 360
 msgid "Omit descriptions"
-msgstr ""
+msgstr "除外の説明"
 
 #
 # File: src/www/diag_logs_settings.php, line: 361
 msgid "Display as column"
-msgstr ""
+msgstr "列で表示"
 
 #
 # File: src/www/diag_logs_settings.php, line: 362
 msgid "Display as second row"
-msgstr ""
+msgstr "2 行目に表示"
 
 msgid "Show the applied rule description below or in the firewall log rows."
 msgstr ""
@@ -5934,7 +5944,7 @@ msgstr ""
 #
 # File: src/www/diag_logs_settings.php, line: 370
 msgid "Local Logging"
-msgstr ""
+msgstr "ローカルログ"
 
 msgid "Disable writing log files to the local disk"
 msgstr "ローカルディスクへのログファイルの書き込みを無効"
@@ -5942,13 +5952,13 @@ msgstr "ローカルディスクへのログファイルの書き込みを無効
 #
 # File: src/www/diag_logs_settings.php, line: 375
 msgid "Reset Logs"
-msgstr ""
+msgstr "ログをリセット"
 
 #
 # File: src/www/diag_logs_settings.php, line: 71
 # File: src/www/diag_logs_settings.php, line: 342
 msgid "Reset Log Files"
-msgstr ""
+msgstr "ログファイルをリセット"
 
 #
 # File: src/www/diag_logs_settings.php, line: 344
@@ -5957,6 +5967,8 @@ msgid ""
 "also restarts the DHCP daemon. Use the Save button first if you have made "
 "any setting changes."
 msgstr ""
+"注意: 全てのローカルログファイルを消去し、空のログとして再初期化します。"
+"DHCP デーモンも再起動されます。設定を変更した場合は、まずはじめに、保存ボタンを使用してください。"
 
 msgid "Remote Logging Options"
 msgstr "リモートログオプション"
@@ -5967,7 +5979,7 @@ msgstr "送信元アドレス"
 #
 # File: src/www/diag_logs_settings.php, line: 392
 msgid "Default (any)"
-msgstr ""
+msgstr "デフォルト ( 任意 )"
 
 #
 # File: src/www/diag_logs_settings.php, line: 370
@@ -5975,6 +5987,8 @@ msgid ""
 "This option will allow the logging daemon to bind to a single IP address, "
 "rather than all IP addresses."
 msgstr ""
+"このオプションはロギングデーモンを、全ての IP アドレスではなく、"
+"単一 IP アドレスにバインドすることを許可します。"
 
 #
 # File: src/www/diag_logs_settings.php, line: 371
@@ -5983,6 +5997,9 @@ msgid ""
 "If you wish to mix IPv4 and IPv6 remote syslog servers, you must bind to all "
 "interfaces."
 msgstr ""
+"単一 IP を選択する場合は、リモート syslog サーバは全てその IP タイプである必要があります。"
+"リモート syslog サーバで IPv4 と IPv6 をどちらも使用したい場合は、"
+"全てのインタフェースにバインドしてください。"
 
 #
 # File: src/www/diag_logs_settings.php, line: 373
@@ -5990,6 +6007,8 @@ msgid ""
 "NOTE: If an IP address cannot be located on the chosen interface, the daemon "
 "will bind to all addresses."
 msgstr ""
+"注意: 選択したインタフェースに IP アドレスが設定されていなかった場合、"
+"デーモンは全てのアドレスにバインドされます。"
 
 msgid "IP Protocol"
 msgstr "IP プロトコル"
@@ -6002,6 +6021,9 @@ msgid ""
 "selected type is not found on the chosen interface, the other type will be "
 "tried."
 msgstr ""
+"このオプションは上記の送信元としてデフォルトではないアドレスが選択された場合にのみ使用されます。"
+"このオプションは優先度のみで表記し、選択したタイプの IP アドレスが選択したインタフェースで見つからなかった場合、"
+"その他のタイプを試みます。"
 
 msgid "Enable Remote Logging"
 msgstr "リモートログを有効"
