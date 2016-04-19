@@ -279,10 +279,10 @@ legacy_html_escape_form_data($pconfig);
                   <tr>
                     <td><i class="fa fa-info-circle text-muted"></i> <?=gettext("Mode");?></td>
                     <td>
-                      <input name="mode" type="radio" value="off" <?=$pconfig['mode'] != "server" ? "checked=\"checked\"" : "";?> />
+                      <input name="mode" type="radio" value="off" <?=$pconfig['mode'] != 'server' ? 'checked="checked"' : '';?> />
                       <?=gettext("Off"); ?>
                       &nbsp;
-                      <input type="radio" name="mode" value="server" <?=$pconfig['mode'] == "server" ? "checked=\"checked\"" : "";?>/>
+                      <input type="radio" name="mode" value="server" <?=$pconfig['mode'] == 'server' ? 'checked="checked"' : '';?>/>
                       <?=gettext("Enable PPPoE server"); ?></td>
                     </td>
                   </tr>
@@ -549,10 +549,8 @@ legacy_html_escape_form_data($pconfig);
                     </td>
                   </tr>
                   <tr>
-                    <td>&nbsp;</td>
-                    <td width="78%">
-                      <span class="text-danger"><strong><?=gettext("Note"); ?>:<br /></strong></span>
-                      <?=gettext("don't forget to add a firewall rule to permit " ."traffic from PPPoE clients!"); ?>
+                    <td colspan="2">
+                      <?=gettext("Don't forget to add a firewall rule to permit traffic from PPPoE clients."); ?>
                     </td>
                   </tr>
                 </table>

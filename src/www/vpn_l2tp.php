@@ -188,11 +188,12 @@ include("head.inc");
                     </td>
                   </tr>
                   <tr>
-                    <td></td>
+                    <td><i class="fa fa-info-circle text-muted"></i> <?=gettext("Mode");?></td>
                     <td>
-                      <input name="mode" type="radio" value="off" <?=($pconfig['mode'] != "server") && ($pconfig['mode'] != "redir") ? "checked=\"checked\"" : "";?>/>
-                      <?=gettext("Off"); ?> <br/>
-                      <input type="radio" name="mode" value="server"  <?=$pconfig['mode'] == "server" ? "checked=\"checked\"" : "";?>/>
+                      <input name="mode" type="radio" value="off" <?=($pconfig['mode'] != 'server') ? 'checked="checked"' : '';?>/>
+                      <?=gettext("Off"); ?>
+                      &nbsp;
+                      <input type="radio" name="mode" value="server"  <?=$pconfig['mode'] == 'server' ? 'checked="checked"' : '';?>/>
                       <?=gettext("Enable L2TP server"); ?></td>
                     </td>
                   </tr>
@@ -340,7 +341,6 @@ include("head.inc");
                   </tr>
                   <tr>
                     <td colspan="2">
-                      <strong class="text-danger"><?=gettext("Note:");?></strong><br />
                       <?=gettext("Don't forget to add a firewall rule to permit traffic from L2TP clients!");?>
                     </td>
                   </tr>

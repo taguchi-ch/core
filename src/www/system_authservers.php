@@ -106,6 +106,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             if (empty($pconfig['radius_auth_port'])) {
                 $pconfig['radius_auth_port'] = 1812;
             }
+        } elseif ($pconfig['type'] == 'voucher') {
+            $pconfig['simplePasswords'] = $a_server[$id]['simplePasswords'];
+            $pconfig['usernameLength'] = $a_server[$id]['usernameLength'];
+            $pconfig['passwordLength'] = $a_server[$id]['passwordLength'];
         }
     }
 
@@ -141,9 +145,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
               $reqdfieldsn[] = gettext("Bind user DN");
               $reqdfieldsn[] = gettext("Bind Password");
           }
-      }
-
-      if ($pconfig['type'] == "radius") {
+      } elseif ($pconfig['type'] == "radius") {
           $reqdfields = explode(" ", "name type radius_host radius_srvcs");
           $reqdfieldsn = array(
               gettext("Descriptive name"),
@@ -160,6 +162,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
           if ($id == null) {
               $reqdfields[] = "radius_secret";
               $reqdfieldsn[] = gettext("Shared Secret");
+          }
+      } elseif ($pconfig['type'] == "voucher") {
+          if (!empty($pconfig['usernameLength']) && !is_numeric($pconfig['usernameLength'])) {
+              $input_errors[] = gettext("username length must be a number or empty for default.");
+          }
+          if (!empty($pconfig['passwordLength']) && !is_numeric($pconfig['passwordLength'])) {
+              $input_errors[] = gettext("password length must be a number or empty for default.");
           }
       }
 
@@ -239,6 +248,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
                   $server['radius_auth_port'] = $pconfig['radius_auth_port'];
                   unset($server['radius_acct_port']);
               }
+          } elseif ($server['type'] == "voucher") {
+              $server['simplePasswords'] = !empty($pconfig['simplePasswords']);
+              $server['usernameLength'] = $pconfig['usernameLength'];
+              $server['passwordLength'] = $pconfig['passwordLength'];
           }
 
           if (isset($id) && isset($config['system']['authserver'][$id])) {
@@ -338,6 +351,8 @@ $( document ).ready(function() {
             $(".auth_ldap").removeClass('hidden');
         } else if ($("#type").val() == 'radius') {
             $(".auth_radius").removeClass('hidden');
+        } else if ($("#type").val() == 'voucher') {
+          $(".auth_voucher").removeClass('hidden');
         }
     });
 
@@ -652,6 +667,34 @@ endif; ?>
                     </div>
                   </td>
                 </tr>
+                <!-- Vouchers -->
+                <tr class="auth_voucher hidden">
+                  <td><a id="help_for_voucher_simplepasswd" href="#" class="showhelp"><i class="fa fa-info-circle"></i></a> <?=gettext("Use simple passwords (less secure)");?></td>
+                  <td>
+                    <input name="simplePasswords" type="checkbox" value="yes" <?=!empty($pconfig['simplePasswords']) ? "checked=\"checked\"" : ""; ?>/>
+                    <div class="hidden" for="help_for_voucher_simplepasswd">
+                      <br /><?= gettext("Use simple (less secure) passwords, which are easier to read") ?>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="auth_voucher hidden">
+                  <td><a id="help_for_voucher_usernameLength" href="#" class="showhelp"><i class="fa fa-info-circle"></i></a> <?=gettext("Username length");?></td>
+                  <td>
+                    <input name="usernameLength" type="text" value="<?=$pconfig['usernameLength'];?>"/>
+                    <div class="hidden" for="help_for_voucher_usernameLength">
+                      <?= gettext("Specify alternative username length for generating vouchers") ?>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="auth_voucher hidden">
+                  <td><a id="help_for_voucher_passwordLength" href="#" class="showhelp"><i class="fa fa-info-circle"></i></a> <?=gettext("Password length");?></td>
+                  <td>
+                    <input name="passwordLength" type="text" value="<?=$pconfig['passwordLength'];?>"/>
+                    <div class="hidden" for="help_for_voucher_passwordLength">
+                      <?= gettext("Specify alternative password length for generating vouchers") ?>
+                    </div>
+                  </td>
+                </tr>
                 <tr>
                   <td>&nbsp;</td>
                   <td>
@@ -680,15 +723,6 @@ else :
                   <th width="10%" class="list"></th>
                 </tr>
               </thead>
-              <tfoot>
-                <tr>
-                  <td colspan="4">
-                    <p>
-                      <?=gettext("Additional authentication servers can be added here.");?>
-                    </p>
-                  </td>
-                </tr>
-              </tfoot>
               <tbody>
 <?php
 $i = 0;
@@ -715,6 +749,11 @@ endif; ?>
 <?php
                 $i++;
               endforeach;?>
+                <tr>
+                  <td colspan="4">
+                    <?=gettext("Additional authentication servers can be added here.");?>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </form>
