@@ -5261,11 +5261,11 @@ msgstr "アドレスファミリ"
 
 # File: src/www/diag_packet_capture.php, line: 264
 msgid "IPv4 Only"
-msgstr ""
+msgstr "IPv4 のみ"
 
 # File: src/www/diag_packet_capture.php, line: 265
 msgid "IPv6 Only"
-msgstr ""
+msgstr "IPv6 のみ"
 
 msgid ""
 "Select the type of traffic to be captured, either Any, IPv4 only or IPv6 "
@@ -5277,52 +5277,52 @@ msgstr "ICMP"
 
 # File: src/www/diag_packet_capture.php, line: 276
 msgid "Exclude ICMP"
-msgstr ""
+msgstr "ICMP を除外"
 
 # File: src/www/diag_packet_capture.php, line: 277
 msgid "ICMPv6"
-msgstr ""
+msgstr "ICMPv6"
 
 # File: src/www/diag_packet_capture.php, line: 278
 msgid "Exclude ICMPv6"
-msgstr ""
+msgstr "ICMPv6 を除外"
 
 msgid "TCP"
 msgstr "TCP"
 
 # File: src/www/diag_packet_capture.php, line: 280
 msgid "Exclude TCP"
-msgstr ""
+msgstr "TCP を除外"
 
 # File: src/www/diag_packet_capture.php, line: 281
 # File: src/www/firewall_nat_out_edit.php, line: 450
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 # File: src/www/diag_packet_capture.php, line: 282
 msgid "Exclude UDP"
-msgstr ""
+msgstr "UDP を除外"
 
 # File: src/www/diag_packet_capture.php, line: 283
 msgid "ARP"
-msgstr ""
+msgstr "ARP"
 
 # File: src/www/diag_packet_capture.php, line: 284
 msgid "Exclude ARP"
-msgstr ""
+msgstr "ARP を除外"
 
 # File: src/www/diag_packet_capture.php, line: 285
 msgid "CARP (VRRP)"
-msgstr ""
+msgstr "CARP (VRRP)"
 
 # File: src/www/diag_packet_capture.php, line: 286
 msgid "Exclude CARP (VRRP)"
-msgstr ""
+msgstr "CARP (VRRP) を除外"
 
 # File: src/www/diag_packet_capture.php, line: 287
 # File: src/www/firewall_nat_out_edit.php, line: 450
 msgid "ESP"
-msgstr ""
+msgstr "ESP"
 
 msgid "Select the protocol to capture, or Any."
 msgstr "キャプチャ等の処理をするプロトコルを選択してください。"
@@ -5342,15 +5342,16 @@ msgid ""
 "Matching can be negated by preceding the value with \"not\". Multiple IP "
 "addresses or CIDR subnets may be specified as boolean expresion."
 msgstr ""
+"「not」を値の前に置くことで、否定した意味で一致させることができます。複数の IP アドレスや CIDR サブネット"
+"は論理式として指定可能です。"
 
 msgid ""
 "If you leave this field blank, all packets on the specified interface will "
 "be captured."
 msgstr "このフィールドが空白の時は、指定されたインタフェースの全パケットをキャプチャします。"
 
-#, fuzzy
 msgid "Example:"
-msgstr "例"
+msgstr "例: "
 
 msgid "Port"
 msgstr "ポート"
@@ -5382,7 +5383,7 @@ msgstr "パケットキャプチャがキャプチャするパケット数です
 
 # File: src/www/diag_packet_capture.php, line: 418
 msgid "View settings"
-msgstr ""
+msgstr "設定を表示"
 
 msgid "Level of Detail"
 msgstr "詳細度"
@@ -5428,11 +5429,11 @@ msgstr "キャプチャをダウンロード"
 
 # File: src/www/diag_packet_capture.php, line: 461
 msgid "Delete Capture"
-msgstr ""
+msgstr "キャプチャを削除"
 
 # File: src/www/diag_packet_capture.php, line: 479
 msgid "Capture output"
-msgstr ""
+msgstr "キャプチャの出力"
 
 msgid "Gathering PF information, please wait..."
 msgstr "PF 情報を収集しています。しばらくお待ちください..."
@@ -5515,31 +5516,27 @@ msgid ""
 "stop it at any time by clicking the Stop button in your browser."
 msgstr "名前解決を有効にすると、クエリには少し時間がかかるようになります。ブラウザの「停止」ボタンをクリックすれば、いつでも名前解決を停止できます。"
 
-#, fuzzy
 msgid "Number of rows"
-msgstr "ユーザ数"
+msgstr "行数"
 
 msgid "all"
 msgstr "全て"
 
 # File: src/www/diag_routes.php, line: 185
 msgid "Select how many rows to display."
-msgstr ""
+msgstr "何行表示するか選択してください。"
 
-#, fuzzy
 msgid "Filter expression"
-msgstr "フィルタ式: "
+msgstr "フィルタ式"
 
-#, fuzzy
 msgid "Use a regular expression to filter IP address or hostnames."
-msgstr "IP アドレス / ホスト型は、IP アドレスまたはホスト名です"
+msgstr "IP アドレスもしくはホスト名のフィルタには正規表現を使用してください。"
 
 msgid "Update"
 msgstr "更新"
 
-#, fuzzy
 msgid "Gathering data, please wait..."
-msgstr "CPU 稼働状況を収集しています。しばらくお待ちください..."
+msgstr "データを収集しています。しばらくお待ちください..."
 
 msgid "PASSED"
 msgstr "成功"
@@ -5627,26 +5624,27 @@ msgstr "戻る"
 
 # File: src/www/diag_sockets.php, line: 41
 msgid "Show all socket connections"
-msgstr ""
+msgstr "全てのソケット接続を表示"
 
 # File: src/www/diag_sockets.php, line: 41
 msgid "Show only listening sockets"
-msgstr ""
+msgstr "リスニングソケットのみを表示"
 
 # File: src/www/diag_sockets.php, line: 52
 msgid "Information about listening sockets for both %sIPv4%s and %sIPv6%s."
-msgstr ""
+msgstr "%sIPv4%s と %sIPv6%s の両方に対するリスニングソケットの情報。"
 
 # File: src/www/diag_sockets.php, line: 53
 msgid ""
 "For explanation about the meaning of the information listed for each socket "
 "click %shere%s."
 msgstr ""
+"それぞれのソケットに対する情報リストの意味についての説明は、%sここ%sをクリックしてください。"
 
 # File: src/www/diag_sockets.php, line: 54
 msgid ""
 "To show information about both listening and connected sockets click this."
-msgstr ""
+msgstr "リスニングソケットと接続済みソケット両方の情報を表示するには、こちらをクリックしてください。"
 
 # File: src/www/diag_sockets.php, line: 123
 msgid ""
@@ -5654,28 +5652,33 @@ msgid ""
 "-6lL\".%sOr in case of showing all sockets the output for: \"sockstat -4\" "
 "and \"sockstat -6\".%s%sThe information listed for each socket is:"
 msgstr ""
+"このページはコマンド \"sockstat -4lL\"、\"sockstat -6lL\" の出力を表示します。"
+"\"sockstat -4\"、\"sockstat -6\" の場合は、全てのソケットの出力を表示します。"
+"%s%sそれぞれのソケットに対する情報リストは次の通りです: "
 
 # File: src/www/diag_sockets.php, line: 129
 msgid "The user who owns the socket."
-msgstr ""
+msgstr "ソケットの所有者であるユーザ。"
 
 # File: src/www/diag_sockets.php, line: 130
 msgid "The command which holds the socket."
-msgstr ""
+msgstr "ソケットを保持しているコマンド。"
 
 # File: src/www/diag_sockets.php, line: 131
 msgid "The process ID of the command which holds the socket."
-msgstr ""
+msgstr "ソケットを保持しているコマンドのプロセス ID。"
 
 # File: src/www/diag_sockets.php, line: 132
 msgid "The file descriptor number of the socket."
-msgstr ""
+msgstr "ソケットのファイル記述子数。"
 
 # File: src/www/diag_sockets.php, line: 133
 msgid ""
 "The transport protocol associated with the socket for Internet sockets, or "
 "the type of socket (stream or data-gram) for UNIX sockets."
 msgstr ""
+"インターネットソケットに対してソケットと接続確立した転送プロトコル、もしくは"
+"UNIX ソケットに対するソケットタイプ ( ストリーム、データグラム )。"
 
 # File: src/www/diag_sockets.php, line: 134
 msgid ""
@@ -5683,18 +5686,23 @@ msgid ""
 "sFor other sockets, it is the name, PID and file descriptor number of the "
 "peer, or ``(none)'' if the socket is neither bound nor connected."
 msgstr ""
+"(UNIX ソケットのみ) バインドされたソケットに対する、ソケットのファイル名です。"
+"%sそれ以外のソケットでは、名前、PID、ピアのファイル記述子数です。"
+"バインドも接続もされていない場合は、( なし ) になります。"
 
 # File: src/www/diag_sockets.php, line: 135
 msgid ""
 "(Internet sockets only) The address the local end of the socket is bound to ("
 "see getsockname(2))."
 msgstr ""
+"( インターネットソケットのみ ) そのソケットがバインドされた地域アドレスの末尾 ( getsockname(2) を参照 )。"
 
 # File: src/www/diag_sockets.php, line: 136
 msgid ""
 "(Internet sockets only) The address the foreign end of the socket is bound "
 "to (see getpeername(2))."
 msgstr ""
+"( インターネットソケットのみ ) そのソケットがバインドされた地域外アドレスの末尾 ( getsockname(2) を参照 )。"
 
 msgid "States"
 msgstr "ステータス"
@@ -5755,7 +5763,7 @@ msgstr "pfTOP 稼働状況を収集しています。しばらくお待ちくだ
 
 # File: src/www/diag_tables.php, line: 53
 msgid "The bogons database has NOT been updated."
-msgstr ""
+msgstr "bogon データベースが更新されて「いません」。"
 
 msgid "The bogons database has been updated."
 msgstr "bogon データベースが更新されました。"
@@ -5765,15 +5773,15 @@ msgstr "テーブル"
 
 # File: src/www/diag_tables.php, line: 130
 msgid "Do you really want to flush this table?"
-msgstr ""
+msgstr "本当にこのテーブルを書き込みしますか？"
 
 # File: src/www/diag_tables.php, line: 164
 msgid "Flush"
-msgstr ""
+msgstr "書き込み"
 
 # File: src/www/diag_tables.php, line: 166
 msgid "Update bogons"
-msgstr ""
+msgstr "bogon を更新"
 
 msgid "IP Address"
 msgstr "IP アドレス"
@@ -5783,7 +5791,7 @@ msgstr "このテーブルにエントリが存在しません。"
 
 # File: src/www/diag_tables.php, line: 187
 msgid "delete this entry"
-msgstr ""
+msgstr "このエントリを削除"
 
 msgid "Please enter a valid IP or hostname."
 msgstr "有効な IP またはホスト名を入力してください。"
@@ -5815,14 +5823,13 @@ msgid ""
 "the server."
 msgstr "テスト中には、リモートホストにデータは送信されません。接続を開くことと、オプションでサーバから返信データの表示のみを試すことができます。"
 
-#, fuzzy
 msgid ""
 "If you force IPv4 or IPv6 and use a hostname that does not contain a result "
 "using that protocol, <br />it will result in an error. For example if you "
 "force IPv4 and use a hostname that only returns an AAAA IPv6 IP address, it "
 "will not work."
 msgstr ""
-"IPv4 または IPv6 を強制して、ホスト名を使用する場合、プロトコルを使用した結果が含まれないため、エラーになります。例えば、IPv4 "
+"IPv4 または IPv6 を強制してホスト名を使用する場合、プロトコルを使用した結果が含まれないためエラーになります。<br />例えば、IPv4 "
 "を強制してホスト名を使用すると、AAAA IPv6 IP アドレスのみが返されるため、機能しません。"
 
 msgid "This should typically be left blank."
@@ -5878,9 +5885,8 @@ msgid ""
 msgstr ""
 "選択したタイプ ( IPv4、IPv6 ) と一致しない送信元インタフェース / IP アドレスを使用すると、エラーになるか、出力が空になります。"
 
-#, fuzzy
 msgid "Traceroute output"
-msgstr "traceroute の出力: "
+msgstr "traceroute の出力"
 
 msgid "Help for items on this page"
 msgstr "このページ項目のヘルプ"
@@ -5890,7 +5896,7 @@ msgstr "設定を保存"
 
 # File: src/www/fbegin.inc, line: 258
 msgid "Add widget"
-msgstr ""
+msgstr "ウィジェットを追加"
 
 msgid "Cannot delete alias. Currently in use by %s"
 msgstr "エイリアスを削除できません。%s で現在使用されています"
@@ -5948,21 +5954,21 @@ msgstr "エイリアス名は 32 文字以下で、使用できるのは文字�
 
 # File: src/www/firewall_aliases_edit.php, line: 139
 msgid "Update Frequency should be a number"
-msgstr ""
+msgstr "更新頻度は数字です"
 
 msgid "An alias with this name already exists."
 msgstr "同じ名前のエイリアスが既に存在します"
 
 # File: src/www/firewall_aliases_edit.php, line: 156
 msgid "Alias type may not be changed for an existing alias."
-msgstr ""
+msgstr "存在するエイリアスのエイリアスタイプは変更できません。"
 
 msgid "You must provide a valid URL."
 msgstr "有効な URL を指定してください"
 
 # File: src/www/firewall_aliases_edit.php, line: 464
 msgid "IP or FQDN"
-msgstr ""
+msgstr "IP もしくは FQDN"
 
 msgid "Host(s)"
 msgstr "ホスト"
@@ -5987,26 +5993,22 @@ msgstr "自分用のメモを入力できます ( 自由形式 )"
 # File: src/www/firewall_aliases_edit.php, line: 467
 # File: src/www/firewall_aliases_edit.php, line: 672
 msgid "URL (IPs)"
-msgstr ""
+msgstr "URL (IP)"
 
-#, fuzzy
 msgid "URL (Ports)"
-msgstr "LAGG ポート"
+msgstr "URL ( ポート )"
 
-#, fuzzy
 msgid "URL Table (IPs)"
-msgstr "URL テーブル"
+msgstr "URL テーブル (IP)"
 
-#, fuzzy
 msgid "URL Table (Ports)"
-msgstr "URL テーブル"
+msgstr "URL テーブル ( ポート )"
 
 msgid "Network"
 msgstr "ネットワーク"
 
-#, fuzzy
 msgid "Update Freq. (days)"
-msgstr "頻度を更新"
+msgstr "更新頻度 ( 日 )"
 
 msgid "Networks"
 msgstr "ネットワーク"
@@ -6033,15 +6035,14 @@ msgstr ""
 "使用したいホストを全て入力します。ホストは IP アドレスか、完全修飾ドメイン名 (FQDN) で指定してください。FQDN "
 "ホスト名は、定期的に再名前解決して更新されます。複数の IP が DNS 照会で戻ってきた場合は、全てが使用されます。"
 
-#, fuzzy
 msgid ""
 "Enter as many ports as you wish.  Port ranges can be expressed by separating "
 "with a colon."
-msgstr "対象ポートを全て入力してください。ポート範囲はコロン区切りです"
+msgstr "必要とするポートを全て入力してください。ポート範囲はコロン区切りです。"
 
 # File: src/www/firewall_aliases_edit.php, line: 456
 msgid "URL's"
-msgstr ""
+msgstr "URL"
 
 # File: src/www/firewall_aliases_edit.php, line: 459
 msgid ""
@@ -6049,6 +6050,8 @@ msgid ""
 "saving the lists will be downloaded and scheduled for automatic updates when "
 "a frequency is provided."
 msgstr ""
+"IP、ポート、サブネット、もしくはそのいずれかの、多くが含まれる URL を入力してください。"
+"頻度が設定されると、保存されたリストはダウンロードされ、自動更新としてスケジュールされます。"
 
 msgid "Cancel"
 msgstr "キャンセル"
@@ -6087,6 +6090,8 @@ msgid ""
 "The list may contain IP addresses, with or without CIDR prefix, IP ranges, "
 "blank lines (ignored) and an optional description after each IP. e.g.:"
 msgstr ""
+"リストには、CIDR プレフィックス のある IP アドレス、もしくは CIDR プレフィックス なしの IP アドレス、IP 範囲、空行 ( 無視されます )、"
+"それぞれの IP の後に任意で説明を含めることができます。例: "
 
 msgid "Add"
 msgstr "追加"
@@ -6112,7 +6117,7 @@ msgstr "アンチロックアウトルール"
 # File: src/www/firewall_nat_out.php, line: 368
 # File: src/www/firewall_rules.php, line: 427
 msgid "disable rule"
-msgstr ""
+msgstr "ルールを無効"
 
 # File: src/www/firewall_nat.php, line: 306
 # File: src/www/firewall_nat_1to1.php, line: 216
@@ -6120,7 +6125,7 @@ msgstr ""
 # File: src/www/firewall_nat_out.php, line: 368
 # File: src/www/firewall_rules.php, line: 427
 msgid "enable rule"
-msgstr ""
+msgstr "ルールを有効"
 
 # File: src/www/firewall_nat.php, line: 333
 # File: src/www/firewall_nat.php, line: 347
@@ -6137,13 +6142,13 @@ msgstr ""
 # File: src/www/firewall_rules.php, line: 518
 # File: src/www/firewall_rules.php, line: 532
 msgid "edit alias"
-msgstr ""
+msgstr "エイリアスを編集"
 
 msgid "move selected rules before this rule"
 msgstr "選択したルールをこのルールの前に移動"
 
 msgid "edit rule"
-msgstr "ルールの編集"
+msgstr "ルールを編集"
 
 # File: src/www/firewall_nat.php, line: 423
 # File: src/www/firewall_nat_1to1.php, line: 269
@@ -6151,7 +6156,7 @@ msgstr "ルールの編集"
 # File: src/www/firewall_nat_out.php, line: 453
 # File: src/www/firewall_rules.php, line: 585
 msgid "delete rule"
-msgstr ""
+msgstr "ルールを削除"
 
 # File: src/www/firewall_nat.php, line: 426
 # File: src/www/firewall_nat_1to1.php, line: 272
@@ -6159,7 +6164,7 @@ msgstr ""
 # File: src/www/firewall_nat_out.php, line: 456
 # File: src/www/firewall_rules.php, line: 588
 msgid "clone rule"
-msgstr ""
+msgstr "ルールをクローン"
 
 msgid "move selected rules to end"
 msgstr "選択したルールを末尾に移動"
@@ -6175,18 +6180,18 @@ msgstr "新規ルールの追加"
 # File: src/www/firewall_nat_npt.php, line: 288
 # File: src/www/firewall_nat_out.php, line: 476
 msgid "Enabled rule"
-msgstr ""
+msgstr ルールを有効""
 
 # File: src/www/firewall_nat.php, line: 430
 # File: src/www/firewall_nat_1to1.php, line: 310
 # File: src/www/firewall_nat_npt.php, line: 292
 # File: src/www/firewall_nat_out.php, line: 480
 msgid "Disabled rule"
-msgstr ""
+msgstr "ルールを無効"
 
 # File: src/www/firewall_nat.php, line: 434
 msgid "No redirect"
-msgstr ""
+msgstr "リダイレクトしない"
 
 msgid "linked rule"
 msgstr "リンクしたルール"
@@ -6195,11 +6200,11 @@ msgstr "リンクしたルール"
 # File: src/www/firewall_nat_1to1.php, line: 314
 # File: src/www/firewall_rules.php, line: 579
 msgid "Alias (click to view/edit)"
-msgstr ""
+msgstr "エイリアス ( クリックして表示 / 編集 )"
 
 # File: src/www/firewall_nat_1to1.php, line: 90
 msgid "Toggled NAT rule"
-msgstr ""
+msgstr "NAT ルールを切替"
 
 msgid "add rule"
 msgstr "ルールを追加"
@@ -6218,7 +6223,7 @@ msgstr "送信先 IP"
 
 # File: src/www/firewall_nat_1to1.php, line: 266
 msgid "edit rule "
-msgstr ""
+msgstr "ルールを編集"
 
 msgid "Depending on the way your WAN connection is setup, you may also need a"
 msgstr "WAN 接続が依存する手法を設定します。以下の設定も必要になります: "
@@ -6248,9 +6253,8 @@ msgstr "PPPoE クライアント"
 msgid "L2TP clients"
 msgstr "L2TP クライアント"
 
-#, fuzzy
 msgid "net"
-msgstr "否定"
+msgstr "ネット"
 
 msgid ""
 "Invalid characters detected (%s).  Please remove invalid characters and save "
