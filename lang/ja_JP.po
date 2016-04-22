@@ -8126,7 +8126,7 @@ msgid "A valid alias subnet bit count must be specified."
 msgstr "有効なエイリアスサブネットビット数を指定してください"
 
 msgid "A valid alias IP address must be specified to reject DHCP Leases from."
-msgstr "拒絶された DHCP リースに有効なエイリアス IP アドレスを指定してください。"
+msgstr "拒絶する DHCP リースに有効なエイリアス IP アドレスを指定してください。"
 
 msgid "A valid gateway must be specified."
 msgstr "有効なゲートウェイを指定してください"
@@ -8209,8 +8209,8 @@ msgid ""
 "private  networks as per RFC 1918 (10/8, 172.16/12, 192.168/16) as well as "
 "loopback addresses (127/8)."
 msgstr ""
-"このオプションが設定されると、プライベートネットワークとして RFC 1918 で予約されているIP アドレス (10/8, 172.16/12, 192.168/16)、"
-"及びループバックアドレス (127/8) のトラフィックをブロックします。"
+"このオプションが設定されると、プライベートネットワークとして RFC 1918 で予約されている IP アドレス (10/8, 172.16/12, 192.168/16)、"
+"及びループバックアドレス (127/8) のトラフィックを拒否します。"
 
 msgid ""
 "You should generally leave this option turned on, unless your WAN network "
@@ -8222,7 +8222,7 @@ msgid ""
 "but not RFC 1918) or not yet assigned by IANA."
 msgstr ""
 "このオプションが設定されると、予約されている IP アドレス ( RFC 1918 以外 )、もしくは、IANA が未割当ての IP "
-"アドレスからのトラフィックをブロックします。"
+"アドレスからのトラフィックを拒否します。"
 
 msgid ""
 "Bogons are prefixes that should never appear in the Internet routing table, "
@@ -8459,7 +8459,7 @@ msgstr "構成を保存"
 msgid ""
 "The values in these fields are DHCP protocol timings used when requesting a "
 "lease. <br /> "
-msgstr "これらのフィールドの値は、リースがリクエストされている時の DHCP プロトコルタイミングに使用されます。<br /> "
+msgstr "これらのフィールドの値は、リースのリクエスト時に使用される DHCP プロトコルタイミングです。<br /> "
 
 # File: src/www/interfaces.php, line: 2032
 msgid "Lease Requirements"
@@ -9461,7 +9461,7 @@ msgid "Interfaces participating in the bridge."
 msgstr "ブリッジに参加しているインタフェース"
 
 msgid "Show advanced options"
-msgstr "高度なオプションを表示"
+msgstr "詳細オプションを表示"
 
 msgid "RSTP/STP"
 msgstr "RSTP / STP"
@@ -9566,7 +9566,7 @@ msgstr ""
 
 # File: src/www/interfaces_bridge_edit.php, line: 452
 msgid "Advanced options"
-msgstr ""
+msgstr "詳細オプション"
 
 msgid "Cache size"
 msgstr "キャッシュサイズ"
