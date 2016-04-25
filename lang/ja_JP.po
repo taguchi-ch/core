@@ -8476,7 +8476,7 @@ msgid ""
 msgstr "リースの必要条件やリクエストに関する詳細情報は次で確認できます: "
 
 msgid "Send Options"
-msgstr "オプションを送信"
+msgstr "送信オプション"
 
 # File: src/www/interfaces.php, line: 2073
 msgid ""
@@ -8487,33 +8487,35 @@ msgid ""
 "omitted for none). <br />Some ISPs may require certain options be or not be "
 "sent. "
 msgstr ""
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP オプションとして送信されます。"
+"[オプション 宣言 [, ...]] <br />値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"C は U(大文字) もしくは L(小文字)、 D は \" :-.\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) "
+"( 指定しない場合は省略してください )。<br />"
+"一部の ISP は、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
-#, fuzzy
 msgid "Request Options"
-msgstr "NetBIOS オプション"
+msgstr "リクエストオプション"
 
-#, fuzzy
 msgid ""
 "The values in this field are DHCP option 55 to be sent when requesting a "
 "DHCP lease.  [option [, ...]] <br />Some ISPs may require certain options be "
 "or not be requested. "
 msgstr ""
-"このフィールドの値は、DHCP リースのリクエスト時に、DHCP クライアント識別子とホスト名として送信されます。一部の ISP はこの値を ( "
-"クライアント識別子として ) 要求します。"
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP オプション 55 として送信されます。  [オプション [, ...]] <br />"
+"一部の ISP は、リクエストされる、もしくは、リクエストされなくても、特定のオプションを要求することがあります。"
 
 # File: src/www/interfaces.php, line: 2054
 msgid "Require Options"
-msgstr ""
+msgstr "必須オプション"
 
-#, fuzzy
 msgid ""
 "The values in this field are DHCP options required by the client when "
 "requesting a DHCP lease.  [option [, ...]] "
-msgstr "このフィールドの値は、DHCPv6 リースのリクエスト時に、DHCPv6 クライアント識別子として送信されます。"
+msgstr "このフィールドの値は、DHCP リースのリクエスト時に、クライアントが要求する DHCP オプションです。  [オプション [, ...]] <br />"
 
 # File: src/www/interfaces.php, line: 2062
 msgid "Option Modifiers"
-msgstr ""
+msgstr "オプション修飾子"
 
 # File: src/www/interfaces.php, line: 2096
 msgid ""
@@ -8521,11 +8523,13 @@ msgid ""
 "lease.  [modifier option declaration [, ...]] <br /> modifiers: (default, "
 "supersede, prepend, append)"
 msgstr ""
+"このフィールドの値は DHCP オプション修飾子で、取り込まれた DHCP リースに適用されます。  [修飾子 オプション 宣言 [, ...]] <br /> "
+"修飾子: (default, supersede, prepend, append)"
 
 # File: src/www/interfaces.php, line: 2068
 # File: src/www/interfaces.php, line: 2081
 msgid "FreeBSD manual"
-msgstr ""
+msgstr "FreeBSD マニュアル"
 
 # File: src/www/interfaces.php, line: 2106
 # File: src/www/interfaces.php, line: 2351
@@ -8537,6 +8541,11 @@ msgid ""
 "Delimiter (space, colon, hyphen, or period) (omitted for none). <br />Some "
 "ISPs may require certain options be or not be sent. "
 msgstr ""
+"このフィールドの値は、DHCP クライアント構成ファイルの完全な絶対パスです。  [/[ディレクトリ名/[.../]]ファイル名[.ext]] <br />"
+"構成ファイルの値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"C は U(大文字) もしくは L(小文字)、 D は \" :-.\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) "
+"( 指定しない場合は省略してください )。<br />"
+"一部の ISP は、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
 msgid "PPP configuration"
 msgstr "PPP 構成"
@@ -8644,7 +8653,7 @@ msgid "reset at each hour ('0 * * * *')"
 msgstr "毎時間リセット ('0 * * * *')"
 
 msgid "Advanced and MLPPP"
-msgstr "高度な構成・MLPPP"
+msgstr "詳細構成・MLPPP"
 
 msgid ""
 "for additional PPPoE configuration options. Save first if you made changes."
@@ -8678,9 +8687,8 @@ msgstr "詳細な PPTP・L2TP 構成オプション"
 msgid "Static IPv6 configuration"
 msgstr "静的 IPv6 構成"
 
-#, fuzzy
 msgid "IPv6 Upstream Gateway"
-msgstr "ゲートウェイを使用"
+msgstr "IPv6 アップストリームゲートウェイ"
 
 msgid "Add new v6 gateway:"
 msgstr "新規 IPv6 ゲートウェイを追加: "
@@ -8696,48 +8704,45 @@ msgstr "IPv6 ゲートウェイ: "
 
 # File: src/www/interfaces.php, line: 2520
 msgid "DHCPv6 client configuration"
-msgstr ""
+msgstr "DHCPv6 クライアント構成"
 
 # File: src/www/interfaces.php, line: 2544
 msgid "Use IPv4 connectivity"
-msgstr ""
+msgstr "IPv4 接続を使用"
 
 # File: src/www/interfaces.php, line: 2188
 msgid "Request a IPv6 prefix/information through the IPv4 connectivity link"
-msgstr ""
+msgstr "IPv4 接続リンクを経由して IPv6 プレフィックス / 情報をリクエスト"
 
-#, fuzzy
 msgid "Request only a IPv6 prefix"
-msgstr "送信先 IPv6 プレフィックス"
+msgstr "IPv6 プレフィックスのみをリクエスト"
 
 # File: src/www/interfaces.php, line: 2195
 msgid "Only request a IPv6 prefix, do not request a IPv6 address"
-msgstr ""
+msgstr "IPv6 プレフィックスのみをリクエストし、IPv6 アドレスはリクエストしない"
 
 msgid "DHCPv6 Prefix Delegation size"
-msgstr "DHCPv6 Prefix Delegation サイズ"
+msgstr "DHCPv6 プレフィックスデリゲーションサイズ"
 
 msgid ""
 "The value in this field is the delegated prefix length provided by the "
 "DHCPv6 server. Normally specified by the ISP."
-msgstr "このフィールドの値は、DHCPv6 サーバが提供する delegated prefix の長さです。通常は ISP が指定します。"
+msgstr "このフィールドの値は、DHCPv6 サーバが提供する委譲されたプレフィックスの長さです。通常は ISP が指定します。"
 
-#, fuzzy
 msgid "Send IPv6 prefix hint"
-msgstr "内部 IPv6 プレフィックス"
+msgstr "IPv6 プレフィックスヒントを送信"
 
 # File: src/www/interfaces.php, line: 2219
 msgid ""
 "Send an IPv6 prefix hint to indicate the desired prefix size for delegation"
-msgstr ""
+msgstr "デリゲーションで要求されるプレフィックスサイズを指定する IPv6 プレフィックスヒントを送信します。"
 
 # File: src/www/interfaces.php, line: 2588
 msgid "Interface Statement"
-msgstr ""
+msgstr "インタフェースステートメント"
 
-#, fuzzy
 msgid "Information Only"
-msgstr "情報応答"
+msgstr "情報のみ"
 
 # File: src/www/interfaces.php, line: 2593
 msgid ""
@@ -8747,10 +8752,13 @@ msgid ""
 "does not need stateful configuration parameters such as IPv6 addresses or  "
 "prefixes."
 msgstr ""
+"このステートメントは、サーバの情報構成パラメータの交換にのみ dhcp6c に指定されます。"
+"DNS サーバリストのアドレスはそのようなパラメータの一例です。このステートメントは"
+"クライアントが IPv6 アドレスやプレフィックスのようなステートフル構成パラメータを必要としない場合に便利です。"
 
 # File: src/www/interfaces.php, line: 2598
 msgid "source: FreeBSD man page"
-msgstr ""
+msgstr "情報源: FreeBSD man ページ"
 
 # File: src/www/interfaces.php, line: 2234
 msgid ""
@@ -8761,19 +8769,23 @@ msgid ""
 "hyphen, or period) (omitted for none). <br />Some DHCP services may require "
 "certain options be or not be sent. "
 msgstr ""
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP 送信オプションとして送信されます。"
+"[オプション 宣言 [, ...]] <br />値の代入: {interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />"
+"C は U(大文字) もしくは L(小文字)、 D は \" :-.\"、区切り文字 ( スペース、コロン、ハイフン、ピリオド ) "
+"( 指定しない場合は省略してください )。<br />"
+"一部の DHCP サービスは、送信される、もしくは、送信されなくても、特定のオプションを要求することがあります。"
 
-#, fuzzy
 msgid ""
 "The values in this field are DHCP request options to be sent when requesting "
 "a DHCP lease.  [option [, ...]] <br />Some DHCP services may require certain "
 "options be or not be requested. "
 msgstr ""
-"このフィールドの値は、DHCP リースのリクエスト時に、DHCP クライアント識別子とホスト名として送信されます。一部の ISP はこの値を ( "
-"クライアント識別子として ) 要求します。"
+"このフィールドの値は、DHCP リースのリクエスト時に、DHCP リクエストオプションとして送信されます。  [オプション [, ...]] <br />"
+"一部の DHCP サービスは、リクエストされる、もしくは、リクエストされなくても、特定のオプションを要求することがあります。"
 
 # File: src/www/interfaces.php, line: 2247
 msgid "Script"
-msgstr ""
+msgstr "スクリプト"
 
 # File: src/www/interfaces.php, line: 2250
 msgid ""
@@ -8781,27 +8793,28 @@ msgid ""
 "conditions including when a reply message is received. <br "
 "/>[/[dirname/[.../]]filename[.ext]] "
 msgstr ""
+"このフィールドの値は、応答メッセージを受信した場合も含み、特定の条件で起動するスクリプトの絶対パスです。"
+"<br />[/[ディレクトリ名/[.../]]ファイル名[.ext]] "
 
 # File: src/www/interfaces.php, line: 2629
 msgid "Identity Association"
-msgstr ""
+msgstr "ID 関連付け"
 
-#, fuzzy
 msgid "Non-Temporary Address Allocation"
-msgstr "ネットワークアドレス変換"
+msgstr "非一時アドレス割当て"
 
 # File: src/www/interfaces.php, line: 2264
 msgid "id-assoc na"
-msgstr ""
+msgstr "id-assoc na"
 
 # File: src/www/interfaces.php, line: 2265
 # File: src/www/interfaces.php, line: 2282
 msgid "<i>ID</i>"
-msgstr ""
+msgstr "<i>ID</i>"
 
 # File: src/www/interfaces.php, line: 2269
 msgid "<i>ipv6-address</i>"
-msgstr ""
+msgstr "<i>ipv6-address</i>"
 
 # File: src/www/interfaces.php, line: 2271
 # File: src/www/interfaces.php, line: 2288
@@ -8813,84 +8826,79 @@ msgstr ""
 msgid "<i>vltime</i>"
 msgstr ""
 
-#, fuzzy
 msgid "Prefix Delegation"
-msgstr "プレフィックスデリゲーションサイズ"
+msgstr "プレフィックスデリゲーション"
 
 # File: src/www/interfaces.php, line: 2281
 msgid "id-assoc pd"
-msgstr ""
+msgstr "id-assoc pd"
 
-#, fuzzy
 msgid "Prefix"
-msgstr "IPv6 プレフィックス"
+msgstr "プレフィックス"
 
 # File: src/www/interfaces.php, line: 2286
 msgid "<i>ipv6-prefix</i>"
-msgstr ""
+msgstr "<i>ipv6-prefix</i>"
 
 # File: src/www/interfaces.php, line: 2665
 msgid "Prefix Interface"
-msgstr ""
+msgstr "プレフィックスインタフェース"
 
-#, fuzzy
 msgid "Prefix Interface "
-msgstr "ブリッジインタフェース"
+msgstr "プレフィックスインタフェース "
 
 # File: src/www/interfaces.php, line: 2302
 msgid "<i>sla-id</i>"
-msgstr ""
+msgstr "<i>sla-id</i>"
 
 # File: src/www/interfaces.php, line: 2304
 msgid "<i>sla-len</i>"
-msgstr ""
+msgstr "<i>sla-len</i>"
 
 msgid "Authentication"
 msgstr "認証"
 
 # File: src/www/interfaces.php, line: 2314
 msgid "<i>authname</i>"
-msgstr ""
+msgstr "<i>authname</i>"
 
-#, fuzzy
 msgid "<i>protocol</i>"
-msgstr "プロトコル"
+msgstr "<i>protocol</i>"
 
-#, fuzzy
 msgid "<i>algorithm</i>"
-msgstr "ハッシュアルゴリズム"
+msgstr "<i>algorithm</i>"
 
 # File: src/www/interfaces.php, line: 2320
 msgid "<i>rdm</i>"
-msgstr ""
+msgstr "<i>rdm</i>"
 
 # File: src/www/interfaces.php, line: 2688
 msgid "Keyinfo"
-msgstr ""
+msgstr "鍵情報"
 
 # File: src/www/interfaces.php, line: 2330
 msgid "<i>keyname</i>"
-msgstr ""
+msgstr "<i>keyname</i>"
 
 # File: src/www/interfaces.php, line: 2332
 msgid "<i>realm</i>"
-msgstr ""
+msgstr "<i>realm</i>"
 
 # File: src/www/interfaces.php, line: 2335
 msgid "<i>keyid</i>"
-msgstr ""
+msgstr "<i>keyid</i>"
 
 # File: src/www/interfaces.php, line: 2337
 msgid "<i>secret</i>"
-msgstr ""
+msgstr "<i>secret</i>"
 
 # File: src/www/interfaces.php, line: 2339
 msgid "<i>expire</i>"
-msgstr ""
+msgstr "<i>expire</i>"
 
 # File: src/www/interfaces.php, line: 2704
 msgid "Configuration File Override"
-msgstr ""
+msgstr "構成ファイル上書き"
 
 msgid "6RD Rapid Deployment"
 msgstr "6RD Rapid Deployment"
