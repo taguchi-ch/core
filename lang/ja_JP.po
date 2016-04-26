@@ -8752,7 +8752,7 @@ msgid ""
 "does not need stateful configuration parameters such as IPv6 addresses or  "
 "prefixes."
 msgstr ""
-"このステートメントは、サーバの情報構成パラメータの交換にのみ dhcp6c に指定されます。"
+"このステートメントは、サーバとの情報構成パラメータの交換でのみ dhcp6c に指定されます。"
 "DNS サーバリストのアドレスはそのようなパラメータの一例です。このステートメントは"
 "クライアントが IPv6 アドレスやプレフィックスのようなステートフル構成パラメータを必要としない場合に便利です。"
 
@@ -8819,12 +8819,12 @@ msgstr "<i>ipv6-address</i>"
 # File: src/www/interfaces.php, line: 2271
 # File: src/www/interfaces.php, line: 2288
 msgid "<i>pltime</i>"
-msgstr ""
+msgstr "<i>pltime</i>"
 
 # File: src/www/interfaces.php, line: 2273
 # File: src/www/interfaces.php, line: 2290
 msgid "<i>vltime</i>"
-msgstr ""
+msgstr "<i>vltime</i>"
 
 msgid "Prefix Delegation"
 msgstr "プレフィックスデリゲーション"
@@ -8948,7 +8948,7 @@ msgid ""
 "The value in this field is the (Delegated) IPv6 prefix id. This determines "
 "the configurable network ID based on the dynamic IPv6 connection"
 msgstr ""
-"このフィールドの値は、(Delegated) IPv6 プレフィックス IDです。この値は、ダイナミック IPv6 接続に基づいた、"
+"このフィールドの値は、( 委譲された ) IPv6 プレフィックス IDです。この値は、ダイナミック IPv6 接続に基づいた、"
 "構成可能なネットワーク ID を決定します。"
 
 msgid ""
@@ -9115,7 +9115,7 @@ msgstr ""
 
 # File: src/www/interfaces.php, line: 3067
 msgid "Minimum standard"
-msgstr ""
+msgstr "最低基準"
 
 msgid "802.11g"
 msgstr "802.11g"
@@ -9285,7 +9285,7 @@ msgstr "このオプションは「WPA 装置を有効」をチェックする�
 
 # File: src/www/interfaces.php, line: 3275
 msgid "802.1X Server IP Address"
-msgstr ""
+msgstr "802.1X サーバ IP アドレス"
 
 msgid ""
 "Enter the IP address of the 802.1X Authentication Server.  This is commonly "
@@ -9295,43 +9295,43 @@ msgstr ""
 
 # File: src/www/interfaces.php, line: 3284
 msgid "802.1X Server Port"
-msgstr ""
+msgstr "802.1X サーバポート"
 
 msgid "Leave blank for the default 1812 port."
 msgstr "デフォルトの 1812 ポートの場合は空白にします。"
 
 # File: src/www/interfaces.php, line: 3293
 msgid "802.1X Server Shared Secret"
-msgstr ""
+msgstr "802.1X サーバ共有秘密鍵"
 
 # File: src/www/interfaces.php, line: 3299
 msgid "802.1X Server IP Address (2)"
-msgstr ""
+msgstr "802.1X サーバ IP アドレス (2)"
 
 msgid "Secondary 802.1X Authentication Server IP Address"
 msgstr "セカンダリ 802.1X 認証サーバの IP アドレス"
 
 # File: src/www/interfaces.php, line: 3309
 msgid "802.1X Server Port (2)"
-msgstr ""
+msgstr "802.1X サーバポート (2)"
 
 msgid "Secondary 802.1X Authentication Server Port"
 msgstr "セカンダリ 802.1X 認証サーバのポート"
 
 # File: src/www/interfaces.php, line: 3319
 msgid "802.1X Server Shared Secret (2)"
-msgstr ""
+msgstr "802.1X サーバ共有秘密鍵 (2)"
 
 msgid "Secondary 802.1X Authentication Server Shared Secret"
 msgstr "セカンダリ 802.1X 認証サーバの共有秘密鍵"
 
 # File: src/www/interfaces.php, line: 3328
 msgid "802.1X Roaming Preauth"
-msgstr ""
+msgstr "802.1X ローミング事前認証"
 
 # File: src/www/interfaces_assign.php, line: 49
 msgid "vlan %s on %s"
-msgstr ""
+msgstr "VLAN %s : %s"
 
 msgid "lan"
 msgstr "LAN"
@@ -9358,7 +9358,7 @@ msgstr "インタフェースは GIF トンネルの一部です。継続する�
 
 # File: src/www/interfaces_assign.php, line: 271
 msgid "Port %s was assigned to %d interfaces:"
-msgstr ""
+msgstr "ポート %s は %d インタフェースに割り当てられました: "
 
 msgid ""
 "You cannot set port %s to interface %s because this interface is a member of "
@@ -9367,7 +9367,7 @@ msgstr "%s ポートを %s インタフェースに設定できません。こ�
 
 # File: src/www/interfaces_assign.php, line: 299
 msgid "VLAN parent interface %s does not exist."
-msgstr ""
+msgstr "VLAN 親 インタフェース %s は存在しません。"
 
 msgid "Do you really want to delete this interface?"
 msgstr "本当にこのインタフェースを削除しますか？"
@@ -9378,19 +9378,17 @@ msgstr "ネットワークポート"
 msgid "delete interface"
 msgstr "インタフェースの削除"
 
-#, fuzzy
 msgid "Available network ports:"
-msgstr "ネットワークポートの割当て"
+msgstr "利用可能なネットワークポート: "
 
-#, fuzzy
 msgid "add selected interface"
-msgstr "インタフェースの削除"
+msgstr "選択したインタフェースを追加"
 
 # File: src/www/interfaces_assign.php, line: 527
 msgid ""
 "Interfaces that are configured as members of a LAGG interface will not be "
 "shown."
-msgstr ""
+msgstr "LAGG インタフェースのメンバとして構成されたインタフェースは表示されなくなります。"
 
 msgid "This bridge cannot be deleted because it is assigned as an interface."
 msgstr "このブリッジは削除できません。インタフェースとして割当てされています。"
@@ -9403,7 +9401,7 @@ msgstr "メンバ"
 
 # File: src/www/interfaces_bridge.php, line: 155
 msgid "edit bridge"
-msgstr ""
+msgstr "ブリッジを編集"
 
 msgid "Here you can configure bridging of interfaces."
 msgstr "インタフェースのブリッジを構成できます。"
@@ -9434,13 +9432,13 @@ msgstr "STP の転送保留カウント値は 1 - 10 の整数です。"
 
 # File: src/www/interfaces_bridge_edit.php, line: 143
 msgid "%s interface priority for STP needs to be an integer between 0 and 240."
-msgstr ""
+msgstr "STP での %s インタフェースの優先度は 0 - 240 の整数です。"
 
 # File: src/www/interfaces_bridge_edit.php, line: 149
 msgid ""
 "%s interface path cost for STP needs to be an integer between 1 and "
 "200000000."
-msgstr ""
+msgstr "STP での %s インタフェースのパスコストは 1 - 200000000 の整数です。"
 
 msgid "You must select at least 2 member interfaces for a bridge."
 msgstr "ブリッジには最低でも 2 つのメンバインタフェースを選択してください。"
@@ -9476,18 +9474,18 @@ msgstr "RSTP / STP"
 
 # File: src/www/interfaces_bridge_edit.php, line: 298
 msgid "Spanning Tree Protocol"
-msgstr ""
+msgstr "スパニングツリープロトコル"
 
 msgid "Enable spanning tree options for this bridge."
 msgstr "このブリッジにスパニングツリーオプションを有効"
 
 # File: src/www/interfaces_bridge_edit.php, line: 316
 msgid "RSTP"
-msgstr ""
+msgstr "RSTP"
 
 # File: src/www/interfaces_bridge_edit.php, line: 319
 msgid "STP"
-msgstr ""
+msgstr "STP"
 
 msgid "Protocol used for spanning tree."
 msgstr "スパニングツリーに使用されるプロトコル"
@@ -9586,7 +9584,7 @@ msgstr "エントリ"
 msgid ""
 "Set the size of the bridge address cache to size.  The default is .100 "
 "entries."
-msgstr ""
+msgstr "サイズには、ブリッジアドレスキャッシュのサイズを設定してください。デフォルトは .100 エントリです。"
 
 msgid "Cache entry expire time"
 msgstr "キャッシュエントリの有効期限"
@@ -9701,7 +9699,7 @@ msgstr "トンネル接続先..."
 # File: src/www/interfaces_lagg.php, line: 144
 # File: src/www/interfaces_vlan.php, line: 136
 msgid "edit interface"
-msgstr ""
+msgstr "インタフェースを編集"
 
 msgid "GIF tunnels are configured here."
 msgstr "GIF トンネルはここで構成します。"
@@ -9713,6 +9711,9 @@ msgid ""
 "Tunnelbroker dynamic DNS entry%s to keep your tunnel functional when your IP "
 "changes."
 msgstr ""
+"動的 IP を使用した WAN で Hurricane Electric (he.net) Tunnel Broker との接続に GIF トンネルを使っている場合は、"
+"IP 変更時にトンネル機能を維持するために、%sHE.net Tunnelbroker 動的 DNS エントリ%s を"
+"追加したくなるかもしれません。"
 
 msgid ""
 "Parent interface,Local address, Remote tunnel address, Remote tunnel "
@@ -9742,21 +9743,21 @@ msgstr "ここのインタフェースは、GIF トンネルに使用される�
 
 # File: src/www/interfaces_gif_edit.php, line: 205
 msgid "GIF remote address"
-msgstr ""
+msgstr "GIF リモートアドレス"
 
 msgid "Peer address where encapsulated gif packets will be sent. "
 msgstr "カプセル化した GIF パケットが送信されるピアアドレス"
 
 # File: src/www/interfaces_gif_edit.php, line: 214
 msgid "GIF tunnel local address"
-msgstr ""
+msgstr "GIF トンネルローカルアドレス"
 
 msgid "Local gif tunnel endpoint"
 msgstr "ローカル GIF トンネルエンドポイント"
 
 # File: src/www/interfaces_gif_edit.php, line: 223
 msgid "GIF tunnel remote address "
-msgstr ""
+msgstr "GIF トンネルリモートアドレス"
 
 msgid ""
 "Remote gif address endpoint. The subnet part is used for determining the "
@@ -9859,7 +9860,7 @@ msgstr "WCCP バージョン"
 msgid ""
 "Check this box for WCCP encapsulation version 2, or leave unchecked for "
 "version 1."
-msgstr ""
+msgstr "WCCP カプセル化バージョン 2 を使用する場合は、このボックスをチェックしてください。チェックしない場合はバージョン 1 を使用します。"
 
 msgid ""
 "Do you really want to delete this group? All elements that still use it will "
@@ -9890,7 +9891,7 @@ msgstr "グループ名に使用可能な文字は A - Z のみです"
 msgid ""
 "The specified group name is already used by an interface. Please choose "
 "another name."
-msgstr ""
+msgstr "指定したグループ名は、既にインタフェースが使用しています。他の名前を選択してください。"
 
 msgid "Interface Groups Edit"
 msgstr "インタフェースグループの編集"
@@ -9899,7 +9900,7 @@ msgid "Group Name"
 msgstr "グループ名"
 
 msgid "No numbers or spaces are allowed. Only characters in a-zA-Z"
-msgstr "数字やスペースは使用できません。A - Z のみが使用可です"
+msgstr "数字やスペースは使用できません。a - z A - Z のみが使用可です"
 
 msgid "Member (s)"
 msgstr "メンバ"
@@ -9909,13 +9910,13 @@ msgid ""
 "Rules for WAN type interfaces in groups do not contain the reply-to "
 "mechanism upon which Multi-WAN typically relies."
 msgstr ""
+"グループ内の WAN タイプインタフェースへのルールには reply-to は含みません。マルチ WAN の機構は通常信頼します。"
 
 msgid "This LAGG interface cannot be deleted because it is still being used."
 msgstr "この LAGG インタフェースを削除できません。まだ使用されています"
 
-#, fuzzy
 msgid "Do you really want to delete this LAGG interface?"
-msgstr "本当にこのインタフェースを削除しますか？"
+msgstr "本当にこの LAGG インタフェースを削除しますか？"
 
 msgid ""
 "LAGG allows for link aggregation, bonding and fault tolerance. Only "
@@ -10361,7 +10362,7 @@ msgstr "親として指定されたインタフェースは無効です"
 # File: src/www/interfaces_vlan_edit.php, line: 85
 msgid ""
 "Interface is assigned and you cannot change the VLAN tag while assigned."
-msgstr ""
+msgstr "インタフェースは割当てされました。割当て中は VLAN タグを変更できません。"
 
 msgid "A VLAN with the tag %s is already defined on this interface."
 msgstr "タグ %s の VLAN は、このインタフェースで既に定義されています"
@@ -10408,6 +10409,8 @@ msgid ""
 "Error creating interface with mode %s. The %s interface may not support "
 "creating more clones with the selected mode."
 msgstr ""
+"モード %s でのインタフェースの作成にエラーが発生しました。"
+"%s インタフェースは、選択したモードでこれ以上のクローン作成をサポートしていない可能性があります。"
 
 msgid "Wireless clone configuration"
 msgstr "無線クローン構成"
@@ -10483,6 +10486,8 @@ msgid ""
 "This feature is intended for server load balancing, not multi-WAN. For load "
 "balancing or failover for multiple WANs, use %sGateway Groups%s."
 msgstr ""
+"この機能はサーバのロードバランシング用で、マルチ WAN 用ではありません。"
+"マルチ WAN のロードバランシングもしくはフェイルオーバは、%sゲートウェイグループ%sを使用してください。"
 
 msgid "Server List"
 msgstr "サーバリスト"
@@ -10492,11 +10497,10 @@ msgstr "このプール名は既に使用されています。プール名は固
 
 # File: src/www/load_balancer_pool_edit.php, line: 81
 msgid "The name '%s' is a reserved word and cannot be used."
-msgstr ""
+msgstr "「%s」という名前は予約語ですので、使用できません。"
 
-#, fuzzy
 msgid "Sorry, an alias is already named %s."
-msgstr "%s という名前のインタフェースは既にあります"
+msgstr "申し訳ありませんが、%s という名前のエイリアスは既にあります。"
 
 msgid "The port must be an integer between 1 and 65535, or a port alias."
 msgstr "ポートは、1-65535 の整数、または、ポートエイリアスです"
@@ -10582,7 +10586,7 @@ msgstr "prefork 値は 1 - 32 です"
 
 # File: src/www/load_balancer_setting.php, line: 117
 msgid "Global settings"
-msgstr ""
+msgstr "全般設定"
 
 msgid "timeout"
 msgstr "タイムアウト"
@@ -10603,11 +10607,10 @@ msgstr "プールのメンバをチェックする間隔を、秒単位で設定
 msgid "prefork"
 msgstr "prefork"
 
-#, fuzzy
 msgid ""
 "Number of processes used by relayd for dns protocol. Leave blank to use the "
 "default value of 5 processes"
-msgstr "relayd が使用するプロセス数です。空白の場合は、デフォルト値の 5 プロセスを使用します。"
+msgstr "DNS プロトコルに対して relayd が使用するプロセス数です。空白の場合は、デフォルト値の 5 プロセスを使用します。"
 
 msgid "The virtual server configuration has been changed"
 msgstr "仮想サーバの構成が変更されました"
@@ -10641,7 +10644,7 @@ msgstr "%s は IP アドレスが 64 個以上含まれるサブネットです"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 89
 msgid "You cannot select a Fall Back Pool when using the DNS relay protocol."
-msgstr ""
+msgstr "DNS リレープロトコルの使用時は、フォールバックプールを選択できません。"
 
 msgid "Edit Load Balancer - Virtual Server entry"
 msgstr "ロードバランサの編集 - 仮想サーバエントリ"
@@ -10670,15 +10673,14 @@ msgstr "仮想サーバプール"
 msgid "Please add a pool on the Pools tab to use this feature."
 msgstr "この機能を使用するには、プールタブで、プールを追加してください"
 
-#, fuzzy
 msgid ""
 "The server pool to which clients will be redirected if *ALL* servers in the "
 "Virtual Server Pool are offline."
-msgstr "プールにある「全ての」サーバがオフラインの場合は、クライアントはこのサーバにリダイレクトされます。"
+msgstr "仮装サーバプールにある「全ての」サーバがオフラインの場合は、クライアントはこのサーバプールにリダイレクトされます。"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 244
 msgid "This option is NOT compatible with the DNS relay protocol."
-msgstr ""
+msgstr "このオプションは DNS リレープロトコルと互換性が「ありません」。"
 
 msgid "Submit"
 msgstr "設定"
@@ -10737,15 +10739,13 @@ msgstr "最大リース期間は 60 秒以上で、かつ、デフォルトリ�
 msgid "A valid domain name must be specified for the dynamic DNS registration."
 msgstr "ダイナミック DNS 登録に有効なドメイン名を指定してください"
 
-#, fuzzy
 msgid ""
 "A valid primary domain name server IP address must be specified for the "
 "dynamic domain name."
-msgstr "DNS ドメインに有効なドメイン名を指定してください"
+msgstr "動的ドメイン名に、有効なプライマリドメインネームサーバ IP アドレスを指定してください。"
 
-#, fuzzy
 msgid "You must specify both a valid domain key and key name."
-msgstr "有効なポート番号を指定してください"
+msgstr "有効なドメイン認証鍵と鍵名を指定してください。"
 
 msgid "A valid domain search list must be specified."
 msgstr "有効なドメイン検索リストを指定してください"
