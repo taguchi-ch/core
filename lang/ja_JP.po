@@ -9910,7 +9910,7 @@ msgid ""
 "Rules for WAN type interfaces in groups do not contain the reply-to "
 "mechanism upon which Multi-WAN typically relies."
 msgstr ""
-"グループ内の WAN タイプインタフェースへのルールには reply-to は含みません。マルチ WAN の機構は通常信頼します。"
+"グループ内の WAN タイプインタフェースへのルールには reply-to メカニズムは含みません。マルチ WAN は通常信頼します。"
 
 msgid "This LAGG interface cannot be deleted because it is still being used."
 msgstr "この LAGG インタフェースを削除できません。まだ使用されています"
@@ -10500,7 +10500,7 @@ msgid "The name '%s' is a reserved word and cannot be used."
 msgstr "「%s」という名前は予約語ですので、使用できません。"
 
 msgid "Sorry, an alias is already named %s."
-msgstr "申し訳ありませんが、%s という名前のエイリアスは既にあります。"
+msgstr "残念ですが、%s という名前のエイリアスは既に存在します。"
 
 msgid "The port must be an integer between 1 and 65535, or a port alias."
 msgstr "ポートは、1-65535 の整数、または、ポートエイリアスです"
@@ -10676,7 +10676,7 @@ msgstr "この機能を使用するには、プールタブで、プールを追
 msgid ""
 "The server pool to which clients will be redirected if *ALL* servers in the "
 "Virtual Server Pool are offline."
-msgstr "仮装サーバプールにある「全ての」サーバがオフラインの場合は、クライアントはこのサーバプールにリダイレクトされます。"
+msgstr "仮想サーバプールにある「全ての」サーバがオフラインの場合は、クライアントはこのサーバプールにリダイレクトされます。"
 
 # File: src/www/load_balancer_virtual_server_edit.php, line: 244
 msgid "This option is NOT compatible with the DNS relay protocol."
@@ -10787,6 +10787,8 @@ msgid ""
 "Cannot enable static ARP when you have static map entries without IP "
 "addresses. Ensure all static maps have IP addresses and try again."
 msgstr ""
+"IP アドレスのない静的マップエントリがあると、静的 ARP は有効にできません。"
+"全ての静的マップに IP アドレスを持たせてから、再試行してください。"
 
 msgid "Text type cannot include quotation marks."
 msgstr "text 型には、クォーテーションマークは使用できません"
@@ -10947,14 +10949,14 @@ msgstr ""
 "注意: システムデフォルトの DNS サーバを使用する場合は空白にしてください - DNS フォワーダが有効な場合は、このインタフェースの IP "
 "を、それ以外の場合は、全般ページでサーバを構成してください。"
 
-#, fuzzy
 msgid ""
 "The default is to use the IP on this interface of the firewall as the "
 "gateway. Specify an alternate gateway here if this is not the correct "
 "gateway for your network. Type \"none\" for no gateway assignment."
 msgstr ""
-"デフォルトでは、このファイアウォールインタフェースの IP "
-"をゲートウェイとして使用します。これがネットワークの正しいゲートウェイでない場合は、ここで、別のゲートウェイを指定してください。"
+"デフォルトでは、ファイアウォールのこのインタフェースに設定されている IP をゲートウェイとして使用します。"
+"これがネットワークの正しいゲートウェイでない場合は、ここで、別のゲートウェイを指定してください。"
+"「なし」タイプにすると、ゲートウェイ割当てを行いません。"
 
 msgid "Domain name"
 msgstr "ドメイン名"
@@ -10969,11 +10971,10 @@ msgstr ""
 msgid "Domain search list"
 msgstr "ドメインサーチリスト"
 
-#, fuzzy
 msgid ""
 "The DHCP server can optionally provide a domain search list. Use the "
 "semicolon character as separator "
-msgstr "オプションで、DHCP サーバはドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください。"
+msgstr "DHCP サーバは、オプションでドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください "
 
 msgid "Default lease time"
 msgstr "デフォルトリース期間"
@@ -11021,6 +11022,8 @@ msgid ""
 "machines listed below will be able to communicate with the firewall on this "
 "NIC."
 msgstr ""
+"警告: このオプションは DHCP サーバが無効の場合でも保持されます。"
+"下記のリストにあるマシンのみが、この NIC でファイアウォールと通信できます。"
 
 msgid "Time format change"
 msgstr "時間形式の変更"
@@ -11034,6 +11037,9 @@ msgid ""
 "box DHCP lease time will be displayed in local time and set to time zone "
 "selected. This will be used for all DHCP interfaces lease time."
 msgstr ""
+"警告: デフォルトでは DHCP リースは UTC 時間で表示されます。このボックスをチェックすると、"
+"DHCP リース時間は現地時間表示になり、選択されたタイムゾーンに設定されます。この設定は、全ての DHCP "
+"インタフェースのリース時間に適用されます。"
 
 msgid "Dynamic DNS"
 msgstr "ダイナミック DNS"
@@ -11057,19 +11063,17 @@ msgstr "DNS サーバで、クライアント名の登録に使用される、�
 # File: src/www/services_dhcpv6.php, line: 683
 msgid ""
 "Enter the primary domain name server IP address for the dynamic domain name."
-msgstr ""
+msgstr "ダイナミックドメイン名で使用する、プライマリドメインネームサーバ IP アドレスを入力してください。"
 
-#, fuzzy
 msgid ""
 "Enter the dynamic DNS domain key name which will be used to register client "
 "names in the DNS server."
-msgstr "DNS サーバで、クライアント名の登録に使用される、ダイナミック DNS ドメインを入力してください。"
+msgstr "DNS サーバでクライアント名の登録に使用される、ダイナミック DNS ドメイン鍵名を入力してください。"
 
-#, fuzzy
 msgid ""
 "Enter the dynamic DNS domain key secret which will be used to register "
 "client names in the DNS server."
-msgstr "DNS サーバで、クライアント名の登録に使用される、ダイナミック DNS ドメインを入力してください。"
+msgstr "DNS サーバでクライアント名の登録に使用される、ダイナミック DNS ドメイン秘密鍵を入力してください。"
 
 msgid "MAC Address Control"
 msgstr "MAC アドレス管理"
@@ -11131,27 +11135,23 @@ msgstr "IP アドレスを入力してください: "
 msgid "next-server"
 msgstr "next-server"
 
-#, fuzzy
 msgid "and the default bios filename"
-msgstr "ファイル名を入力してください: "
+msgstr "及び、デフォルト BIOS ファイル名"
 
-#, fuzzy
 msgid "and the UEFI 32bit filename  "
-msgstr "ファイル名を入力してください: "
+msgstr "及び、UEFI 32bit ファイル名 "
 
-#, fuzzy
 msgid "and the UEFI 64bit filename  "
-msgstr "ファイル名を入力してください: "
+msgstr "及び、UEFI 64bit ファイル名 "
 
 msgid ""
 "Note: You need both a filename and a boot server configured for this to work!"
-msgstr "注意: これが機能するように設定するには、ファイル名と起動サーバの構成の両方が必要です！"
+msgstr "注意: これを機能させるには、ファイル名と起動サーバの構成の両方が必要です！"
 
-#, fuzzy
 msgid ""
 "You will need all three filenames and a boot server configured for UEFI to "
 "work!"
-msgstr "注意: これが機能するように設定するには、ファイル名と起動サーバの構成の両方が必要です！"
+msgstr "UEFI を機能させるには、3 つ全てのファイル名と起動サーバの構成が必要です！"
 
 msgid "Enter the"
 msgstr "以下を入力してください: "
@@ -11219,9 +11219,8 @@ msgstr "このインタフェースの DHCP 静的マッピング"
 msgid "Do you really want to delete this mapping?"
 msgstr "本当にこのマッピングを削除しますか？"
 
-#, fuzzy
 msgid "Either MAC address or Client identifier must be specified"
-msgstr "「ピア識別子」には有効な IP アドレスを指定してください"
+msgstr "MAC アドレス、もしくはクライアント識別子のいずれかを指定してください"
 
 msgid "The hostname cannot end with a hyphen according to RFC952"
 msgstr "ホスト名は RFC952 により、末尾をハイフンにできません"
@@ -11233,9 +11232,8 @@ msgstr "有効なホスト名が指定されていますが、ドメイン名部
 msgid "Static ARP is enabled.  You must specify an IP address."
 msgstr "静的 ARP が有効です。IP アドレスを指定してください"
 
-#, fuzzy
 msgid "This Hostname, IP, MAC address or Client identifier already exists."
-msgstr "このホスト名、IP、または、DUID 識別子は既に存在しています"
+msgstr "このホスト名、IP、MAC アドレス、もしくは、クライアント識別子は既に存在しています。"
 
 msgid "The IP address must not be within the DHCP range for this interface."
 msgstr "このインタフェースの DHCP 範囲内ではない IP アドレスを設定してください"
@@ -11257,9 +11255,8 @@ msgstr "自分の MAC アドレスを複写"
 msgid "Enter a MAC address in the following format: xx:xx:xx:xx:xx:xx"
 msgstr "次の形式で MAC アドレスを入力してください: xx:xx:xx:xx:xx:xx"
 
-#, fuzzy
 msgid "Client identifier"
-msgstr "ピア識別子"
+msgstr "クライアント識別子"
 
 msgid "If an IPv4 address is entered, the address must be outside of the pool."
 msgstr "入力される IPv4 アドレスは、プールの範囲外である必要があります。"
@@ -11273,7 +11270,7 @@ msgstr "ドメイン部分のないホスト名です。"
 
 # File: src/www/services_dhcp_edit.php, line: 400
 msgid "Netboot Filename"
-msgstr ""
+msgstr "ネットブートファイル名"
 
 # File: src/www/services_dhcp_edit.php, line: 403
 # File: src/www/services_dhcpv6_edit.php, line: 225
@@ -11281,11 +11278,12 @@ msgid ""
 "Name of the file that should be loaded when this host boots off of the "
 "network, overrides setting on main page."
 msgstr ""
+"ファイルの名前は、このホストのネットワークブートがオフの場合に読み込まれ、メインページの設定で上書きされます。"
 
 # File: src/www/services_dhcp_edit.php, line: 406
 # File: src/www/services_dhcpv6_edit.php, line: 228
 msgid "Root Path"
-msgstr ""
+msgstr "ルートパス"
 
 # File: src/www/services_dhcp_edit.php, line: 409
 # File: src/www/services_dhcpv6_edit.php, line: 231
@@ -11295,9 +11293,8 @@ msgstr ""
 msgid "ARP Table Static Entry"
 msgstr "ARP テーブル静的エントリ"
 
-#, fuzzy
 msgid "Create an ARP Table Static Entry for this MAC &amp; IP Address pair. "
-msgstr "この MAC & IP アドレスペアに対して、ARP テーブル静的エントリを作成します。"
+msgstr "この MAC &amp; IP アドレスペアに対して、ARP テーブル静的エントリを作成します。"
 
 msgid ""
 "The default is to use the IP on this interface of the firewall as the "
@@ -11329,7 +11326,7 @@ msgstr "インタフェースで DHCP リレーを有効"
 # File: src/www/services_dhcpv6_relay.php, line: 155
 # File: src/www/services_ntpd.php, line: 230
 msgid "Interface(s)"
-msgstr ""
+msgstr "インタフェース"
 
 msgid "Interfaces without an IP address will not be shown."
 msgstr "IP アドレスが設定されていないインタフェースは表示されません。"
@@ -11361,6 +11358,8 @@ msgid ""
 "The DHCPv6 Server can only be enabled on interfaces configured with static "
 "IP addresses. Only interfaces configured with a static IP will be shown."
 msgstr ""
+"DHCPv6 サーバは静的 IP アドレスで構成されたインタフェースでのみ有効にできます。静的 IP で構成された"
+"インタフェースのみ表示されます。"
 
 msgid "A valid prefix range must be specified."
 msgstr "有効なプレフィックス範囲を指定してください"
@@ -11372,11 +11371,10 @@ msgid ""
 "A valid IPv6 address must be specified for the primary/secondary DNS servers."
 msgstr "プライマリ / セカンダリ DNS サーバに、有効な IPv6 アドレスを指定してください"
 
-#, fuzzy
 msgid ""
 "A valid primary domain name server IPv4 address must be specified for the "
 "dynamic domain name."
-msgstr "DNS ドメインに有効なドメイン名を指定してください"
+msgstr "動的ドメイン名に、有効なプライマリドメインネームサーバ IPv4 アドレスを指定してください。"
 
 msgid ""
 "A valid IPv6 address must be specified for the primary/secondary NTP servers."
@@ -11385,9 +11383,8 @@ msgstr "プライマリ / セカンダリ NTP サーバに、有効な IPv6 ア�
 msgid "A valid IPv6 address or hostname must be specified for the TFTP server."
 msgstr "TFTP サーバに、有効な IPv6 アドレス、もしくはホスト名を指定してください"
 
-#, fuzzy
 msgid "A valid URL must be specified for the network bootfile."
-msgstr "ネットワーク起動サーバに有効な IP アドレスを指定してください"
+msgstr "ネットワークブートファイルに有効な URL を指定してください。"
 
 msgid "The subnet range cannot overlap with virtual IPv6 address %s."
 msgstr "サブネット範囲は、仮想 IPv6 アドレス %s と重複できません"
@@ -11407,27 +11404,24 @@ msgstr "プレフィックスデリゲーション範囲"
 msgid "Prefix Delegation Size"
 msgstr "プレフィックスデリゲーションサイズ"
 
-#, fuzzy
 msgid ""
 "You can define a Prefix range here for DHCP Prefix Delegation. This allows "
 "for\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t\tassigning networks to subrouters. The start and "
 "end of the range must end on boundaries of the prefix delegation size."
 msgstr ""
-"DHCP プレフィックスデリゲーションのプレフィックス範囲をここで定義できます。\n"
-"\t\t\t\t\t"
-"サブルータにネットワーク割当てを許可します。範囲の先頭と末尾は、プレフィックスデリゲーションサイズの限度内に収まっている必要があります。"
+"DHCP プレフィックスデリゲーションのプレフィックス範囲をここで定義できます。この設定はサブルータにネットワーク割当てを許可します。\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t"
+"範囲の先頭と末尾は、プレフィックスデリゲーションサイズの両端になります。"
 
-#, fuzzy
 msgid ""
 "The DHCP server can optionally provide a domain search list. Use the "
 "semicolon character as separator"
-msgstr "オプションで、DHCP サーバはドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください。"
+msgstr "DHCP サーバは、オプションでドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください"
 
 msgid "Change DHCPv6 display lease time from UTC to local time."
 msgstr "DHCPv6 リースの時間表示を、UTC から現地時間に変更します。"
 
-#, fuzzy
 msgid ""
 "By default DHCPv6 leases are displayed in UTC time.  By checking this\n"
 "\t\t\t\t\t\t\t\t\t\t\t\t\t\tbox DHCPv6 lease time will be displayed in local "
@@ -11435,12 +11429,11 @@ msgid ""
 "interfaces lease time."
 msgstr ""
 "デフォルトでは、DHCPv6 リースは UTC 時間で表示されます。このボックスをチェックすると\n"
-"\t\t\t\t\t\tDHCPv6 リースは現地時間表示になり、選択されたタイムゾーンに設定されます。全ての DHCPv6 "
-"インタフェースのリース時間に適用されます。"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tDHCPv6 リースは現地時間表示になり、選択されたタイムゾーンに設定されます。"
+"この設定は、全ての DHCPv6 インタフェースのリース時間に適用されます。"
 
-#, fuzzy
 msgid "Enter the Bootfile URL"
-msgstr "生成 / 発行されたバウチャーの一番上にあるロールの"
+msgstr "ブートファイルの URL を入力"
 
 msgid "Delete"
 msgstr "削除"
@@ -11474,7 +11467,7 @@ msgstr "次の形式で DUID 識別子を入力してください: "
 
 # File: src/www/services_dhcpv6_edit.php, line: 201
 msgid "DUID-LLT - ETH -- TIME --- ---- ADDR ----"
-msgstr ""
+msgstr "DUID-LLT - ETH -- TIME --- ---- ADDR ----"
 
 msgid "If an IPv6 address is entered, the address must be outside of the pool."
 msgstr "入力される IPv6 アドレスは、プールの範囲外である必要があります。"
@@ -11485,7 +11478,7 @@ msgstr "IPv6 アドレスが指定されていない場合は、プールから�
 
 # File: src/www/services_dhcpv6_edit.php, line: 222
 msgid "Netboot filename"
-msgstr ""
+msgstr "ネットブートファイル名"
 
 msgid "A valid Destination Server IPv6 address  must be specified."
 msgstr "有効な送信先サーバ IPv6 アドレスを指定してください。"
