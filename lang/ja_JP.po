@@ -11288,7 +11288,7 @@ msgstr "ルートパス"
 # File: src/www/services_dhcp_edit.php, line: 409
 # File: src/www/services_dhcpv6_edit.php, line: 231
 msgid "Enter the root-path-string, overrides setting on main page."
-msgstr ""
+msgstr "メインページの設定で上書きする、ルートパス文字列を入力してください。"
 
 msgid "ARP Table Static Entry"
 msgstr "ARP テーブル静的エントリ"
@@ -11315,6 +11315,8 @@ msgid ""
 "DHCP Server is currently enabled. Cannot enable the DHCP Relay service while "
 "the DHCP Server is enabled on any interface."
 msgstr ""
+"DHCP サーバは現在有効になっています。DHCP サーバが有効になっているインタフェースがある場合は、"
+"DHCP リレーサービスを有効にできません。"
 
 msgid "DHCP Relay configuration"
 msgstr "DHCP リレー構成"
@@ -11429,7 +11431,7 @@ msgid ""
 "interfaces lease time."
 msgstr ""
 "デフォルトでは、DHCPv6 リースは UTC 時間で表示されます。このボックスをチェックすると\n"
-"\t\t\t\t\t\t\t\t\t\t\t\t\t\tDHCPv6 リースは現地時間表示になり、選択されたタイムゾーンに設定されます。"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tDHCPv6 リース時間は現地時間表示になり、選択されたタイムゾーンに設定されます。"
 "この設定は、全ての DHCPv6 インタフェースのリース時間に適用されます。"
 
 msgid "Enter the Bootfile URL"
@@ -11488,6 +11490,8 @@ msgid ""
 "DHCPv6 Server is currently enabled.  Cannot enable the DHCPv6 Relay service "
 "while the DHCPv6 Server is enabled on any interface."
 msgstr ""
+"DHCPv6 サーバは現在有効になっています。DHCPv6 サーバが有効になっているインタフェースがある場合は、"
+"DHCPv6 リレーサービスを有効にできません。"
 
 msgid "DHCPv6 Relay configuration"
 msgstr "DHCPv6 リレー構成"
@@ -11505,14 +11509,11 @@ msgstr ""
 "これがチェックされている場合は、DHCPv6 リレーは、回線 ID ( %s インタフェース番号 ) と、エージェント ID を DHCPv6 "
 "リクエストに追加します。"
 
-#, fuzzy
 msgid ""
 "This is the IPv6 address of the server to which DHCPv6 requests are relayed. "
 "You can enter multiple server IPv6 addresses, separated by commas. "
 msgstr ""
-"DHCPv6 リクエストをリレーするサーバの IPv6 アドレスです。コンマ区切りで、複数のサーバの IPv6 アドレスを入力できます。WAN "
-"インタフェースで DHCPv6 パケットをサーバにリレーするには、「プロキシが WAN サブネットの DHCPv6 "
-"サーバにリクエスト」を選択してください。"
+"DHCPv6 リクエストをリレーするサーバの IPv6 アドレスです。コンマ区切りで、複数のサーバの IPv6 アドレスを入力できます。"
 
 msgid "You must specify a valid port number"
 msgstr "有効なポート番号を指定してください"
@@ -11522,7 +11523,7 @@ msgstr "無効なカスタムオプション"
 
 # File: src/www/services_dnsmasq.php, line: 178
 msgid "The DNS forwarder configuration has been changed."
-msgstr ""
+msgstr "DNS フォワーダの構成が変更されました。"
 
 msgid "General DNS Forwarder Options"
 msgstr "DNS フォワーダ全般オプション"
@@ -11652,14 +11653,13 @@ msgid ""
 msgstr "注意: このオプションは IPv6 では動作「しません」。設定された場合、dnsmasq は IPv6 アドレスをバインドしません。"
 
 msgid "Show advanced option"
-msgstr "高度なオプションを表示"
+msgstr "詳細オプションを表示"
 
 msgid ""
 "Enter any additional options you would like to add to the dnsmasq "
 "configuration here, separated by a space or newline"
 msgstr "Dnsmasq 構成の追加オプションを入力します。空白、または、改行で区切ります。"
 
-#, fuzzy
 msgid ""
 "If the DNS forwarder is enabled, the DHCP service (if enabled) will "
 "automatically serve the LAN IP address as a DNS server to DHCP clients so "
@@ -11670,11 +11670,11 @@ msgid ""
 "IP address on WAN), you must manually specify at least one DNS server on the "
 "%sSystem: General setup%s page."
 msgstr ""
-"DNS フォワーダが有効な場合、DHCP サービス ( 有効であれば ) は自動的に DHCP クライアントに、DNS サーバの LAN IP "
-"アドレスを提供し、クライアントはそのアドレスを DNS フォワーダとして使用します。DNS フォワーダが使用する DNS サーバは、%sシステム: "
-"全般設定%s で入力されたものか、もしくは、&quot;WAN の DHCP/PPP による DNS サーバリストの上書きを許可&quot; "
+"DNS フォワーダが有効な場合、DHCP サービス ( 有効であれば ) は自動的にその LAN IP アドレスを DNS サーバとして DHCP クライアントに、"
+"提供し、クライアントはそのアドレスを DNS フォワーダとして使用します。DNS フォワーダが使用する DNS サーバは、%sシステム: "
+"全般設定%sで入力されたものか、もしくは、&quot;WAN の DHCP/PPP による DNS サーバリストの上書きを許可&quot; "
 "がチェックされている場合に、WAN の DHCP か PPP 経由で得られるものです。そのオプションを使用しない ( もしくは WAN で 静的 IP "
-"アドレスを使用する ) 場合は、%sシステム: 全般設定%s ページで 1 つ以上の DNS サーバを手動で指定する必要があります。"
+"アドレスを使用する ) 場合は、%sシステム: 全般設定%sページで 1 つ以上の DNS サーバを手動で指定する必要があります。"
 
 msgid "Host Overrides"
 msgstr "ホストオーバーライド"
@@ -11695,11 +11695,12 @@ msgstr "本当にこのホストを削除しますか？"
 msgid "Domain Overrides"
 msgstr "ドメインオーバーライド"
 
-#, fuzzy
 msgid ""
 "Entries in this area override an entire domain, and subdomains, by "
 "specifying an authoritative DNS server to be queried for that domain."
-msgstr "このエリアのエントリは、そのドメインに対する問い合わせに使用される、権威 DNS サーバが指定するドメイン全体を上書きします。"
+msgstr ""
+"そのドメインに対して問い合わせされる権威 DNS サーバを設定することにより、"
+"このエリアのエントリはドメイン全体及びサブドメインを上書きします。
 
 msgid "Do you really want to delete this domain override?"
 msgstr "本当にこのドメインオーバーライドを削除しますか？"
@@ -11806,15 +11807,14 @@ msgstr "サービスタイプ"
 msgid "Update URL"
 msgstr "更新 URL"
 
-#, fuzzy
 msgid "The Hostname contains invalid characters."
-msgstr "ホスト名に無効な文字が含まれています"
+msgstr "ホスト名に無効な文字が含まれています。"
 
 msgid "The MX contains invalid characters."
-msgstr "MX には無効な文字が含まれています"
+msgstr "MX に無効な文字が含まれています。"
 
 msgid "The username contains invalid characters."
-msgstr "ユーザ名に無効な文字が含まれています"
+msgstr "ユーザ名に無効な文字が含まれています。"
 
 msgid "Dynamic DNS client"
 msgstr "ダイナミック DNS クライアント"
@@ -11844,12 +11844,12 @@ msgstr "MX"
 msgid ""
 "Note: With a dynamic DNS service you can only use a hostname, not an IP "
 "address."
-msgstr ""
+msgstr "注意: ダイナミック DNS サービスでは、IP アドレスではなくホスト名のみが使用可能です。"
 
 msgid ""
 "Set this option only if you need a special MX record. Not all services "
 "support this."
-msgstr "特別な MX レコードが必要な場合だけ、このオプションを設定してください。全てのサービスが、これに対応しているわけではありません。"
+msgstr "特別な MX レコードが必要な場合だけ、このオプションを設定してください。全てのサービスがこれに対応しているわけではありません。"
 
 msgid "Wildcards"
 msgstr "ワイルドカード"
@@ -11866,17 +11866,16 @@ msgstr "詳細ログ"
 msgid "verbose logging"
 msgstr "詳細ログ"
 
-#, fuzzy
 msgid "CURL options"
-msgstr "RADIUS オプション"
+msgstr "CURL オプション"
 
 # File: src/www/services_dyndns_edit.php, line: 357
 msgid "Force IPv4 resolving"
-msgstr ""
+msgstr "IPv4 解決を強制"
 
 # File: src/www/services_dyndns_edit.php, line: 359
 msgid "Verify SSL peer"
-msgstr ""
+msgstr "SSL ピアを検証"
 
 msgid ""
 "Username is required for all types except Namecheap, FreeDNS and Custom "
@@ -11888,7 +11887,7 @@ msgstr "Route 53: 自分のアクセス鍵 ID を入力してください。"
 
 # File: src/www/services_dyndns_edit.php, line: 368
 msgid "Duck DNS: Enter your Token."
-msgstr ""
+msgstr "Duck DNS: トークンを入力してください。"
 
 msgid ""
 "For Custom Entries, Username and Password represent HTTP Authentication "
@@ -11905,7 +11904,7 @@ msgstr "Route 53: 自分の秘密アクセス鍵を入力してください。"
 
 # File: src/www/services_dyndns_edit.php, line: 379
 msgid "Duck DNS: Leave blank."
-msgstr ""
+msgstr "Duck DNS: 空白のままにする。"
 
 msgid "Zone ID"
 msgstr "ゾーン ID"
@@ -11935,13 +11934,14 @@ msgid ""
 "if the update succeeds, leave it blank to disable checking of returned "
 "results."
 msgstr ""
+"このフィールドは、更新が成功した場合に、ダイナミック DNS プロバイダが返してくる内容と同一になるようにしてください。"
+"空白にすると、戻り値チェックは無効になります。"
 
-#, fuzzy
 msgid ""
 "If you need to include multiple possible values, separate them with a |.  If "
 "your provider includes a |, escape it with \\|"
 msgstr ""
-"複数の可能な値を含める必要がある場合は、| で区切ってください。プロバイダが | を値に含めている場合は、それを \\| でエスケープしてください。"
+"とり得る値を複数使用する必要がある場合は | で区切ってください。プロバイダが | を値に含めている場合は \\| でエスケープしてください。"
 
 msgid ""
 "Tabs (\\t), newlines (\\n"
@@ -11960,7 +11960,6 @@ msgstr "DNS レコードの TTL を選択してください。"
 msgid "Save & Force Update"
 msgstr "保存 & 強制更新"
 
-#, fuzzy
 msgid ""
 "You must configure a DNS server in %sSystem:\n"
 "\t\t\t\t\t                    General setup%s or allow the DNS server list "
@@ -11968,9 +11967,9 @@ msgid ""
 "\t\t\t\t\t                    by DHCP/PPP on WAN for dynamic DNS updates to "
 "work."
 msgstr ""
-"ダイナミック DNS 更新を動作させるには\n"
+"ダイナミック DNS の更新を動作させるには\n"
 "                    %sシステム: 全般設定%s で DNS サーバの構成をするか、\n"
-"                    もしくは、WAN の DHCP/PPP による DNS サーバリストの上書きを許可してください"
+"                    もしくは、WAN の DHCP/PPP による DNS サーバリストの上書きを許可してください。"
 
 msgid "add a new igmpentry"
 msgstr "新規 IGMP エントリの追加"
@@ -11981,7 +11980,6 @@ msgstr "IGMP エントリリストが変更されました"
 msgid "edit igmpentry"
 msgstr "IGMP エントリの編集"
 
-#, fuzzy
 msgid ""
 "Do you really want to delete this igmp entry? All elements that still use it "
 "will become invalid (e.g. filter rules)!"
@@ -12032,7 +12030,6 @@ msgstr ""
 msgid "Threshold"
 msgstr "しきい値"
 
-#, fuzzy
 msgid ""
 "Defines the TTL threshold for  the  network  interface.  Packets with  a "
 "lower TTL than the threshold value will be ignored. This setting is "
@@ -12047,9 +12044,8 @@ msgstr "ネットワーク"
 msgid "CIDR"
 msgstr "CIDR"
 
-#, fuzzy
 msgid "Add another Time server"
-msgstr "他のスケジュールを追加"
+msgstr "他のタイムサーバを追加"
 
 msgid "NTP Server Configuration"
 msgstr "NTP サーバ構成"
@@ -12064,39 +12060,41 @@ msgstr "全てのインタフェースが選択されている場合は、明示
 
 # File: src/www/services_ntpd.php, line: 261
 msgid "Time servers"
-msgstr ""
+msgstr "タイムサーバ"
 
 # File: src/www/services_ntpd.php, line: 280
 msgid "prefer this server"
-msgstr ""
+msgstr "このサーバを優先"
 
 # File: src/www/services_ntpd.php, line: 283
 msgid "do not use this server"
-msgstr ""
+msgstr "このサーバを使用しない"
 
 # File: src/www/services_ntpd.php, line: 296
 msgid "For best results three to five servers should be configured here."
-msgstr ""
+msgstr "最良の結果を出すには、ここで 3 - 5 個のサーバを構成しておくべきです。"
 
 # File: src/www/services_ntpd.php, line: 292
 msgid ""
 "The %sprefer%s option indicates that NTP should favor the use of this server "
 "more than all others."
-msgstr ""
+msgstr "%s優先%sオプションは、NTP に他の全てのサーバよりもこのサーバを優先して使用させるという意味になります。"
 
 # File: src/www/services_ntpd.php, line: 294
 msgid ""
 "The %snoselect%s option indicates that NTP should not use this server for "
 "time, but stats for this server will be collected and displayed."
 msgstr ""
+"%s選択しない%s"オプションは、NTP に時間用としてこのサーバを使用させないという意味になります。"
+"しかし、このサーバの統計は収集され、表示されます。"
 
 # File: src/www/services_ntpd.php, line: 299
 msgid "Orphan mode"
-msgstr ""
+msgstr "Orphan mode"
 
 # File: src/www/services_ntpd.php, line: 306
 msgid "(0-15)"
-msgstr ""
+msgstr "(0-15)"
 
 # File: src/www/services_ntpd.php, line: 307
 msgid ""
@@ -12105,56 +12103,56 @@ msgid ""
 "and should normally be set to a number high enough to insure that any other "
 "servers available to clients are preferred over this server. (default: 12)."
 msgstr ""
+"Orphan mode は、他の時計が利用可能ではない場合に、システム時計を使用することを許可します。"
+"ここで指定する番号は、orphan mode の間に報告される階層で、一般的には高い番号を設定し、"
+"クライアントにこのサーバよりも、他の利用可能なサーバを確実に選択させるべきです ( デフォルト: 12 )。"
 
 # File: src/www/services_ntpd.php, line: 306
 msgid "NTP graphs"
-msgstr ""
+msgstr "NTP グラフ"
 
 # File: src/www/services_ntpd.php, line: 314
 msgid "Enable rrd graphs of NTP statistics (default: disabled)."
-msgstr ""
+msgstr "NTP 統計の RRD グラフを有効にする ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 313
 msgid "Syslog logging"
-msgstr ""
+msgstr "Syslog ログ"
 
-#, fuzzy
 msgid "Status > System Logs > NTP"
-msgstr "Web 設定 - ステータス: システムログ: NTP ページ"
+msgstr "ステータス > システムログ > NTP"
 
 # File: src/www/services_ntpd.php, line: 320
 msgid ""
 "These options enable additional messages from NTP to be written to the "
 "System Log"
-msgstr ""
+msgstr "これらのオプションは、NTP からの追加メッセージのシステムログへの書き込みを許可します。"
 
 # File: src/www/services_ntpd.php, line: 323
 msgid "Enable logging of peer messages (default: disabled)."
-msgstr ""
+msgstr "ピアメッセージのログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 326
 msgid "Enable logging of system messages (default: disabled)."
-msgstr ""
+msgstr "システムメッセージのログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 325
 msgid "Statistics logging"
-msgstr ""
+msgstr "ログ統計"
 
-#, fuzzy
 msgid "Show statistics logging options"
-msgstr "リモートログオプション"
+msgstr "ログ統計のオプションを表示"
 
-#, fuzzy
 msgid "Warning: "
 msgstr "警告: "
 
 # File: src/www/services_ntpd.php, line: 336
 msgid "these options will create persistant daily log files in /var/log/ntp."
-msgstr ""
+msgstr "これらのオプションは、/car/log/ntp に継続的にデイリーログファイルを作成します。"
 
 # File: src/www/services_ntpd.php, line: 339
 msgid "Enable logging of reference clock statistics (default: disabled)."
-msgstr ""
+msgstr "時計参照統計のログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 342
 msgid "Enable logging of clock discipline statistics (default: disabled)."
@@ -16362,7 +16360,7 @@ msgstr "DNS %s サーバにゲートウェイが割当てられません。ネ�
 
 msgid ""
 "A NTP Time Server name may only contain the characters a-z, 0-9, '-' and '.'."
-msgstr "NTP 時刻サーバ名には、a-z、0-9、-、. のみが使用できます。"
+msgstr "NTP タイムサーバ名には、a-z、0-9、-、. のみが使用できます。"
 
 msgid "Name of the firewall host, without domain part"
 msgstr "ファイアウォールホスト名、ドメイン部分は含まない"
@@ -16440,7 +16438,7 @@ msgid "Select the location closest to you"
 msgstr "最も近い場所を選択してください"
 
 msgid "NTP time server"
-msgstr "NTP 時刻サーバ"
+msgstr "NTP タイムサーバ"
 
 msgid ""
 "Use a space to separate multiple hosts (only one required). Remember to set "
