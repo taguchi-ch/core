@@ -11968,8 +11968,8 @@ msgid ""
 "work."
 msgstr ""
 "ダイナミック DNS の更新を動作させるには\n"
-"                    %sシステム: 全般設定%s で DNS サーバの構成をするか、\n"
-"                    もしくは、WAN の DHCP/PPP による DNS サーバリストの上書きを許可してください。"
+"\t\t\t\t\t                    %sシステム: 全般設定%s で DNS サーバの構成をするか、\n"
+"\t\t\t\t\t                    もしくは、WAN の DHCP/PPP による DNS サーバリストの上書きを許可してください。"
 
 msgid "add a new igmpentry"
 msgstr "新規 IGMP エントリの追加"
@@ -12104,8 +12104,8 @@ msgid ""
 "servers available to clients are preferred over this server. (default: 12)."
 msgstr ""
 "Orphan mode は、他の時計が利用可能ではない場合に、システム時計を使用することを許可します。"
-"ここで指定する番号は、orphan mode の間に報告される階層で、一般的には高い番号を設定し、"
-"クライアントにこのサーバよりも、他の利用可能なサーバを確実に選択させるべきです ( デフォルト: 12 )。"
+"ここで指定する番号は orphan mode の間に報告される stratum です。一般的には高い番号を設定し、"
+"クライアントにこのサーバよりも、他の利用可能なサーバを確実に選択させるようにします ( デフォルト: 12 )。"
 
 # File: src/www/services_ntpd.php, line: 306
 msgid "NTP graphs"
@@ -12141,7 +12141,7 @@ msgid "Statistics logging"
 msgstr "ログ統計"
 
 msgid "Show statistics logging options"
-msgstr "ログ統計のオプションを表示"
+msgstr "ログ統計オプションを表示"
 
 msgid "Warning: "
 msgstr "警告: "
@@ -12152,87 +12152,82 @@ msgstr "これらのオプションは、/car/log/ntp に継続的にデイリ�
 
 # File: src/www/services_ntpd.php, line: 339
 msgid "Enable logging of reference clock statistics (default: disabled)."
-msgstr "時計参照統計のログを有効 ( デフォルト: 無効 )。"
+msgstr "時計参照統計ログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 342
 msgid "Enable logging of clock discipline statistics (default: disabled)."
-msgstr ""
+msgstr "時計統制統計ログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 345
 msgid "Enable logging of NTP peer statistics (default: disabled)."
-msgstr ""
+msgstr "NTP ピア統計ログを有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 345
 msgid "Access restrictions"
-msgstr ""
+msgstr "アクセス制限"
 
-#, fuzzy
 msgid "Show access restriction options"
-msgstr "高度なオプションを表示"
+msgstr "アクセス制限オプションを表示"
 
 # File: src/www/services_ntpd.php, line: 356
 msgid "these options control access to NTP from the WAN."
-msgstr ""
+msgstr "これらのオプションは WAN から NTP へのアクセスをコントロールします。"
 
 # File: src/www/services_ntpd.php, line: 359
 msgid "Enable Kiss-o'-death packets (default: enabled)."
-msgstr ""
+msgstr "Kiss-o'-death パケットを有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 362
 msgid ""
 "Deny state modifications (i.e. run time configuration) by ntpq and ntpdc "
 "(default: enabled)."
-msgstr ""
+msgstr "ntpq 及び ntpdc による状態変更 ( ランタイム構成 ) を拒否 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 365
 msgid "Disable ntpq and ntpdc queries (default: disabled)."
-msgstr ""
+msgstr "ntpq 及び ntpdc クエリを無効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 368
 msgid "Disable all except ntpq and ntpdc queries (default: disabled)."
-msgstr ""
+msgstr "ntpq 及び ntpdc クエリを全て除外を無効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd.php, line: 371
 msgid "Deny packets that attempt a peer association (default: enabled)."
-msgstr ""
+msgstr "ピア関連付けを試みるパケットを拒否 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 374
 msgid "Deny mode 6 control message trap service (default: enabled)."
-msgstr ""
+msgstr "モード 6 コントロールメッセージトラップサービスを拒否 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd.php, line: 374
 msgid "Leap seconds"
-msgstr ""
+msgstr "うるう秒"
 
-#, fuzzy
 msgid "Show Leap second configuration"
-msgstr "LDAP 構成を表示"
+msgstr "うるう秒構成を表示"
 
 # File: src/www/services_ntpd.php, line: 385
 msgid ""
 "A leap second file allows NTP to advertize an upcoming leap second addition "
 "or subtraction."
-msgstr ""
+msgstr "うるう秒ファイルは、次回のうるう秒加算もしくは減算の広告を NTP に許可します。"
 
 # File: src/www/services_ntpd.php, line: 386
 msgid "Normally this is only useful if this server is a stratum 1 time server."
-msgstr ""
+msgstr "通常、これはこのサーバが stratum 1 のタイムサーバである場合にのみ有用です。"
 
-#, fuzzy
 msgid "Enter Leap second configuration as text:"
-msgstr "この構成ファイルを暗号化する"
+msgstr "テキストでうるう秒構成を入力してください: "
 
 # File: src/www/services_ntpd.php, line: 390
 msgid "Or"
-msgstr ""
+msgstr "もしくは"
 
-#, fuzzy
 msgid "select a file to upload:"
-msgstr "アップロードするファイル: "
+msgstr "アップロードするファイルを選択してください: "
 
-#, fuzzy
 msgid "NTP Serial GPS Configuration"
-msgstr "NTP サーバ構成"
+msgstr "NTP シリアル GPS 構成"
 
 # File: src/www/services_ntpd_gps.php, line: 356
 msgid ""
@@ -12241,73 +12236,75 @@ msgid ""
 "GPS may also be used as a Pulse Per Second clock reference. NOTE: a USB GPS "
 "may work, but is not recommended due to USB bus timing issues."
 msgstr ""
+"シリアルポート経由で接続した GPS を NTP の参照時計として使用できます。"
+"GPS が PPS にも対応しており、適切に構成され、かつ接続されていれば、その GPS は"
+"パルスパーセコンド時計参照としても使用できます。"
+"注意: USB GPS も動作可能ですが、USB バスタイミング問題により推奨されません。"
 
 # File: src/www/services_ntpd_gps.php, line: 381
 msgid ""
 "For the best results, NTP should have at least three sources of time. So it "
 "is best to configure at least 2 servers under"
 msgstr ""
+"最善の結果を出すには、NTP には最低 3 つの時間のソースを設定すべきです。"
+"そのためベストなのは、最低 2 つのサーバの構成を"
 
-#, fuzzy
 msgid "Services > NTP"
-msgstr "サービス"
+msgstr "サービス > NTP "
 
-#, fuzzy
 msgid ""
 "to minimize clock drift if the GPS data is not valid over time. Otherwise "
 "ntpd may only use values from the unsynchronized local clock when providing "
 "time to clients."
 msgstr ""
-"」で、最低でも 2 つ以上構成することをお勧めします。GPS データが継続的に不正な場合に、同期のロスを避けるためです。さもなくば、ntpd "
-"は時刻をクライアントに提供する際に、非同期のローカル時計の値のみを使用します。"
+"で行うことで、GPS データが時間が経過することにより有効ではなくなる場合に、時間のずれを最小化します。"
+"さもなくば、ntpd は時刻をクライアントに提供する際に、非同期のローカル時計の値のみを使用します。"
 
 # File: src/www/services_ntpd_gps.php, line: 366
 msgid "Generic"
-msgstr ""
+msgstr "一般"
 
 # File: src/www/services_ntpd_gps.php, line: 368
 msgid "Garmin"
-msgstr ""
+msgstr "Garmin"
 
 # File: src/www/services_ntpd_gps.php, line: 370
 msgid "SiRF"
-msgstr ""
+msgstr "SiRF"
 
 # File: src/www/services_ntpd_gps.php, line: 371
 msgid "U-Blox"
-msgstr ""
+msgstr "U-Blox"
 
 # File: src/www/services_ntpd_gps.php, line: 372
 msgid "SureGPS"
-msgstr ""
+msgstr "SureGPS"
 
 # File: src/www/services_ntpd_gps.php, line: 397
 msgid "This option allows you to select a predefined configuration."
-msgstr ""
+msgstr "このオプションは、定義済みの構成を選択可能にします。"
 
 # File: src/www/services_ntpd_gps.php, line: 400
 msgid "Select Generic if your GPS is not listed."
-msgstr ""
+msgstr "使用したい GPS がリストにない場合は、「一般」を選択してください。"
 
 # File: src/www/services_ntpd_gps.php, line: 401
 msgid ""
 "The perdefined configurations assume your GPS has already been set to NMEA "
 "mode."
-msgstr ""
+msgstr "定義済みの構成は、GPS が既に NMEA モードに設定されていることを前提としています。"
 
 # File: src/www/services_ntpd_gps.php, line: 388
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "Serial port"
-msgstr ""
+msgstr "シリアルポート"
 
-#, fuzzy
 msgid ""
 "All serial ports are listed, be sure to pick the port with the GPS attached."
-msgstr "全てのシリアルポートがリスンされている場合は、GPS を添付するポートのみを選択するようにしてください。"
+msgstr "全てのシリアルポートがリストにある場合は、GPS を取り付けるポートを選択するようにしてください。"
 
-#, fuzzy
 msgid "Serial port baud rate."
-msgstr "次の証明書のシリアル"
+msgstr "シリアルポートボーレート"
 
 # File: src/www/services_ntpd_gps.php, line: 437
 msgid ""
@@ -12315,32 +12312,36 @@ msgid ""
 "many sentences. It is recommended to configure the GPS to send only one "
 "sentence at a baud rate of 4800 or 9600."
 msgstr ""
+"高いボーレートは、通常 GPS が非常に多いセンテンスを送信する場合にのみ有用です。"
+"GPS の推奨構成は、ボーレート 4800 もしくは 9600 で 1 センテンスのみを送信です。"
 
 # File: src/www/services_ntpd_gps.php, line: 423
 msgid "NMEA sentences"
-msgstr ""
+msgstr "NMEA センテンス"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 msgid ""
 "By default NTP will listen for all supported NMEA sentences. Here one or "
 "more sentences to listen for may be specified."
 msgstr ""
+"デフォルトでは、NTP は全ての対応している NMEA センテンスをリスンします。"
+"ここでは、リスンする 1 つ以上のセンテンスを指定できます。"
 
 # File: src/www/services_ntpd_gps.php, line: 436
 msgid "Fudge time 1"
-msgstr ""
+msgstr "Fudge time 1"
 
 # File: src/www/services_ntpd_gps.php, line: 461
 msgid "Fudge time 1 is used to specify the GPS PPS signal offset"
-msgstr ""
+msgstr "Fudge time 1 は GPS PPS 信号のオフセットを指定するのに使用されます"
 
 # File: src/www/services_ntpd_gps.php, line: 442
 msgid "Fudge time 2"
-msgstr ""
+msgstr "Fudge time 2"
 
 # File: src/www/services_ntpd_gps.php, line: 467
 msgid "Fudge time 2 is used to specify the GPS time offset"
-msgstr ""
+msgstr "Fudge time 2 は GPS 時刻のオフセットを指定するのに使用されます"
 
 msgid "Stratum"
 msgstr "Stratum"
@@ -12348,55 +12349,55 @@ msgstr "Stratum"
 # File: src/www/services_ntpd_gps.php, line: 472
 # File: src/www/services_ntpd_pps.php, line: 161
 msgid "(0-16)"
-msgstr ""
+msgstr "(0-16)"
 
 # File: src/www/services_ntpd_gps.php, line: 473
 msgid "This may be used to change the GPS Clock stratum"
-msgstr ""
+msgstr "GPS 時計の stratum を変更するのに使用されます"
 
 # File: src/www/services_ntpd_gps.php, line: 473
 msgid ""
 "This may be useful if, for some reason, you want ntpd to prefer a different "
 "clock"
-msgstr ""
+msgstr "この設定は、なんらかの理由で別の時計を ntpd で優先したい場合に便利です"
 
 # File: src/www/services_ntpd_gps.php, line: 454
 # File: src/www/services_ntpd_pps.php, line: 159
 msgid "Flags"
-msgstr ""
+msgstr "フラグ"
 
 # File: src/www/services_ntpd_gps.php, line: 481
 # File: src/www/services_ntpd_pps.php, line: 170
 msgid ""
 "Normally there should be no need to change these options from the defaults."
-msgstr ""
+msgstr "通常は、これらのオプションをデフォルトから変更する必要はありません。"
 
 # File: src/www/services_ntpd_gps.php, line: 491
 msgid "NTP should prefer this clock (default: enabled)."
-msgstr ""
+msgstr "NTP にこの時計を優先させます ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 499
 msgid ""
 "NTP should not use this clock, it will be displayed for reference "
 "only(default: disabled)."
-msgstr ""
+msgstr "NTP にこの時計を使用させないようにします。参照用のみで表示されるようになります ( デフォルト: 無効 )"。
 
 # File: src/www/services_ntpd_gps.php, line: 507
 msgid "Enable PPS signal processing (default: enabled)."
-msgstr ""
+msgstr "PPS 信号処理を有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 515
 # File: src/www/services_ntpd_pps.php, line: 180
 msgid "Enable falling edge PPS signal processing (default: rising edge)."
-msgstr ""
+msgstr "PPS 信号処理に立ち下がりエッジを有効 ( デフォルト: 立ち上がりエッジ )。"
 
 # File: src/www/services_ntpd_gps.php, line: 523
 msgid "Enable kernel PPS clock discipline (default: enabled)."
-msgstr ""
+msgstr "カーネル PPS 時計統制を有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 531
 msgid "Obscure location in timestamp (default: unobscured)."
-msgstr ""
+msgstr "タイムスタンプの位置情報を表示しない ( デフォルト: 表示する )"
 
 # File: src/www/services_ntpd_gps.php, line: 539
 msgid ""
@@ -16256,7 +16257,7 @@ msgid "This will force this gateway to be considered Down"
 msgstr "このゲートウェイが常にアップであると見なします"
 
 msgid " - Show advanced option"
-msgstr " - 高度なオプションを表示"
+msgstr " - 詳細オプションを表示"
 
 msgid "Weight for this gateway when used in a Gateway Group."
 msgstr "ゲートウェイグループ使用時に、このゲートウェイの重み付けをします。"
