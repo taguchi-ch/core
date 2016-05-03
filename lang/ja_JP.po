@@ -12301,7 +12301,7 @@ msgstr "シリアルポート"
 
 msgid ""
 "All serial ports are listed, be sure to pick the port with the GPS attached."
-msgstr "全てのシリアルポートがリストにある場合は、GPS を取り付けるポートを選択するようにしてください。"
+msgstr "全てのシリアルポートがリストにある場合は、GPS を取り付けたポートを選択するようにしてください。"
 
 msgid "Serial port baud rate."
 msgstr "シリアルポートボーレート"
@@ -12380,7 +12380,7 @@ msgstr "NTP にこの時計を優先させます ( デフォルト: 有効 )。"
 msgid ""
 "NTP should not use this clock, it will be displayed for reference "
 "only(default: disabled)."
-msgstr "NTP にこの時計を使用させないようにします。参照用のみで表示されるようになります ( デフォルト: 無効 )"。
+msgstr "NTP にこの時計を使用させないようにします。参照用のみで表示されるようになります ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 507
 msgid "Enable PPS signal processing (default: enabled)."
@@ -12397,7 +12397,7 @@ msgstr "カーネル PPS 時計統制を有効 ( デフォルト: 有効 )。"
 
 # File: src/www/services_ntpd_gps.php, line: 531
 msgid "Obscure location in timestamp (default: unobscured)."
-msgstr "タイムスタンプの位置情報を表示しない ( デフォルト: 表示する )"
+msgstr "タイムスタンプの位置情報を表示しない ( デフォルト: 表示する )。"
 
 # File: src/www/services_ntpd_gps.php, line: 539
 msgid ""
@@ -12405,28 +12405,30 @@ msgid ""
 "logged).<br />Note: enabling this will rapidly fill the log, but is useful "
 "for tuning Fudge time 2."
 msgstr ""
+"受信したタイムスタンプの 1 秒未満の小数をログに記録する ( デフォルト: ログに記録しない )。<br />"
+"注意: これを有効にすると、ログが急激に一杯になりますが、Fudge time 2 の調整には便利です。"
 
 # File: src/www/services_ntpd_gps.php, line: 524
 # File: src/www/services_ntpd_pps.php, line: 197
 msgid "Clock ID"
-msgstr ""
+msgstr "Clock ID"
 
 # File: src/www/services_ntpd_gps.php, line: 548
 # File: src/www/services_ntpd_pps.php, line: 205
 msgid "(1 to 4 charactors)"
-msgstr ""
+msgstr "( 1 - 4 文字 )"
 
 # File: src/www/services_ntpd_gps.php, line: 549
 msgid "This may be used to change the GPS Clock ID"
-msgstr ""
+msgstr "GPS Clock ID の変更に使用されます"
 
 # File: src/www/services_ntpd_gps.php, line: 530
 msgid "GPS Initialization"
-msgstr ""
+msgstr "GPS 初期化"
 
 # File: src/www/services_ntpd_gps.php, line: 555
 msgid "Show GPS Initialization commands"
-msgstr ""
+msgstr "GPS 初期化コマンドを表示"
 
 # File: src/www/services_ntpd_gps.php, line: 560
 msgid ""
@@ -12434,28 +12436,28 @@ msgid ""
 "Please read and understand your GPS documentation before making any changes "
 "here."
 msgstr ""
+"注意: ここで入力するコマンドは、GPS の初期化中に送信されます。"
+"ここで何らかの変更をする前に、使用する GPS のドキュメントを読んで理解してください。"
 
 # File: src/www/services_ntpd_gps.php, line: 561
 msgid "NMEA checksum calculator"
-msgstr ""
+msgstr "NMEA チェックサム計算"
 
 # File: src/www/services_ntpd_gps.php, line: 563
 msgid ""
 "Enter the text between &quot;$&quot; and &quot;*&quot; of a NMEA command "
 "string:"
-msgstr ""
+msgstr "NMEA コマンド文字列の &quot;$&quot; と &quot;*&quot; の間にテキストを入力してください: "
 
-#, fuzzy
 msgid "checksum"
-msgstr "チェックサムビット"
+msgstr "チェックサム"
 
 # File: src/www/services_ntpd_gps.php, line: 564
 msgid "Calculate NMEA checksum"
-msgstr ""
+msgstr "NMEA チェックサムを計算します"
 
-#, fuzzy
 msgid "NTP PPS Configuration"
-msgstr "NTP サーバ構成"
+msgstr "NTP PPS 構成"
 
 # File: src/www/services_ntpd_pps.php, line: 128
 msgid ""
@@ -12463,92 +12465,94 @@ msgid ""
 "signal from DCF77 (DE), JJY (JP), MSF (GB) or WWVB (US) may be used as a PPS "
 "reference for NTP."
 msgstr ""
+"無線のようなパルスパーセコンド出力のデバイスは、タイムシグナルを DCF77 (DE)、JJY (JP)、MSF (GB)、もしくは WWVB (US) "
+"から受信し、NTP に対する PPS 参照のように使用します。"
 
 # File: src/www/services_ntpd_pps.php, line: 129
 msgid ""
 "A serial GPS may also be used, but the serial GPS driver would usually be "
 "the better option."
-msgstr ""
+msgstr "シリアル GPS も使用可能ですが、通常はシリアル GPS ドライバにもっと適切なオプションを設定します。"
 
 # File: src/www/services_ntpd_pps.php, line: 130
 msgid ""
 "A PPS signal only provides a reference to the change of a second, so at "
 "least one other source to number the seconds is required."
 msgstr ""
+"PPS シグナルは秒を変更するリファレンスのみを提供します。そのため、その他に最低でも 1 つの秒数のソースが必要です。"
 
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "At least 3 additional time sources should be configured under"
-msgstr ""
+msgstr "最低でも 3 つの追加タイムソースの構成を、"
 
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "to reliably supply the time of each PPS pulse."
-msgstr ""
+msgstr "で行うことで、PPS パルス単位の時間を確実に提供されます。"
 
-#, fuzzy
 msgid ""
 "All serial ports are listed, be sure to pick the port with the PPS source "
 "attached."
-msgstr "全てのシリアルポートがリスンされている場合は、GPS を添付するポートのみを選択するようにしてください。"
+msgstr "全てのシリアルポートがリストにある場合は、PPS ソースを取り付けたポートを選択するようにしてください。"
 
 # File: src/www/services_ntpd_pps.php, line: 147
 msgid "Fudge time"
-msgstr ""
+msgstr "Fudge time"
 
 # File: src/www/services_ntpd_pps.php, line: 156
 msgid ""
 "Fudge time is used to specify the PPS signal offset from the actual second "
 "such as the transmission delay between the transmitter and the receiver."
 msgstr ""
+"Fudge time は、トランスミッタとレシーバ間の伝送遅延のような実際の秒数から、PPS シグナルオフセットを指定するのに使用されます。"
 
 # File: src/www/services_ntpd_pps.php, line: 162
 msgid "This may be used to change the PPS Clock stratum"
-msgstr ""
+msgstr "PPS Clock stratum の変更に使用されます"
 
 # File: src/www/services_ntpd_pps.php, line: 162
 msgid ""
 "This may be useful if, for some reason, you want ntpd to prefer a different "
 "clock and just monitor this source."
-msgstr ""
+msgstr "この設定は、なんらかの理由で別の時計とこのソースのモニタ自体を ntpd で優先したい場合に便利です。"
 
 # File: src/www/services_ntpd_pps.php, line: 188
 msgid "Enable kernel PPS clock discipline (default: disabled)."
-msgstr ""
+msgstr "カーネル PPS 時計統制を有効 ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd_pps.php, line: 196
 msgid ""
 "Record a timestamp once for each second, useful for constructing Allan "
 "deviation plots (default: disabled)."
-msgstr ""
+msgstr "1 秒に 1 回タイムスタンプを記録します。アラン偏差プロットの構成に便利です ( デフォルト: 無効 )。"
 
 # File: src/www/services_ntpd_pps.php, line: 206
 msgid "This may be used to change the PPS Clock ID"
-msgstr ""
+msgstr "PPS Clock ID の変更に使用されます"
 
-#, fuzzy
 msgid "OpenDNS Setup"
-msgstr "全般設定"
+msgstr "OpenDNS 設定"
 
 # File: src/www/services_opendns.php, line: 133
 msgid "Filter DNS requests using OpenDNS"
-msgstr ""
+msgstr "OpenDNS を使用して DNS リクエストをフィルタする"
 
 # File: src/www/services_opendns.php, line: 153
 msgid ""
 "Signon Username to log into your OpenDNS dashboard. It is used to "
 "automatically update the IP address of the registered network."
 msgstr ""
+"OpenDNS ダッシュボードにログインするには、ユーザ名でサインオンしてください。"
+"登録されたネットワークの IP アドレスを自動的に更新するのに使用されます。"
 
 # File: src/www/services_opendns.php, line: 177
 msgid "Networks Dashboard of OpenDNS"
-msgstr ""
+msgstr "OpenDNS のネットワークダッシュボード"
 
-#, fuzzy
 msgid "Test result"
-msgstr "ポートテスト結果"
+msgstr "テスト結果"
 
-#, fuzzy
 msgid "Test/Update"
-msgstr "更新"
+msgstr "テスト / 更新"
 
 msgid "Do you really want to delete this client?"
 msgstr "本当にこのクライアントを削除しますか？"
@@ -12576,7 +12580,7 @@ msgstr "RFC 2136 クライアント"
 
 # File: src/www/services_rfc2136_edit.php, line: 169
 msgid "Fully qualified hostname of the host to be updated."
-msgstr ""
+msgstr "ホストの完全修飾ホスト名が更新されました。"
 
 msgid "This must match the setting on the DNS server."
 msgstr "DNS サーバの設定と一致する必要があります"
@@ -12598,17 +12602,16 @@ msgstr "UDP ではなく TCP を使用"
 
 # File: src/www/services_rfc2136_edit.php, line: 211
 msgid "Use Public IP"
-msgstr ""
+msgstr "パブリック IP を使用"
 
 # File: src/www/services_rfc2136_edit.php, line: 214
 msgid ""
 "If the interface IP is private, attempt to fetch and use the public IP "
 "instead."
-msgstr ""
+msgstr "インタフェース IP がプライベートな場合は、取得を試みて、パブリック IP を代わりに使用します。"
 
-#, fuzzy
 msgid "Save &amp; Force Update"
-msgstr "保存 & 強制更新"
+msgstr "保存 &amp; 強制更新"
 
 msgid ""
 "You must configure a DNS server in %sSystem: General setup %sor allow the "
@@ -12670,11 +12673,10 @@ msgstr "ルータ広告 (RA) デーモンのインタフェースを選択して
 msgid "RA Subnet(s)"
 msgstr "RA サブネット"
 
-#, fuzzy
 msgid ""
 "The RA server can optionally provide a domain search list. Use the semicolon "
 "character as separator"
-msgstr "オプションで、RA サーバはドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください。"
+msgstr "RA サーバは、オプションでドメイン検索リストを提供することができます。区切り文字にはセミコロンを使用してください"
 
 msgid "Use same settings as DHCPv6 server"
 msgstr "DHCPv6 サーバと同じ設定を使用"
@@ -12781,23 +12783,22 @@ msgstr "インタフェースのバインド"
 msgid ""
 "The DNS Forwarder is still active. Disable it before enabling the DNS "
 "Resolver."
-msgstr ""
+msgstr "DNS フォワーダはまだアクティブです。DNS リゾルバを有効にする前に、無効にしてください。"
 
 # File: src/www/services_unbound.php, line: 92
 msgid ""
 "A single network interface needs to be selected for the DNS Resolver to bind "
 "to."
-msgstr ""
+msgstr "DNS リゾルバにバインドする、単一ネットワークインタフェースを選択してください。"
 
 # File: src/www/services_unbound.php, line: 95
 msgid ""
 "A single outgoing network interface needs to be selected for the DNS "
 "Resolver to use for outgoing DNS requests."
-msgstr ""
+msgstr "DNS リゾルバが DNS リクエスト発信に使用する、単一ネットワークインタフェースを選択してください。"
 
-#, fuzzy
 msgid "You must specify a valid port number."
-msgstr "有効なポート番号を指定してください"
+msgstr "有効なポート番号を指定してください。"
 
 msgid "The configuration for the DNS Resolver, has been changed"
 msgstr "DNS リゾルバの構成は変更されました"
@@ -12811,20 +12812,18 @@ msgstr "DNS リゾルバを有効"
 msgid "Network Interfaces"
 msgstr "ネットワークインタフェース"
 
-#, fuzzy
 msgid ""
 "Interface IPs used by the DNS Resolver for responding to queries from "
 "clients. If an interface has both IPv4 and IPv6 IPs, both are used. Queries "
 "to other interface IPs not selected below are discarded. The default "
 "behavior is to respond to queries on every available IPv4 and IPv6 address."
 msgstr ""
-"DNS フォワーダがクライアントからの照会に応答するのに使用されるインタフェース IP です。インタフェースに IPv4 と IPv6 "
+"DNS リゾルバがクライアントからの照会に応答するのに使用されるインタフェース IP です。インタフェースに IPv4 と IPv6 "
 "を両方とも設定すれば、どちらからも使用されます。その他の、下記で選択されていないインタフェース IP への照会は破棄されます。デフォルトの振る舞いは、"
 "全ての使用可能な IPv4 及び IPv6 アドレスへの照会に応答します。"
 
-#, fuzzy
 msgid "Outgoing Network Interfaces"
-msgstr "ネットワークインタフェース"
+msgstr "発信ネットワークインタフェース"
 
 msgid ""
 "Utilize different network interface(s) that the DNS Resolver will use to "
@@ -12868,19 +12867,20 @@ msgstr ""
 
 # File: src/www/services_unbound.php, line: 322
 msgid "TXT Comment Support"
-msgstr ""
+msgstr "TXT コメントサポート"
 
 # File: src/www/services_unbound.php, line: 325
 msgid ""
 "If this option is set, then any descriptions associated with Host entries "
 "and DHCP Static mappings will create a corresponding TXT record."
 msgstr ""
+"このオプションが設定されている場合、ホストエントリ及び DHCP 静的 マッピングと関連付けられた"
+"全ての説明に対応する TXT レコードが作成されます。"
 
-#, fuzzy
 msgid ""
 "Enter any additional options you would like to add to the DNS Resolver "
 "configuration here, separated by a space or newline"
-msgstr "Dnsmasq 構成の追加オプションを入力します。空白、または、改行で区切ります。"
+msgstr "DNS リゾルバ構成の追加オプションを入力します。空白、または、改行で区切ります。"
 
 msgid ""
 "If the DNS Resolver is enabled, the DHCP service (if enabled) will "
