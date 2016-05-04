@@ -12479,7 +12479,7 @@ msgid ""
 "A PPS signal only provides a reference to the change of a second, so at "
 "least one other source to number the seconds is required."
 msgstr ""
-"PPS シグナルは秒を変更するリファレンスのみを提供します。そのため、その他に最低でも 1 つの秒数のソースが必要です。"
+"PPS シグナルは秒を変更する参照のみを提供します。そのため、その他に最低でも 1 つの秒数のソースが必要です。"
 
 # File: src/www/services_ntpd_pps.php, line: 132
 msgid "At least 3 additional time sources should be configured under"
@@ -12608,7 +12608,7 @@ msgstr "パブリック IP を使用"
 msgid ""
 "If the interface IP is private, attempt to fetch and use the public IP "
 "instead."
-msgstr "インタフェース IP がプライベートな場合は、取得を試みて、パブリック IP を代わりに使用します。"
+msgstr "インタフェース IP がプライベートな場合は、代わりとなるパブリック IP の取得を試みて使用します。"
 
 msgid "Save &amp; Force Update"
 msgstr "保存 &amp; 強制更新"
@@ -12783,7 +12783,7 @@ msgstr "インタフェースのバインド"
 msgid ""
 "The DNS Forwarder is still active. Disable it before enabling the DNS "
 "Resolver."
-msgstr "DNS フォワーダはまだアクティブです。DNS リゾルバを有効にする前に、無効にしてください。"
+msgstr "DNS フォワーダは現在アクティブになっています。DNS リゾルバを有効にする前に、無効にしてください。"
 
 # File: src/www/services_unbound.php, line: 92
 msgid ""
@@ -12940,7 +12940,7 @@ msgstr ""
 "キャッシュスヌーピングに使用されるため、理想的には、自分の管理下にあるホストにのみ構成されるべきです。"
 
 msgid "You may enter a description here for your reference."
-msgstr "自分用のメモを入力できます。"
+msgstr "自分用の説明を入力できます。"
 
 msgid "Access List Name"
 msgstr "アクセスリスト名"
@@ -12955,7 +12955,7 @@ msgid "The configuration of the DNS Resolver, has been changed"
 msgstr "DNS リゾルバの構成は、変更されました"
 
 msgid "Advanced Resolver Options"
-msgstr "高度なリゾルバオプション"
+msgstr "詳細リゾルバオプション"
 
 msgid "Hide Identity"
 msgstr "識別子を非表示"
@@ -13110,27 +13110,27 @@ msgstr "ホストキャッシュエントリの TTL"
 # File: src/www/services_unbound_advanced.php, line: 331
 # File: src/www/services_unbound_advanced.php, line: 346
 msgid "1 minute"
-msgstr ""
+msgstr "1 分"
 
 # File: src/www/services_unbound_advanced.php, line: 332
 # File: src/www/services_unbound_advanced.php, line: 347
 msgid "2 minutes"
-msgstr ""
+msgstr "2 分"
 
 # File: src/www/services_unbound_advanced.php, line: 333
 # File: src/www/services_unbound_advanced.php, line: 348
 msgid "5 minutes"
-msgstr ""
+msgstr "5 分"
 
 # File: src/www/services_unbound_advanced.php, line: 334
 # File: src/www/services_unbound_advanced.php, line: 349
 msgid "10 minutes"
-msgstr ""
+msgstr "10 分"
 
 # File: src/www/services_unbound_advanced.php, line: 335
 # File: src/www/services_unbound_advanced.php, line: 350
 msgid "15 minutes"
-msgstr ""
+msgstr "15 分"
 
 msgid ""
 "Time to live for entries in the host cache. The host cache contains "
@@ -13152,23 +13152,23 @@ msgstr "キャッシュするホスト数"
 
 # File: src/www/services_unbound_advanced.php, line: 361
 msgid "1000"
-msgstr ""
+msgstr "1000"
 
 # File: src/www/services_unbound_advanced.php, line: 362
 msgid "5000"
-msgstr ""
+msgstr "5000"
 
 # File: src/www/services_unbound_advanced.php, line: 363
 msgid "10 000"
-msgstr ""
+msgstr "10 000"
 
 # File: src/www/services_unbound_advanced.php, line: 364
 msgid "20 000"
-msgstr ""
+msgstr "20 000"
 
 # File: src/www/services_unbound_advanced.php, line: 365
 msgid "50 000"
-msgstr ""
+msgstr "50 000"
 
 msgid "Number of hosts for which information is cached. The default is 10,000."
 msgstr "情報をキャッシュするホストの数です。デフォルトは 10,000 です。"
@@ -13178,29 +13178,28 @@ msgstr "望まない応答のしきい値"
 
 # File: src/www/services_unbound_advanced.php, line: 376
 msgid "disabled"
-msgstr ""
+msgstr "無効"
 
 # File: src/www/services_unbound_advanced.php, line: 377
 msgid "5 million"
-msgstr ""
+msgstr "500 万"
 
 # File: src/www/services_unbound_advanced.php, line: 378
 msgid "10 million"
-msgstr ""
+msgstr "1000 万"
 
 # File: src/www/services_unbound_advanced.php, line: 379
 msgid "20 million"
-msgstr ""
+msgstr "2000 万"
 
 # File: src/www/services_unbound_advanced.php, line: 380
 msgid "40 million"
-msgstr ""
+msgstr "4000 万"
 
 # File: src/www/services_unbound_advanced.php, line: 381
 msgid "50 million"
-msgstr ""
+msgstr "5000 万"
 
-#, fuzzy
 msgid ""
 "If enabled, a total number of unwanted replies is kept track of in every "
 "thread. When it reaches the threshold, a defensive action is taken and a "
@@ -13208,9 +13207,10 @@ msgid ""
 "RRSet and message caches, hopefully flushing away any poison. The default is "
 "disabled, but if enabled a value of 10 million is suggested."
 msgstr ""
-"有効な場合、望まない応答の合計数をスレッド毎に記録します。しきい値に達すると、防御処理が実行され、警告がログファイルに出力されます。防御処理は、"
-"RRSet とメッセージキャッシュを削除するというもので、ポイズンが全て除去されることが期待されます。デフォルトは無効ですが、有効にする場合は、値を "
-"1000 万に設定することが推奨されます。"
+"有効な場合、望まない応答の合計数をスレッド毎に記録します。しきい値に達すると防御処理が実行され、"
+"警告がログファイルに出力されます。"
+"防御処理は RRSet とメッセージキャッシュの消去を行うことで、ポイズンが全て除去されることを期待します。"
+"デフォルトは無効ですが、有効にする場合は、値を 1000 万に設定することが推奨されます。"
 
 msgid "Log level verbosity"
 msgstr "ログ詳細度レベル"
@@ -13218,77 +13218,76 @@ msgstr "ログ詳細度レベル"
 msgid "Select the log verbosity."
 msgstr "ログの詳細度を選択します。"
 
-#, fuzzy
 msgid ""
 "A valid IP address and port must be specified, for example "
 "192.168.100.10@5353."
-msgstr "ゲートウェイに有効な IP アドレスを指定してください"
+msgstr "有効な IP アドレスとポートを指定してください。例: 192.168.100.10@5353"
 
-#, fuzzy
 msgid "A valid IP address must be specified, for example 192.168.100.10."
-msgstr "ゲートウェイに有効な IP アドレスを指定してください"
+msgstr "有効な IP アドレスを指定してください。例: 192.168.100.10"
 
 # File: src/www/services_unbound_domainoverride_edit.php, line: 146
 msgid ""
 "To use a nondefault port for communication, append an '@' with the port "
 "number."
 msgstr ""
+"通信にデフォルトではないポートを使用する場合は、ポート番号に「@」を追加してください。"
 
 # File: src/www/services_unbound_host_edit.php, line: 109
 # File: src/www/services_unbound_host_edit.php, line: 306
 msgid "MX Host"
-msgstr ""
+msgstr "MX ホスト"
 
 # File: src/www/services_unbound_host_edit.php, line: 109
 # File: src/www/services_unbound_host_edit.php, line: 298
 msgid "MX Priority"
-msgstr ""
+msgstr "MX 優先度"
 
 # File: src/www/services_unbound_host_edit.php, line: 114
 msgid "A valid MX priority must be specified."
-msgstr ""
+msgstr "有効な MX 優先度を指定してください。"
 
 # File: src/www/services_unbound_host_edit.php, line: 118
 msgid "A valid MX host must be specified."
-msgstr ""
+msgstr "有効な MX ホストを指定してください。"
 
 # File: src/www/services_unbound_host_edit.php, line: 122
 msgid "A valid resource record type must be specified."
-msgstr ""
+msgstr "有効なリソースレコードタイプを指定してください。"
 
-#, fuzzy
 msgid "Edit DNS Resolver entry"
-msgstr "DNS フォワーダエントリの編集"
+msgstr "DNS リゾルバエントリを編集"
 
 # File: src/www/services_unbound_host_edit.php, line: 277
 msgid "A or AAAA (IPv4 or IPv6 address)"
-msgstr ""
+msgstr "A もしくは AAAA ( IPv4 もしくは IPv6 アドレス )"
 
 # File: src/www/services_unbound_host_edit.php, line: 277
 msgid "MX (Mail server)"
-msgstr ""
+msgstr "MX ( メールサーバ )"
 
 # File: src/www/services_unbound_host_edit.php, line: 285
 msgid "Type of resource record"
-msgstr ""
+msgstr "リソースレコードのタイプ"
 
 # File: src/www/services_unbound_host_edit.php, line: 286
 msgid "for IPv4 or IPv6 addresses"
-msgstr ""
+msgstr "IPv4 もしくは IPv6 アドレス用"
 
 # File: src/www/services_unbound_host_edit.php, line: 301
 msgid "Priority of MX record"
-msgstr ""
+msgstr "MX レコードの優先度"
 
 # File: src/www/services_unbound_host_edit.php, line: 309
 msgid "Host name of MX host"
-msgstr ""
+msgstr "MX ホストのホスト名"
 
 # File: src/www/services_unbound_overrides.php, line: 124
 msgid ""
 "Keep in mind that all resource record types (i.e. A, AAAA, MX, etc. records) "
 "of a specified host below are being overwritten."
 msgstr ""
+"下で指定されるホストの全てのリソースレコードタイプ ( A、AAAA、MX、等のレコード ) は上書きされます。ご注意ください。"
 
 msgid ""
 "Entries in this area override an entire domain by specifying an "
@@ -13297,35 +13296,35 @@ msgstr "このエリアのエントリは、そのドメインに対する問い
 
 # File: src/www/services_upnp.php, line: 70
 msgid "At least one of 'UPnP' or 'NAT-PMP' must be allowed"
-msgstr ""
+msgstr "1 つ以上の「UPnP」もしくは「NAT-PMP」を使用できます"
 
 # File: src/www/services_upnp.php, line: 74
 msgid "It is a security risk to specify WAN in the 'Interface' field"
-msgstr ""
+msgstr "「インタフェース」フィールドに WAN を指定するのはセキュリティリスクになります"
 
 # File: src/www/services_upnp.php, line: 76
 msgid "You cannot select the external interface as an internal interface."
-msgstr ""
+msgstr "内部インタフェースとして外部インタフェースは選択できません。"
 
 # File: src/www/services_upnp.php, line: 79
 msgid "You must specify a valid ip address in the 'Override WAN address' field"
-msgstr ""
+msgstr "「WAN アドレスを上書き」フィールドに有効な IP アドレスを指定してください"
 
 # File: src/www/services_upnp.php, line: 81
 msgid ""
 "You must fill in both 'Maximum Download Speed' and 'Maximum Upload Speed' "
 "fields"
-msgstr ""
+msgstr "「最大ダウンロード速度」及び「最大アップロード速度」も入力してください"
 
 # File: src/www/services_upnp.php, line: 83
 msgid ""
 "You must specify a value greater than 0 in the 'Maximum Download Speed' field"
-msgstr ""
+msgstr "「最大ダウンロード速度」フィールドは 0 より大きい値を指定してください"
 
 # File: src/www/services_upnp.php, line: 85
 msgid ""
 "You must specify a value greater than 0 in the 'Maximum Upload Speed' field"
-msgstr ""
+msgstr "「最大アップロード速度」フィールドは 0 より大きい値を指定してください"
 
 # File: src/www/services_upnp.php, line: 93
 msgid ""
