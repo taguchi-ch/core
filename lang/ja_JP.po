@@ -5988,7 +5988,7 @@ msgid ""
 msgstr "エイリアス名に使用できる文字は、a-z、A-Z、0-9、_ のみです"
 
 msgid "You may enter a description here for your reference (not parsed)."
-msgstr "自分用のメモを入力できます ( 自由形式 )"
+msgstr "参照用の説明を入力できます ( 自由形式 )"
 
 # File: src/www/firewall_aliases_edit.php, line: 467
 # File: src/www/firewall_aliases_edit.php, line: 672
@@ -6074,7 +6074,7 @@ msgid ""
 msgstr "エイリアス名には a-z、A-Z、0-9 の文字のみが使用できます。"
 
 msgid "You may enter a description here for your reference (not parsed)"
-msgstr "自分用のメモを入力できます ( 自由形式 )"
+msgstr "参照用の説明を入力できます ( 自由形式 )"
 
 msgid "Aliases to import"
 msgstr "インポートするエイリアス"
@@ -10073,7 +10073,7 @@ msgstr "マルチリンク (MLPPP) 接続には 2 つ以上のインタフェー
 msgid ""
 "You may enter a description here for your reference. Description will appear "
 "in the \"Interfaces Assign\" select lists."
-msgstr "自分用のメモを入力できます。メモは「インタフェースの割当て」で選択するリストに表示されます。"
+msgstr "参照用の説明を入力できます。説明は「インタフェースの割当て」で選択するリストに表示されます。"
 
 msgid "Note: Typically *99# for GSM networks and #777 for CDMA networks"
 msgstr "注意: 通常、GSM ネットワークは *99#、CDMA ネットワークは #777 です"
@@ -12940,7 +12940,7 @@ msgstr ""
 "キャッシュスヌーピングに使用されるため、理想的には、自分の管理下にあるホストにのみ構成されるべきです。"
 
 msgid "You may enter a description here for your reference."
-msgstr "自分用の説明を入力できます。"
+msgstr "参照用の説明を入力できます。"
 
 msgid "Access List Name"
 msgstr "アクセスリスト名"
@@ -13296,7 +13296,7 @@ msgstr "このエリアのエントリは、そのドメインに対する問い
 
 # File: src/www/services_upnp.php, line: 70
 msgid "At least one of 'UPnP' or 'NAT-PMP' must be allowed"
-msgstr "1 つ以上の「UPnP」もしくは「NAT-PMP」を使用できます"
+msgstr "1 つ以上の UPnP もしくは NAT-PMP を使用できます"
 
 # File: src/www/services_upnp.php, line: 74
 msgid "It is a security risk to specify WAN in the 'Interface' field"
@@ -13330,39 +13330,39 @@ msgstr "「最大アップロード速度」フィールドは 0 より大きい
 msgid ""
 "You must follow the specified format in the 'User specified permissions %s' "
 "field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドでは、指定された形式に従ってください"
 
 # File: src/www/services_upnp.php, line: 97
 msgid ""
 "You must begin with allow or deny in the 'User specified permissions %s' "
 "field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドでは、許可もしくは拒否で始めてください"
 
 # File: src/www/services_upnp.php, line: 100
 msgid ""
 "You must specify a port or port range between 0 and 65535 in the 'User "
 "specified permissions %s' field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドでは、ポートもしくはポート範囲を 0 - 65535 で指定してください"
 
 # File: src/www/services_upnp.php, line: 103
 msgid ""
 "You must specify a valid ip address in the 'User specified permissions %s' "
 "field"
-msgstr ""
+msgstr "「%s ユーザ指定パーミッション」フィールドに、有効な IP アドレスを指定してください"
 
 # File: src/www/services_upnp.php, line: 208
 msgid "Modified Universal Plug and Play settings."
-msgstr ""
+msgstr "ユニバーサルプラグアンドプレイ設定が変更されました。"
 
 # File: src/www/services_wol.php, line: 55
 msgid "Sent magic packet to %s (%s)."
-msgstr ""
+msgstr "マジックパケットを %s (%s) に送信しました。"
 
 # File: src/www/services_wol.php, line: 57
 msgid ""
 "Please check the %ssystem log%s, the wol command for %s (%s) did not "
 "complete successfully."
-msgstr ""
+msgstr "%sシステムログ%sを確認してください。 %s (%s) に対する WOL コマンドが完了しませんでした。"
 
 msgid "A valid interface must be specified."
 msgstr "有効なインタフェースを指定してください。"
@@ -13371,23 +13371,23 @@ msgid "A valid ip could not be found!"
 msgstr "有効な IP がありません！"
 
 msgid "Sent magic packet to %s."
-msgstr "%s にマジックパケットを送信"
+msgstr "%s にマジックパケットを送信しました。"
 
 # File: src/www/services_wol.php, line: 94
 msgid ""
 "Please check the %ssystem log%s, the wol command for %s did not complete "
 "successfully."
-msgstr ""
+msgstr "%sシステムログ%sを確認してください。 %s に対する WOL コマンドが完了しませんでした。"
 
 msgid "Choose which interface the host to be woken up is connected to."
 msgstr "接続で起動するホストのインタフェースを選択してください。"
 
 # File: src/www/services_wol.php, line: 157
 msgid "Enter a MAC address %sin the following format: xx:xx:xx:xx:xx:xx%s"
-msgstr ""
+msgstr "MAC アドレスを%s次の形式で入力してください: xx:xx:xx:xx:xx:xx%s"
 
 msgid "Or Click the MAC address to wake up an individual device:"
-msgstr "もしくは起動する個々のデバイスの MAC アドレスをクリックしてください。"
+msgstr "もしくは起動する個々のデバイスの MAC アドレスをクリックしてください: "
 
 msgid "Wake all clients at once: "
 msgstr "一度に全てのクライアントを起動: "
@@ -13399,6 +13399,9 @@ msgid ""
 "support Wake on LAN and has to be configured properly (WOL cable, BIOS "
 "settings)."
 msgstr ""
+"このサービスは特別な「マジックパケット」を送信することで、コンピュータを起こす ( 電源を入れる ) ことができます。"
+"起こす予定のコンピュータの NIC が Wake-on-LAN に対応しており、適切に構成されている必要があります"
+" ( WOL ケーブル、BIOS 設定 )。"
 
 msgid "Edit WOL entry"
 msgstr "WOL エントリの編集"
@@ -13443,7 +13446,7 @@ msgstr "終了"
 
 # File: src/www/status_dhcp_leases.php, line: 346
 msgid "Lease type"
-msgstr ""
+msgstr "リースタイプ"
 
 msgid "send Wake on LAN packet to this MAC address"
 msgstr "この MAC アドレスに Wake-on-LAN パケットを送信"
@@ -13483,11 +13486,11 @@ msgstr "IPv6 プレフィックス"
 
 # File: src/www/status_filter_reload.php, line: 73
 msgid "Reload Filter"
-msgstr ""
+msgstr "フィルタのリロード"
 
 # File: src/www/status_filter_reload.php, line: 75
 msgid "Force Config Sync"
-msgstr ""
+msgstr "構成同期を強制"
 
 msgid "Warning, Packetloss"
 msgstr "警告: パケットロス"
@@ -13510,28 +13513,27 @@ msgstr "損失"
 msgid "Pending"
 msgstr "ペンディング"
 
-#, fuzzy
 msgid "Offline (forced)"
-msgstr "オフライン"
+msgstr "オフライン ( 強制 )"
 
 msgid "Last check:"
 msgstr "最新チェック: "
 
 # File: src/www/status_graph.php, line: 207
 msgid "Sort by"
-msgstr ""
+msgstr "以下でソート"
 
 # File: src/www/status_graph.php, line: 209
 msgid "Display"
-msgstr ""
+msgstr "表示"
 
 # File: src/www/status_graph.php, line: 224
 msgid "Bw In"
-msgstr ""
+msgstr "Bw In"
 
 # File: src/www/status_graph.php, line: 225
 msgid "Bw Out"
-msgstr ""
+msgstr "Bw Out"
 
 msgid "Local"
 msgstr "ローカル"
@@ -13541,7 +13543,7 @@ msgstr "ホスト名"
 
 # File: src/www/status_graph.php, line: 235
 msgid "FQDN"
-msgstr ""
+msgstr "FQDN"
 
 msgid "Host IP"
 msgstr "ホスト IP"
@@ -13559,7 +13561,8 @@ msgstr "上り帯域幅"
 msgid ""
 "The %sAdobe SVG Viewer%s, Firefox 1.5 or later or other browser supporting "
 "SVG is required to view the graph."
-msgstr ""
+msgstr "%sAdobe SVG Viewer%s でグラフを表示するには、Firefox 1.5 以上、もしくは SVG に対応している"
+"その他のブラウザが必要です。"
 
 msgid "interface"
 msgstr "インタフェース"
@@ -13572,7 +13575,7 @@ msgstr "更新"
 
 # File: src/www/status_interfaces.php, line: 102
 msgid "DHCP6"
-msgstr ""
+msgstr "DHCP6"
 
 msgid "Connect"
 msgstr "接続"
@@ -13603,7 +13606,7 @@ msgstr "セル上流"
 # File: src/www/status_interfaces.php, line: 228
 # File: src/www/status_interfaces.php, line: 235
 msgid "kbit/s"
-msgstr ""
+msgstr "kbit/s"
 
 msgid "Cell Downstream"
 msgstr "セル下流"
@@ -13680,8 +13683,9 @@ msgid ""
 "prevent dial-on-demand from making connections to the outside! Don't use "
 "dial-on-demand if you want to make sure that the line is kept disconnected."
 msgstr ""
-"ダイヤルオンデマンドを使用すると、なんらかのパケットがトリガとなって、接続が再度アップになります。これを具体的に言うと、手動で切断しても、ダイヤルオンデマ"
-"ンドが外部に対して接続することを、妨げられ %sません%s。もし、回線を確実に切断状態にしておきたい場合は、ダイヤルオンデマンドを使用しないでください。"
+"ダイヤルオンデマンドを使用中に、なんらかのパケットがトリガになると接続は再度アップになります。"
+"要するに、手動で切断してもダイヤルオンデマンドが外部に対して接続することを、妨げられ%sません%s！"
+"回線を確実に切断状態にしておきたい場合は、ダイヤルオンデマンドは使用しないでください。"
 
 msgid "Ref ID"
 msgstr "RefID"
@@ -13708,11 +13712,11 @@ msgstr "Jitter"
 msgid ""
 "Statistics unavailable because ntpq and ntpdc queries are disabled in the %"
 "sNTP service settings%s."
-msgstr ""
+msgstr "統計が利用できません。ntpq 及び ntpdc クエリが %sNTP サービス設定%sで無効になっています。"
 
 # File: src/www/status_ntpd.php, line: 196
 msgid "No peers found, %sis the ntp service running%s?"
-msgstr ""
+msgstr "ピアが見つかりません。%sntp サービスは実行されていますか%s？"
 
 msgid "Clock Latitude"
 msgstr "時計の緯度"
@@ -13720,17 +13724,16 @@ msgstr "時計の緯度"
 msgid "Clock Longitude"
 msgstr "時計の経度"
 
-#, fuzzy
 msgid "Clock Altitude"
-msgstr "時計の緯度"
+msgstr "時計の高度"
 
 # File: src/www/status_ntpd.php, line: 244
 msgid "Satellites"
-msgstr ""
+msgstr "衛星"
 
 # File: src/www/status_openvpn.php, line: 131
 msgid "OpenVPN Status"
-msgstr ""
+msgstr "OpenVPN ステータス"
 
 msgid "Client connections"
 msgstr "クライアント接続"
@@ -13758,7 +13761,7 @@ msgstr "次からのクライアント接続を強制終了: "
 
 # File: src/www/status_openvpn.php, line: 185
 msgid "Show/Hide Routing Table"
-msgstr ""
+msgstr "ルーティングテーブルを表示 / 隠す"
 
 msgid "Routing Table"
 msgstr "ルーティングテーブル"
