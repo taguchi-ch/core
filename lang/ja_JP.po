@@ -13292,7 +13292,9 @@ msgstr ""
 msgid ""
 "Entries in this area override an entire domain by specifying an "
 "authoritative DNS server to be queried for that domain."
-msgstr "このエリアのエントリは、そのドメインに対する問い合わせに使用される、権威 DNS サーバが指定するドメイン全体を上書きします。"
+msgstr ""
+"そのドメインに対して問い合わせされる権威 DNS サーバを設定することにより、"
+"このエリアのエントリはドメイン全体を上書きします。
 
 # File: src/www/services_upnp.php, line: 70
 msgid "At least one of 'UPnP' or 'NAT-PMP' must be allowed"
@@ -13362,7 +13364,7 @@ msgstr "マジックパケットを %s (%s) に送信しました。"
 msgid ""
 "Please check the %ssystem log%s, the wol command for %s (%s) did not "
 "complete successfully."
-msgstr "%sシステムログ%sを確認してください。 %s (%s) に対する WOL コマンドが完了しませんでした。"
+msgstr "%sシステムログ%sを確認してください。%s (%s) に対する WOL コマンドが完了しませんでした。"
 
 msgid "A valid interface must be specified."
 msgstr "有効なインタフェースを指定してください。"
@@ -13377,7 +13379,7 @@ msgstr "%s にマジックパケットを送信しました。"
 msgid ""
 "Please check the %ssystem log%s, the wol command for %s did not complete "
 "successfully."
-msgstr "%sシステムログ%sを確認してください。 %s に対する WOL コマンドが完了しませんでした。"
+msgstr "%sシステムログ%sを確認してください。%s に対する WOL コマンドが完了しませんでした。"
 
 msgid "Choose which interface the host to be woken up is connected to."
 msgstr "接続で起動するホストのインタフェースを選択してください。"
@@ -13399,8 +13401,8 @@ msgid ""
 "support Wake on LAN and has to be configured properly (WOL cable, BIOS "
 "settings)."
 msgstr ""
-"このサービスは特別な「マジックパケット」を送信することで、コンピュータを起こす ( 電源を入れる ) ことができます。"
-"起こす予定のコンピュータの NIC が Wake-on-LAN に対応しており、適切に構成されている必要があります"
+"このサービスは特別な「マジックパケット」を送信することで、コンピュータを起動する ( 電源を入れる ) ことができます。"
+"起動する予定のコンピュータの NIC が Wake-on-LAN に対応しており、適切に構成されている必要があります"
 " ( WOL ケーブル、BIOS 設定 )。"
 
 msgid "Edit WOL entry"
@@ -13521,7 +13523,7 @@ msgstr "最新チェック: "
 
 # File: src/www/status_graph.php, line: 207
 msgid "Sort by"
-msgstr "以下でソート"
+msgstr "次でソート"
 
 # File: src/www/status_graph.php, line: 209
 msgid "Display"
@@ -13797,21 +13799,20 @@ msgstr "定義済みの OpenVPN インスタンスはありません"
 
 # File: src/etc/inc/service-utils.inc, line: 410
 msgid "Could not start unknown service `%s'"
-msgstr ""
+msgstr "不明なサービス %s を開始できませんでした"
 
 msgid "%s has been started."
 msgstr "%s が開始されました"
 
-#, fuzzy
 msgid "Could not stop unknown service `%s'"
-msgstr "エラー！ %s サーバに接続できません"
+msgstr "不明なサービス %s を停止できませんでした"
 
 msgid "%s has been stopped."
 msgstr "%s が停止されました"
 
 # File: src/etc/inc/service-utils.inc, line: 566
 msgid "Could not restart unknown service `%s'"
-msgstr ""
+msgstr "不明なサービス %s を再起動できませんでした"
 
 msgid "%s has been restarted."
 msgstr "%s が再起動されました"
@@ -13820,14 +13821,13 @@ msgid "No services found"
 msgstr "サービスがありません"
 
 msgid "Rules have been cleared and the daemon restarted"
-msgstr "ルールは消去され、デーモンは再起動しました。"
+msgstr "ルールは消去され、デーモンは再起動しました"
 
 msgid "UPnP is currently disabled."
 msgstr "UPnP は現在無効です"
 
-#, fuzzy
 msgid "Int. Port"
-msgstr "送信先ポート"
+msgstr "Int. ポート"
 
 msgid "all currently connected sessions"
 msgstr "現在接続している全てのセッション"
@@ -13843,7 +13843,7 @@ msgstr "近くのアクセスポイント、またはアドホックピア"
 # File: src/www/status_wireless.php, line: 99
 # File: src/www/status_wireless.php, line: 151
 msgid "CHAN"
-msgstr ""
+msgstr "CHAN"
 
 # File: src/www/status_wireless.php, line: 100
 # File: src/www/status_wireless.php, line: 152
@@ -13852,61 +13852,63 @@ msgstr ""
 
 # File: src/www/status_wireless.php, line: 102
 msgid "INT"
-msgstr ""
+msgstr "RATE"
 
 # File: src/www/status_wireless.php, line: 103
 # File: src/www/status_wireless.php, line: 157
 msgid "CAPS"
-msgstr ""
+msgstr "CAPS"
 
 msgid "Associated or ad-hoc peers"
 msgstr "アソシエーション済、またはアドホックピア"
 
 # File: src/www/status_wireless.php, line: 149
 msgid "ADDR"
-msgstr ""
+msgstr "ADDR"
 
 # File: src/www/status_wireless.php, line: 150
 msgid "AID"
-msgstr ""
+msgstr "AID"
 
 # File: src/www/status_wireless.php, line: 154
 msgid "IDLE"
-msgstr ""
+msgstr "IDLE"
 
 # File: src/www/status_wireless.php, line: 155
 msgid "TXSEQ"
-msgstr ""
+msgstr "TXSEQ"
 
 # File: src/www/status_wireless.php, line: 156
 msgid "RXSEQ"
-msgstr ""
+msgstr "RXSEQ"
 
 # File: src/www/status_wireless.php, line: 158
 msgid "ERP"
-msgstr ""
+msgstr "ERP"
 
 # File: src/www/status_wireless.php, line: 190
 msgid "Rescan"
-msgstr ""
+msgstr "再スキャン"
 
 # File: src/www/status_wireless.php, line: 191
 msgid "A = authorized, E = Extended Rate (802.11g), P = Power save mode"
-msgstr ""
+msgstr "A = 認証済、E = 拡張レート (802.11g)、P = 省電力モード "
 
 # File: src/www/status_wireless.php, line: 191
 msgid "Flags:"
-msgstr ""
+msgstr "フラグ: "
 
 # File: src/www/status_wireless.php, line: 192
 msgid "Capabilities:"
-msgstr ""
+msgstr "ケイパビリティ: "
 
 # File: src/www/status_wireless.php, line: 192
 msgid ""
 "E = ESS (infrastructure mode), I = IBSS (ad-hoc mode), P = privacy "
 "(WEP/TKIP/AES), S = Short preamble, s = Short slot time"
 msgstr ""
+"E = ESS ( インフラストラクチャモード )、I = IBSS ( アドホックモード )、P = プライバシー (WEP/TKIP/AES)、"
+"S = ショートプリアンブル、s = ショートスロットタイム"
 
 msgid "You must specify a valid webConfigurator port number"
 msgstr "有効な Web 設定管理画面 ポート番号を指定してください"
@@ -13915,15 +13917,15 @@ msgid "Alternate hostname %s is not a valid hostname."
 msgstr "代替ホスト名 %s は有効なホスト名ではありません"
 
 msgid "One moment...redirecting to %s in 20 seconds."
-msgstr "少しお待ちください···20 秒で %s にリダイレクトします"
+msgstr "少しお待ちください...20 秒で %s にリダイレクトします"
 
 # File: src/www/system_advanced_admin.php, line: 252
 msgid "Secure Shell configuration has changed. Applying now..."
-msgstr ""
+msgstr "セキュアシェル構成は変更されました。現在適用しています..."
 
 # File: src/www/system_advanced_admin.php, line: 257
 msgid "webConfigurator configuration has changed. Applying now..."
-msgstr ""
+msgstr "Web 設定管理画面構成は変更されました。現在適用しています..."
 
 msgid "webConfigurator"
 msgstr "Web 設定管理画面"
@@ -13944,7 +13946,7 @@ msgstr "SSL 証明書"
 msgid ""
 "The %sSSL certificate manager%s can be used to create or import certificates "
 "if required."
-msgstr ""
+msgstr "%sSSL 証明書マネジャ%sは、必要な証明書の新規作成もしくはインポートを行えます。"
 
 msgid "TCP port"
 msgstr "TCP ポート"
@@ -13968,17 +13970,15 @@ msgid ""
 "even on port 80, regardless of the listening port configured. Check this box "
 "to disable this automatically added redirect rule. "
 msgstr ""
-"これをチェックしない場合は、Web 設定管理画面へのアクセスは、常に許可されます。例えポート 80 "
-"だとしても、リスニングポートの構成内容は考慮されません。このボックスをチェックすると、このような自動的なリダイレクトルールの追加を無効にします。"
+"これをチェックしないと、使用するポートが 80 の場合でも Web 設定管理画面へのアクセスは常に許可されます。"
+"リスニングポートの構成は考慮されません。このボックスをチェックすると、このような自動的なリダイレクトルールの追加を無効にします。"
 
 msgid "WebGUI Login Autocomplete"
 msgstr "WebGUI ログインオートコンプリート"
 
-#, fuzzy
 msgid "Enable webConfigurator login autocomplete"
-msgstr "Web 設定管理画面ログインオートコンプリートを無効"
+msgstr "Web 設定管理画面ログインオートコンプリートを有効"
 
-#, fuzzy
 msgid ""
 "When this is checked, login credentials for the webConfigurator may be saved "
 "by the browser. While convenient, some security standards require this to be "
@@ -13986,9 +13986,10 @@ msgid ""
 "browsers will prompt to save credentials (NOTE: Some browsers do not respect "
 "this option). "
 msgstr ""
-"これをチェックしない場合は、Web 設定管理画面へのログイン認証情報はブラウザに保存されます。便利ですが、一部のセキュリティ標準では、これを無効にする必要"
-"があります。このボックスをチェックすると、ログインフォームでオートコンプリートが無効になり、ブラウザは、認証情報を保存するよう促さなくなります。 ( "
-"注意: このオプションを無視するブラウザが存在します )"
+"これをチェックすると、Web 設定管理画面へのログイン認証情報はブラウザに保存されます。"
+"便利ですが、一部のセキュリティ標準ではこの機能を無効にする必要があります。"
+"このボックスをチェックすると、ログインフォームでオートコンプリートが有効になり、ブラウザは認証情報を保存するよう"
+"促すようになります ( 注意: このオプションを無視するブラウザが存在します )。"
 
 msgid "WebGUI login messages"
 msgstr "WebGUI ログインメッセージ"
@@ -14057,10 +14058,10 @@ msgstr "DNS リバインディング攻撃確認を回避するために、ル�
 
 # File: src/www/system_advanced_admin.php, line: 458
 msgid "HTTP_REFERER enforcement"
-msgstr ""
+msgstr "HTTP_REFERER 強制"
 
 msgid "Disable HTTP_REFERER enforcement check"
-msgstr "ブラウザ HTTP_REFERER 強制確認を無効"
+msgstr "HTTP_REFERER 強制確認を無効"
 
 msgid ""
 "When this is unchecked, access to the webConfigurator is protected against "
@@ -14076,21 +14077,22 @@ msgstr ""
 "'_blank' "
 "href='http://en.wikipedia.org/wiki/HTTP_referrer'>ウィキペディア</a>を参照してください。"
 
-#, fuzzy
 msgid "Enable XDebug"
-msgstr "有効: "
+msgstr "XDebug を有効"
 
 # File: src/www/system_advanced_admin.php, line: 509
 msgid ""
 "Enable debugger / profiler (developer mode, do not enable in production "
 "environment)"
-msgstr ""
+msgstr "デバッガ / プロファイラを有効 ( デベロッパモード、プロダクション環境では有効にしてはいけません )"
 
 # File: src/www/system_advanced_admin.php, line: 511
 msgid ""
 "When this is checked, php XDebug will be enabled and profiling output can be "
 "analysed using webgrind which will be available at [this-url]/webgrind/"
 msgstr ""
+"これをチェックすると、php XDebug が有効になり、webgrind を使用して出力のプロファイリングを分析することができます。"
+"webgrind は [this-url]/webgrind/ で利用可能です。"
 
 # File: src/www/system_advanced_admin.php, line: 513
 msgid ""
@@ -14098,6 +14100,8 @@ msgid ""
 "requests, please visit "
 "http://www.xdebug.org/docs/all_settings#profiler_enable_trigger"
 msgstr ""
+"XDebug のプロファイリングについてや、あなたの要求にあわせてそれをどのように有効にするかに関する、より詳しい情報については、"
+"次のサイトを参照してください: http://www.xdebug.org/docs/all_settings#profiler_enable_trigger"
 
 msgid "Secure Shell"
 msgstr "SSH"
@@ -14108,30 +14112,26 @@ msgstr "SSH サーバ"
 msgid "Enable Secure Shell"
 msgstr "SSH を有効"
 
-#, fuzzy
 msgid "Root Login"
-msgstr "ログイン"
+msgstr "root ログイン"
 
-#, fuzzy
 msgid "Permit root user login"
-msgstr "ユーザ同時ログイン"
+msgstr "root ユーザログインを許可"
 
 # File: src/www/system_advanced_admin.php, line: 499
 msgid ""
 "Root login is generally discouraged. It is advised to log in via another "
 "user and switch to root afterwards."
-msgstr ""
+msgstr "root ログインは一般的には非推奨です。他のユーザとしてログインしてから、root に切り替えることをお勧めします。"
 
 msgid "Authentication Method"
 msgstr "認証方法"
 
-#, fuzzy
 msgid "Permit password login"
-msgstr "ログインするにはユーザ名とパスワードを入力してください"
+msgstr "パスワードログインを許可"
 
-#, fuzzy
 msgid "When disabled, authorized keys need to be configured for each"
-msgstr "有効にすると、SSH アクセスを許可された"
+msgstr "無効にすると、SSH アクセスを許可された"
 
 msgid "user"
 msgstr "ユーザ"
@@ -14142,22 +14142,19 @@ msgstr "毎に、認証鍵を構成する必要があります。"
 msgid "SSH port"
 msgstr "SSH ポート"
 
-#, fuzzy
 msgid "Leave this blank for the default of 22."
-msgstr "注意: 空白にすると、デフォルトの 22 が設定されます。"
+msgstr "空白にすると、デフォルトの 22 が設定されます。"
 
-#, fuzzy
 msgid "Serial Communications"
-msgstr "シリアル接続"
+msgstr "シリアル通信"
 
 msgid "Serial Terminal"
 msgstr "シリアル端末"
 
-#, fuzzy
 msgid ""
 "Enables the first serial port with 115200/8/N/1 by default, or another speed "
 "selectable below."
-msgstr "有効にすると、デフォルトでは、第 1 シリアルポートは 9600/8/N/1 に設定されます。それ以外の速度は以下から選択可能です。"
+msgstr "有効にすると、第 1 シリアルポートはデフォルトの 115200/8/N/1 に設定されます。それ以外の速度は以下から選択可能です。"
 
 msgid ""
 "Note:  This will redirect the console output and messages to the serial "
@@ -14173,22 +14170,22 @@ msgstr "シリアル速度"
 
 # File: src/www/system_advanced_admin.php, line: 549
 msgid "bps"
-msgstr ""
+msgstr "bps"
 
 msgid "Allows selection of different speeds for the serial console port."
 msgstr "シリアルコンソールポート毎に異なる速度が選択できます。"
 
 # File: src/www/system_advanced_admin.php, line: 606
 msgid "Primary Console"
-msgstr ""
+msgstr "プライマリコンソール"
 
 # File: src/www/system_advanced_admin.php, line: 560
 msgid "Serial Console"
-msgstr ""
+msgstr "シリアルコンソール"
 
 # File: src/www/system_advanced_admin.php, line: 563
 msgid "VGA Console"
-msgstr ""
+msgstr "VGA コンソール"
 
 # File: src/www/system_advanced_admin.php, line: 616
 msgid ""
@@ -14196,6 +14193,9 @@ msgid ""
 "console will show OPNsense boot script output. All consoles display OS boot "
 "messages, console messages, and the console menu."
 msgstr ""
+"複数のコンソールが存在する場合は、優先するコンソールを選択してください。"
+"優先設定のコンソールに OPNsense ブートスクリプト出力が表示されます。"
+"全てのコンソールに OS ブートメッセージ、コンソールメッセージ、及びコンソールメニューが表示されます。"
 
 msgid "Console Options"
 msgstr "コンソールオプション"
@@ -14221,9 +14221,8 @@ msgstr "ファイアウォール適応終了値は整数です。"
 msgid "The Firewall Maximum States value must be an integer."
 msgstr "ファイアウォールステータスの最大値は整数です"
 
-#, fuzzy
 msgid "The Aliases Hostname Resolve Interval value must be an integer."
-msgstr "アイドルタイムアウト値は整数です"
+msgstr "エイリアスホスト名解決間隔値は整数です"
 
 msgid "The Firewall Maximum Table Entries value must be an integer."
 msgstr "ファイアウォールテーブルエントリの最大値は整数です"
@@ -14236,7 +14235,7 @@ msgstr "ファイアウォール詳細設定"
 
 # File: src/www/system_advanced_firewall.php, line: 269
 msgid "IP Do-Not-Fragment"
-msgstr ""
+msgstr "IP Do-Not-Fragment"
 
 msgid "Clear invalid DF bits instead of dropping the packets"
 msgstr "パケットを落とす代わりに無効な DF ビットを消去"
@@ -14253,7 +14252,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 282
 msgid "IP Random id"
-msgstr ""
+msgstr "IP ランダム ID"
 
 msgid ""
 "Insert a stronger id into IP header of packets passing through the filter."
@@ -14270,7 +14269,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 295
 msgid "Firewall Optimization"
-msgstr ""
+msgstr "ファイアウォール最適化"
 
 msgid "normal"
 msgstr "通常"
@@ -14287,9 +14286,8 @@ msgstr "コンサバティブ"
 msgid "Select the type of state table optimization to use"
 msgstr "ステータステーブルの最適化に使用するタイプを選択してください"
 
-#, fuzzy
 msgid "as the name says, it is the normal optimization algorithm"
-msgstr "一般的な最適化アルゴリズムを使用します。"
+msgstr "名前の通り、一般的な最適化アルゴリズムです。"
 
 msgid ""
 "used for high latency links, such as satellite links.  Expires idle "
@@ -14314,17 +14312,18 @@ msgstr "全てのパケットフィルタリングを無効"
 
 # File: src/www/system_advanced_firewall.php, line: 357
 msgid "Warning: This converts %s into a routing only platform!"
-msgstr ""
+msgstr "警告: これは %s をルーティングのみのプラットフォームに変換します！"
 
 # File: src/www/system_advanced_firewall.php, line: 358
 msgid "Warning: This will also turn off NAT!"
-msgstr ""
+msgstr "警告: これは NAT もオフになります！"
 
 # File: src/www/system_advanced_firewall.php, line: 360
 msgid ""
 "If you only want to disable NAT, and not firewall rules, visit the %"
 "sOutbound NAT%s page."
 msgstr ""
+"ファイアウォールルールではなく、NAT を無効にしたいだけであれば、%s外向き NAT%s ページにアクセスしてください。"
 
 msgid "Disable Firewall Scrub"
 msgstr "ファイアウォールスクラブを無効"
@@ -14340,12 +14339,12 @@ msgstr "ファイアウォール適応タイムアウト"
 # File: src/www/system_advanced_firewall.php, line: 365
 # File: src/www/system_advanced_firewall.php, line: 383
 msgid "start"
-msgstr ""
+msgstr "開始"
 
 # File: src/www/system_advanced_firewall.php, line: 366
 # File: src/www/system_advanced_firewall.php, line: 385
 msgid "end"
-msgstr ""
+msgstr "終了"
 
 msgid ""
 "Timeouts for states can be scaled adaptively as the number of state table "
