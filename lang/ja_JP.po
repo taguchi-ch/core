@@ -14413,7 +14413,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 433
 msgid "Disable Auto-added VPN rules"
-msgstr ""
+msgstr "自動追加 VPN ルールを無効"
 
 msgid "Disable all auto-added VPN rules."
 msgstr "全ての自動追加 VPN ルールを無効"
@@ -14423,7 +14423,7 @@ msgstr "注意: IPsec や PPTP に自動的に追加されたルールを無効�
 
 # File: src/www/system_advanced_firewall.php, line: 444
 msgid "Disable reply-to"
-msgstr ""
+msgstr "reply-to を無効"
 
 msgid "Disable reply-to on WAN rules"
 msgstr "WAN ルールで reply-to を無効"
@@ -14440,7 +14440,7 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 456
 msgid "Disable Negate rules"
-msgstr ""
+msgstr "否定ルールを無効"
 
 msgid "Disable Negate rule on policy routing rules"
 msgstr "ポリシルーティングルールの「否定」ルールを無効"
@@ -14456,31 +14456,32 @@ msgstr ""
 
 # File: src/www/system_advanced_firewall.php, line: 467
 msgid "Aliases Resolve Interval"
-msgstr ""
+msgstr "エイリアス解決間隔"
 
 # File: src/www/system_advanced_firewall.php, line: 465
 msgid ""
 "Interval, in seconds, that will be used to resolve hostnames configured on "
 "aliases."
-msgstr ""
+msgstr "間隔はエイリアスのホスト名解決の構成に使用されます。単位は秒です。"
 
-#, fuzzy
 msgid "Note:  Leave this blank for the default (300s)."
-msgstr "注意: 空白の場合は、デフォルト (0) になります。"
+msgstr "注意: 空白の場合は、デフォルト ( 300 秒 ) になります。"
 
 # File: src/www/system_advanced_firewall.php, line: 471
 msgid "Check certificate of aliases URLs"
-msgstr ""
+msgstr "エイリアス URL の証明書を確認"
 
 # File: src/www/system_advanced_firewall.php, line: 476
 msgid "Verify HTTPS certificates when downloading alias URLs"
-msgstr ""
+msgstr "エイリアス URL のダウンロード時に HTTPS 証明書を検証"
 
 # File: src/www/system_advanced_firewall.php, line: 478
 msgid ""
 "Make sure the certificate is valid for all HTTPS addresses on aliases. If "
 "it's not valid or is revoked, do not download it."
 msgstr ""
+"エイリアスの全ての HTTPS アドレスの証明書が有効かどうか確認してください。"
+"無効、もしくは失効している場合は、ダウンロードしないでください。"
 
 msgid "Bogon Networks"
 msgstr "Bogon ネットワーク"
@@ -14507,7 +14508,7 @@ msgstr "ネットワークアドレス変換"
 
 # File: src/www/system_advanced_firewall.php, line: 516
 msgid "Reflection for port forwards"
-msgstr ""
+msgstr "ポートフォワードのリフレクション"
 
 msgid ""
 "When enabled, this automatically creates additional NAT redirect rules for "
@@ -14558,7 +14559,7 @@ msgstr "注意: NAT + プロキシモードのポートフォワードで、リ�
 
 # File: src/www/system_advanced_firewall.php, line: 552
 msgid "Enable Reflection for 1:1"
-msgstr ""
+msgstr "1:1 のリクレクションを有効"
 
 msgid ""
 "Enables the automatic creation of additional NAT redirect rules for access "
@@ -14653,7 +14654,7 @@ msgstr "ロードバランシング"
 
 # File: src/www/system_advanced_misc.php, line: 310
 msgid "Gateway switching"
-msgstr ""
+msgstr "ゲートウェイ切替え"
 
 msgid "Allow default gateway switching"
 msgstr "デフォルトゲートウェイの切替えを許可"
@@ -14665,7 +14666,7 @@ msgstr "デフォルトゲートウェイとのリンクに障害が発生した
 
 # File: src/www/system_advanced_misc.php, line: 321
 msgid "Sticky connections"
-msgstr ""
+msgstr "スティッキー接続"
 
 msgid "Use sticky connections"
 msgstr "スティッキー接続を使用"
@@ -14685,7 +14686,7 @@ msgstr ""
 
 # File: src/www/system_advanced_misc.php, line: 335
 msgid "Source tracking timeout"
-msgstr ""
+msgstr "送信元追跡タイムアウト"
 
 msgid ""
 "Set the source tracking timeout for sticky connections. By default this is "
@@ -14736,13 +14737,17 @@ msgid ""
 "important than power consumption.  It raises frequency faster, drops slower "
 "and keeps twice lower CPU load."
 msgstr ""
-"powerd ユーティリティはシステムの状態を監視して、様々な電源コントロールオプションを状況に応じて設定します。4 つのモードが提供されていて ( "
-"最大、最小、適応、高適応 )、AC 電源やバッテリで個々に選択可能です。モードの最大、最小、適応、高適応は、max、min、adp、hadp、と省略表記し"
-"ます。最大モードは、最も高いパフォーマンスとなる値を選択します。最小モードは、最も低いパフォーマンスの値を選択することで、最大限の省電力を行います。適応モ"
-"ードは、パフォーマンスと省電力をうまく均衡させようとします。システムがアイドルに見える場合はパフォーマンスを落とし、システムがビジーの場合はパフォーマンス"
-"を上昇させます。ほど良いバランスを提供し、少しのパフォーマンスの低下で、より大きな省電力を可能にします。高適応モードは、適応モードに似ていますが、システム"
-"のパフォーマンスと双方向性が、電力消費よりも重要であるシステム向けに調整されています。速度が頻繁に上がる場合は、速度を落とし、CPU 負荷が 1/2 "
-"になる状態を維持します。"
+"powerd ユーティリティはシステムの状態を監視して、様々な電源コントロールオプションを状況に応じて設定します。"
+"4 つのモードが提供されていて ( 最大、最小、適応、高適応 )、AC 電源やバッテリで個々に選択可能です。"
+"モードの最大、最小、適応、高適応は、max、min、adp、hadp、と省略表記します。"
+"最大モードは、最も高いパフォーマンスとなる値を選択します。
+"最小モードは、最も低いパフォーマンスの値を選択することで、最大限の省電力を行います。"
+"適応モードは、パフォーマンスと省電力をうまく均衡させようとします。"
+"システムがアイドルに見える場合はパフォーマンスを落とし、システムがビジーの場合はパフォーマンスを上昇させます。"
+"少しのパフォーマンスの低下で、より大きな省電力を可能にする、ほど良いバランスを提供します。"
+"高適応モードは、適応モードに似ていますが、システムのパフォーマンスと双方向性が、"
+"電力消費よりも重要であるシステム向けに調整されています。"
+"周波数が高速に上がったら、低速に落として CPU 負荷が低い状態を 2 倍継続します。"
 
 msgid "Cryptographic Hardware Acceleration"
 msgstr "暗号化ハードウェアアクセラレーション"
@@ -14750,7 +14755,7 @@ msgstr "暗号化ハードウェアアクセラレーション"
 # File: src/www/system_advanced_misc.php, line: 417
 # File: src/www/system_advanced_misc.php, line: 446
 msgid "Hardware"
-msgstr ""
+msgstr "ハードウェア"
 
 msgid ""
 "A cryptographic accelerator module will use hardware support to speed up "
@@ -14813,23 +14818,22 @@ msgstr "ゲートウェイ監視"
 
 # File: src/www/system_advanced_misc.php, line: 485
 msgid "Kill states"
-msgstr ""
+msgstr "ステータスをキル"
 
 # File: src/www/system_advanced_misc.php, line: 517
 msgid "State Killing on Gateway Failure"
-msgstr ""
+msgstr "ゲートウェイ障害のステータスをキルします"
 
-#, fuzzy
 msgid ""
 "The monitoring process will flush states for a gateway that goes down if "
 "this box is not checked. Check this box to disable this behavior."
 msgstr ""
-"デフォルトでは、ゲートウェイがダウンする場合は、監視プロセスはステータスをフラッシュします。このオプションはその振る舞いを上書きするため、既存の接続ステー"
-"タスは消去されません。"
+"このボックスがチェックされていない場合、ゲートウェイがダウンする時に監視プロセスはステータスをフラッシュします。"
+"このボックスをチェックすると、この振る舞いを無効にします。"
 
 # File: src/www/system_advanced_misc.php, line: 495
 msgid "Skip rules"
-msgstr ""
+msgstr "ルールをスキップ"
 
 msgid "Skip rules when gateway is down"
 msgstr "ゲートウェイのダウン時は、ルールをスキップ"
