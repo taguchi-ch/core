@@ -13294,7 +13294,7 @@ msgid ""
 "authoritative DNS server to be queried for that domain."
 msgstr ""
 "そのドメインに対して問い合わせされる権威 DNS サーバを設定することにより、"
-"このエリアのエントリはドメイン全体を上書きします。
+"このエリアのエントリはドメイン全体を上書きします。"
 
 # File: src/www/services_upnp.php, line: 70
 msgid "At least one of 'UPnP' or 'NAT-PMP' must be allowed"
@@ -13848,11 +13848,11 @@ msgstr "CHAN"
 # File: src/www/status_wireless.php, line: 100
 # File: src/www/status_wireless.php, line: 152
 msgid "RATE"
-msgstr ""
+msgstr "RATE"
 
 # File: src/www/status_wireless.php, line: 102
 msgid "INT"
-msgstr "RATE"
+msgstr "INT"
 
 # File: src/www/status_wireless.php, line: 103
 # File: src/www/status_wireless.php, line: 157
@@ -14222,7 +14222,7 @@ msgid "The Firewall Maximum States value must be an integer."
 msgstr "ファイアウォールステータスの最大値は整数です"
 
 msgid "The Aliases Hostname Resolve Interval value must be an integer."
-msgstr "エイリアスホスト名解決間隔値は整数です"
+msgstr "エイリアスホスト名解決間隔値は整数です。"
 
 msgid "The Firewall Maximum Table Entries value must be an integer."
 msgstr "ファイアウォールテーブルエントリの最大値は整数です"
