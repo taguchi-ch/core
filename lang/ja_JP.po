@@ -14739,7 +14739,7 @@ msgstr ""
 "powerd ユーティリティはシステムの状態を監視して、様々な電源コントロールオプションを状況に応じて設定します。"
 "4 つのモードが提供されていて ( 最大、最小、適応、高適応 )、AC 電源やバッテリで個々に選択可能です。"
 "モードの最大、最小、適応、高適応は、max、min、adp、hadp、と省略表記します。"
-"最大モードは、最も高いパフォーマンスとなる値を選択します。
+"最大モードは、最も高いパフォーマンスとなる値を選択します。"
 "最小モードは、最も低いパフォーマンスの値を選択することで、最大限の省電力を行います。"
 "適応モードは、パフォーマンスと省電力をうまく均衡させようとします。"
 "システムがアイドルに見える場合はパフォーマンスを落とし、システムがビジーの場合はパフォーマンスを上昇させます。"
@@ -14921,19 +14921,20 @@ msgstr ""
 "RFC 2893 互換のメカニズムを提供し、IPv4 ルーティングインフラストラクチャ上で IPv6 "
 "パケットのトンネルングを使用可能にします。有効にする場合は、ファイアウォールルールに IPv6 パケットの許可を追加してください。"
 
-#, fuzzy
 msgid "Prefer IPv4 over IPv6"
-msgstr "古い IPsec SA を優先"
+msgstr "IPv4 over IPv6 を優先"
 
 # File: src/www/system_advanced_network.php, line: 222
 msgid "Prefer to use IPv4 even if IPv6 is available"
-msgstr ""
+msgstr "IPv6 が利用可能でも IPv4 の使用を優先"
 
 # File: src/www/system_advanced_network.php, line: 223
 msgid ""
 "By default, if a hostname resolves IPv6 and IPv4 addresses IPv6 will be "
 "used, if you check this option, IPv4 will be used instead of IPv6."
 msgstr ""
+"デフォルトでは、ホスト名が IPv6 と IPv4 アドレスに解決した場合 IPv6 が使用されますが、"
+"このオプションをチェックすると IPv6 の代わりに IPv4 が使用されるようになります。"
 
 msgid "Device polling"
 msgstr "デバイスポーリング"
@@ -14955,7 +14956,7 @@ msgstr ""
 
 # File: src/www/system_advanced_network.php, line: 239
 msgid "Hardware CRC"
-msgstr ""
+msgstr "ハードウェア CRC"
 
 msgid "Disable hardware checksum offload"
 msgstr "ハードウェアチェックサムオフロードを無効"
@@ -14975,11 +14976,11 @@ msgstr ""
 msgid ""
 "This will take effect after you reboot the machine or re-configure each "
 "interface."
-msgstr ""
+msgstr "これは、マシンを再起動するかインタフェース毎に再構成することで、有効になります。"
 
 # File: src/www/system_advanced_network.php, line: 252
 msgid "Hardware TSO"
-msgstr ""
+msgstr "ハードウェア TSO"
 
 msgid "Disable hardware TCP segmentation offload"
 msgstr "ハードウェア TCP セグメンテーションオフロードを無効"
@@ -14994,7 +14995,7 @@ msgstr ""
 
 # File: src/www/system_advanced_network.php, line: 265
 msgid "Hardware LRO"
-msgstr ""
+msgstr "ハードウェア LRO"
 
 msgid "Disable hardware large receive offload"
 msgstr "ハードウェアラージレシーブオフロードを無効"
@@ -15009,11 +15010,11 @@ msgstr ""
 
 # File: src/www/system_advanced_network.php, line: 274
 msgid "VLAN Hardware Filtering"
-msgstr ""
+msgstr "VLAN ハードウェアフィルタリング"
 
 # File: src/www/system_advanced_network.php, line: 279
 msgid "Disable VLAN Hardware Filtering"
-msgstr ""
+msgstr "VLAN ハードウェアフィルタリングを無効"
 
 # File: src/www/system_advanced_network.php, line: 280
 msgid ""
@@ -15021,6 +15022,8 @@ msgid ""
 "is broken in some hardware drivers, and may impact performance with some "
 "specific NICs."
 msgstr ""
+"このオプションをチェックすると、VLAN ハードウェアフィルタリングが無効になります。"
+"一部のハードウェアドライバではこのオフロードが中断されます。また、一部の特定の NIC のパフォーマンスに影響する可能性があります。"
 
 msgid "ARP Handling"
 msgstr "ARP 処理"
@@ -15033,29 +15036,26 @@ msgid ""
 "on the same broadcast domain"
 msgstr "このオプションは、同じブロードキャストドメインに複数のインタフェースが存在する場合に、ARP ログメッセージを抑制します。"
 
-#, fuzzy
 msgid "Test Growl"
-msgstr "Growl"
+msgstr "Growl をテスト"
 
 msgid "This is a test message from %s.  It is safe to ignore this message."
 msgstr "%s からのテストメッセージです。このメッセージは無視して構いません。"
 
-#, fuzzy
 msgid "Test SMTP"
-msgstr "ポートテスト"
+msgstr "SMTP をテスト"
 
 msgid "Growl"
 msgstr "Growl"
 
-#, fuzzy
 msgid "Disable Growl Notifications"
-msgstr "通知"
+msgstr "Growl 通知を無効"
 
 # File: src/www/system_advanced_notifications.php, line: 210
 msgid ""
 "Check this option to disable growl notifications but preserve the settings "
 "below."
-msgstr ""
+msgstr "このオプションをチェックすると Growl 通知が無効になりますが、下の設定は保持されます。"
 
 msgid "Registration Name"
 msgstr "登録名"
@@ -15079,9 +15079,8 @@ msgstr "リモート Growl 通知デバイスのパスワードを入力して�
 msgid "SMTP E-Mail"
 msgstr "SMTP メール"
 
-#, fuzzy
 msgid "Disable SMTP Notifications"
-msgstr "通知"
+msgstr "SMTP 通知を無効"
 
 # File: src/www/system_advanced_notifications.php, line: 260
 msgid ""
@@ -15089,6 +15088,8 @@ msgid ""
 "below. Some other mechanisms, such as packages, may need these settings in "
 "place to function."
 msgstr ""
+"このオプションをチェックすると SMTP 通知が無効になりますが、下の設定は保持されます。"
+"パッケージのような他の一部のメカニズムでは、機能するためにこれらの設定が必要になる場合があります。"
 
 msgid "E-Mail server"
 msgstr "メールサーバ"
@@ -15101,25 +15102,22 @@ msgstr "通知を送信する SMTP メールサーバの FQDN もしくは IP �
 msgid "SMTP Port of E-Mail server"
 msgstr "メールサーバの SMTP ポート"
 
-#, fuzzy
 msgid ""
 "This is the port of the SMTP E-Mail server, typically 25, 587 (submission) "
 "or 465 (smtps)"
 msgstr ""
-"SMTP メールサーバのポートで、通常は、25、587 ( サブミッション )、もしくは、465 ( smtps、ssl/tls "
-"チェックボックスをチェックしてください ) です。"
+"これは SMTP メールサーバのポートです。通常は、25、587 ( サブミッション )、もしくは、465 ( smtps ) です。"
 
-#, fuzzy
 msgid "Secure SMTP Connection"
-msgstr "同時接続"
+msgstr "セキュア SMTP 接続"
 
 # File: src/www/system_advanced_notifications.php, line: 283
 msgid "Enable SMTP over SSL/TLS"
-msgstr ""
+msgstr "SMTP over SSL/TLS を有効"
 
 # File: src/www/system_advanced_notifications.php, line: 287
 msgid "Enable STARTTLS"
-msgstr ""
+msgstr "STARTTLS を有効"
 
 msgid "From e-mail address"
 msgstr "差出人メールアドレス"
@@ -15129,7 +15127,7 @@ msgstr "差出人フィールドに表示されるメールアドレスです。
 
 # File: src/www/system_advanced_notifications.php, line: 257
 msgid "E-Mail address"
-msgstr ""
+msgstr "メールアドレス"
 
 msgid ""
 "Enter the e-mail address that you would like email notifications sent to."
@@ -15137,7 +15135,7 @@ msgstr "通知メールを送信する、メールアドレスを入力してく
 
 # File: src/www/system_advanced_notifications.php, line: 266
 msgid "E-Mail auth username"
-msgstr ""
+msgstr "メール認証ユーザ名"
 
 msgid "(optional)"
 msgstr "( オプション )"
@@ -15147,7 +15145,7 @@ msgstr "SMTP 認証用に、メールアドレスのユーザ名を入力して�
 
 # File: src/www/system_advanced_notifications.php, line: 276
 msgid "E-Mail auth password"
-msgstr ""
+msgstr "メール認証パスワード"
 
 msgid "Enter the e-mail address password for SMTP authentication."
 msgstr "SMTP 認証用に、メールアドレスのパスワードを入力してください。"
@@ -15168,11 +15166,11 @@ msgstr "これをチェックすると、起動とシャットダウンの音が
 msgid ""
 "NOTE: A test notification will be sent even if the service is marked as "
 "disabled."
-msgstr ""
+msgstr "注意: サービスが無効になっていても、テスト通知は送信されるようになります。"
 
 # File: src/www/system_advanced_sysctl.php, line: 111
 msgid "Add a new tunable"
-msgstr ""
+msgstr "新規調整パラメータを追加"
 
 msgid "Tunable"
 msgstr "調整パラメータ"
@@ -15185,13 +15183,11 @@ msgstr "ファイアウォール調整パラメータが変更されました。
 msgid "Tunable Name"
 msgstr "調整パラメータ名"
 
-#, fuzzy
 msgid "Edit Tunable"
-msgstr "調整パラメータ"
+msgstr "調整パラメータを編集"
 
-#, fuzzy
 msgid "Delete Tunable"
-msgstr "ルールの削除"
+msgstr "調整パラメータを削除"
 
 msgid "Edit system tunable"
 msgstr "システム調整パラメータの編集"
@@ -15243,7 +15239,7 @@ msgstr "削除済"
 
 # File: src/www/system_authservers.php, line: 287
 msgid "Add server"
-msgstr ""
+msgstr "サーバを追加"
 
 msgid "Please fill the required values."
 msgstr "必要な値を入力してください"
@@ -15262,14 +15258,15 @@ msgid ""
 "NOTE: When using SSL, this hostname MUST match the Common Name (CN) of the "
 "LDAP server's SSL Certificate."
 msgstr ""
+"SSL を使用している場合は、このホスト名は LDAP サーバの SSL 証明書のコモンネーム ( CN ) と一致していなければいけません。"
 
 # File: src/www/system_authservers.php, line: 476
 msgid "TCP - Standard"
-msgstr ""
+msgstr "TCP - 標準"
 
 # File: src/www/system_authservers.php, line: 479
 msgid "SSL - Encrypted"
-msgstr ""
+msgstr "SSL - 暗号化"
 
 msgid "Peer Certificate Authority"
 msgstr "ピアの認証局"
@@ -15291,14 +15288,14 @@ msgstr "AD の CA と一致する必要があります。そうでない場合�
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 1031
 msgid "Create one under"
-msgstr ""
+msgstr "次で新規作成してください: "
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php.orig, line: 718
 # File: src/www/vpn_openvpn_server.php, line: 958
 # File: src/www/vpn_openvpn_server.php.orig, line: 958
 msgid "No Certificate Authorities defined."
-msgstr ""
+msgstr "認証局が定義されていません。"
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php, line: 756
@@ -15311,7 +15308,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 1031
 msgid "System: Certificates"
-msgstr ""
+msgstr "システム: 証明書"
 
 msgid "Bind credentials"
 msgstr "資格情報をバインド"
@@ -15321,7 +15318,7 @@ msgstr "ユーザ DN: "
 
 # File: src/www/system_authservers.php, line: 525
 msgid "Leave empty to use anonymous binds to resolve distinguished names"
-msgstr ""
+msgstr "空白にすると、識別名の解決に匿名バインドを使用します"
 
 msgid "Search scope"
 msgstr "検索範囲"
@@ -15331,11 +15328,11 @@ msgstr "レベル: "
 
 # File: src/www/system_authservers.php, line: 536
 msgid "One Level"
-msgstr ""
+msgstr "1 レベル"
 
 # File: src/www/system_authservers.php, line: 539
 msgid "Entire Subtree"
-msgstr ""
+msgstr "サブツリー全体"
 
 msgid "Base DN:"
 msgstr "ベース DN: "
@@ -15346,11 +15343,12 @@ msgstr "認証コンテナ"
 msgid "Select"
 msgstr "選択"
 
-#, fuzzy
 msgid ""
 "Note: Semi-Colon separated. This will be prepended to the search base dn "
 "above or you can specify full container path containing a dc= component."
-msgstr "注意: セミコロンで区切ってください。上記のベース DN 検索の先頭に追加されます。または、フルコンテナパスを指定することもできます。"
+msgstr ""
+"注意: セミコロンで区切ってください。これは上記のベース DN 検索の先頭に追加されます。"
+"もしくは、dc= コンポーネントを含めたフルコンテナパスを指定することもできます。"
 
 msgid "Extended Query"
 msgstr "拡張クエリ"
@@ -15360,15 +15358,15 @@ msgstr "初期テンプレート"
 
 # File: src/www/system_authservers.php, line: 579
 msgid "OpenLDAP"
-msgstr ""
+msgstr "OpenLDAP"
 
 # File: src/www/system_authservers.php, line: 580
 msgid "Microsoft AD"
-msgstr ""
+msgstr "Microsoft AD"
 
 # File: src/www/system_authservers.php, line: 581
 msgid "Novell eDirectory"
-msgstr ""
+msgstr "Novell eDirectory"
 
 msgid "User naming attribute"
 msgstr "ユーザネーミング属性"
@@ -15378,7 +15376,7 @@ msgstr "提供するサービス"
 
 # File: src/www/system_authservers.php, line: 611
 msgid "Authentication and Accounting"
-msgstr ""
+msgstr "認証とアカウンティング"
 
 msgid "Accounting port value"
 msgstr "アカウンティングポート値"
@@ -15409,7 +15407,7 @@ msgstr "認証サーバは、ここで追加できます。"
 
 # File: src/www/system_authservers.php, line: 695
 msgid "delete this server"
-msgstr ""
+msgstr "このサーバを削除"
 
 msgid "Certificate data"
 msgstr "証明書データ"
@@ -15451,17 +15449,17 @@ msgstr "認証局の署名"
 # File: src/www/system_certmanager.php, line: 361
 msgid ""
 "The field 'Distinguished name Email Address' contains invalid characters."
-msgstr ""
+msgstr "「識別名メールアドレス」フィールドには無効な文字が含まれています。"
 
 # File: src/www/system_camanager.php, line: 319
 # File: src/www/system_certmanager.php, line: 366
 msgid "The field 'Distinguished name Common Name' contains invalid characters."
-msgstr ""
+msgstr "「識別名コモンネーム」フィールドには無効な文字が含まれています。"
 
 # File: src/www/system_camanager.php, line: 322
 # File: src/www/system_certmanager.php, line: 369
 msgid "The field '%s' contains invalid characters."
-msgstr ""
+msgstr "「%s」フィールドには無効な文字が含まれています。"
 
 msgid "Please select a valid Key Length."
 msgstr "有効な鍵長を選択してください。"
@@ -15474,7 +15472,7 @@ msgstr "有効なダイジェストアルゴリズムを選択してください
 # File: src/www/system_certmanager.php, line: 441
 # File: src/www/system_certmanager.php, line: 464
 msgid "openssl library returns:"
-msgstr ""
+msgstr "OpenSSL ライブラリの戻り値: "
 
 msgid "add or import ca"
 msgstr "CA の追加またはインポート"
@@ -15544,7 +15542,7 @@ msgstr "例: "
 # File: src/www/system_camanager.php, line: 570
 # File: src/www/system_certmanager.php, line: 969
 msgid "Sachsen"
-msgstr ""
+msgstr "ザクセン"
 
 msgid "City"
 msgstr "市"
@@ -15552,14 +15550,13 @@ msgstr "市"
 # File: src/www/system_camanager.php, line: 580
 # File: src/www/system_certmanager.php, line: 979
 msgid "Leipzig"
-msgstr ""
+msgstr "ライプツィヒ"
 
 msgid "Organization"
 msgstr "組織"
 
-#, fuzzy
 msgid "My Company Inc"
-msgstr "My Company Inc."
+msgstr "My Company Inc"
 
 msgid "admin@mycompany.com"
 msgstr "admin@mycompany.com"
@@ -15629,31 +15626,30 @@ msgstr "既存の証明書の選択"
 
 # File: src/www/system_certmanager.php, line: 329
 msgid "DNS subjectAltName values must be valid hostnames or FQDNs"
-msgstr ""
+msgstr "DNS subjectAltName 値は、有効なホスト名もしくは FQDN です"
 
 # File: src/www/system_certmanager.php, line: 334
 msgid "IP subjectAltName values must be valid IP Addresses"
-msgstr ""
+msgstr "IP subjectAltName 値は、有効な IP アドレスです"
 
 # File: src/www/system_certmanager.php, line: 339
 msgid "You must provide an e-mail address for this type of subjectAltName"
-msgstr ""
+msgstr "このタイプの subjectAltName にはメールアドレスを設定してください"
 
 # File: src/www/system_certmanager.php, line: 342
 msgid "The e-mail provided in a subjectAltName contains invalid characters."
-msgstr ""
+msgstr "subjectAltName のメールアドレスに無効な文字が含まれています。"
 
 # File: src/www/system_certmanager.php, line: 348
 msgid "URI subjectAltName types must be a valid URI"
-msgstr ""
+msgstr "URI subjectAltName タイプは、有効な URI です"
 
 # File: src/www/system_certmanager.php, line: 352
 msgid "Unrecognized subjectAltName type."
-msgstr ""
+msgstr "未確認の subjectAltName タイプです。"
 
-#, fuzzy
 msgid "add or import certificate"
-msgstr "CA の追加またはインポート"
+msgstr "証明書の追加またはインポート"
 
 msgid "Do you really want to delete this Certificate?"
 msgstr "本当にこの証明書を削除しますか？"
@@ -15677,7 +15673,7 @@ msgstr "内部証明書"
 msgid ""
 "No internal Certificate Authorities have been defined. You must %sadd%s an "
 "internal CA before creating an internal certificate."
-msgstr ""
+msgstr "内部認証局が定義されていません。内部証明書を作成する前に、内部 CA を%s追加%sしてください。"
 
 msgid "Client Certificate"
 msgstr "クライアント証明書"
@@ -15692,7 +15688,7 @@ msgstr "認証局"
 msgid ""
 "Choose the type of certificate to generate here, the type defines it's "
 "constraints"
-msgstr ""
+msgstr "ここで生成する証明書のタイプを選択してください。タイプはその制約で定義されます"
 
 msgid "Alternative Names"
 msgstr "代替名"
@@ -15703,12 +15699,12 @@ msgstr "DNS"
 # File: src/www/system_certmanager.php, line: 922
 # File: src/www/system_certmanager.php, line: 942
 msgid "email"
-msgstr ""
+msgstr "email"
 
 # File: src/www/system_certmanager.php, line: 923
 # File: src/www/system_certmanager.php, line: 943
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 msgid "External Signing Request"
 msgstr "外部署名要求"
@@ -15721,11 +15717,11 @@ msgstr "既存の証明書"
 
 # File: src/www/system_certmanager.php, line: 1110
 msgid "*In Use"
-msgstr ""
+msgstr "*使用中"
 
 # File: src/www/system_certmanager.php, line: 1111
 msgid "*Revoked"
-msgstr ""
+msgstr "*失効済"
 
 msgid "Complete Signing Request"
 msgstr "署名要求が完了しました"
@@ -15752,36 +15748,36 @@ msgstr "外部 - 署名申請中"
 
 # File: src/www/system_certmanager.php, line: 1247
 msgid "CA:"
-msgstr ""
+msgstr "CA: "
 
 # File: src/www/system_certmanager.php, line: 1248
 msgid "Server:"
-msgstr ""
+msgstr "サーバ: "
 
 # File: src/www/system_certmanager.php, line: 1272
 # File: src/www/system_usermanager.php, line: 842
 msgid "Revoked"
-msgstr ""
+msgstr "失効済"
 
 # File: src/www/system_certmanager.php, line: 1282
 msgid "User Cert"
-msgstr ""
+msgstr "ユーザ証明書"
 
 # File: src/www/system_certmanager.php, line: 1287
 msgid "OpenVPN Server"
-msgstr ""
+msgstr "OpenVPN サーバ"
 
 # File: src/www/system_certmanager.php, line: 1292
 msgid "OpenVPN Client"
-msgstr ""
+msgstr "OpneVPN クライアント"
 
 # File: src/www/system_certmanager.php, line: 1297
 msgid "IPsec Tunnel"
-msgstr ""
+msgstr "IPsec トンネル"
 
 # File: src/www/system_certmanager.php, line: 1276
 msgid "show certificate info"
-msgstr ""
+msgstr "証明書情報を表示"
 
 msgid "export ca"
 msgstr "CA のエクスポート"
@@ -15789,9 +15785,8 @@ msgstr "CA のエクスポート"
 msgid "export key"
 msgstr "鍵のエクスポート"
 
-#, fuzzy
 msgid "export ca cert+user cert+user cert key in .p12 format"
-msgstr "P12 証明書と鍵のエクスポート"
+msgstr ".P12 形式で、認証局、証明書+ユーザ、証明書+ユーザ証明書鍵でエクスポート"
 
 msgid "delete cert"
 msgstr "証明書の削除"
