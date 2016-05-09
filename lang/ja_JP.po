@@ -14721,7 +14721,6 @@ msgstr "最小"
 msgid "Maximum"
 msgstr "最大"
 
-#, fuzzy
 msgid ""
 "The powerd utility monitors the system state and sets various power control "
 "options accordingly.  It offers four modes (maximum, minimum, adaptive and "
@@ -14745,7 +14744,7 @@ msgstr ""
 "適応モードは、パフォーマンスと省電力をうまく均衡させようとします。"
 "システムがアイドルに見える場合はパフォーマンスを落とし、システムがビジーの場合はパフォーマンスを上昇させます。"
 "少しのパフォーマンスの低下で、より大きな省電力を可能にする、ほど良いバランスを提供します。"
-"高適応モードは、適応モードに似ていますが、システムのパフォーマンスと双方向性が、"
+"高適応モードは、適応モードに似ていますが、システムのパフォーマンスと応答性が、"
 "電力消費よりも重要であるシステム向けに調整されています。"
 "周波数が高速に上がったら、低速に落として CPU 負荷が低い状態を 2 倍継続します。"
 
