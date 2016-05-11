@@ -15810,9 +15810,8 @@ msgstr "この CRL の証明書はありません"
 msgid "No Certificates Found for this CA."
 msgstr "この CA の証明書はありません"
 
-#, fuzzy
 msgid "Revoke a Certificate"
-msgstr "サーバ証明書"
+msgstr "証明書の失効"
 
 msgid "Choose a Certificate to Revoke"
 msgstr "失効する証明書を選択してください"
@@ -15831,7 +15830,7 @@ msgstr "%s の CRL をインポート"
 
 # File: src/www/system_crlmanager.php, line: 719
 msgid "Unknown (imported)"
-msgstr ""
+msgstr "不明 ( インポート済 )"
 
 msgid "Export CRL"
 msgstr "CRL のエクスポート"
@@ -15844,11 +15843,11 @@ msgstr "CRL の削除"
 
 # File: src/www/system_gateway_groups.php, line: 135
 msgid "Add group"
-msgstr ""
+msgstr "グループを追加"
 
 # File: src/www/system_gateway_groups.php, line: 131
 msgid "Gateway-group"
-msgstr ""
+msgstr "ゲートウェイグループ"
 
 msgid "Do you really want to delete this gateway group?"
 msgstr "本当にこのゲートウェイグループを削除しますか？"
@@ -15860,7 +15859,7 @@ msgstr "ゲートウェイ構成は変更されました。%s有効にするに�
 
 # File: src/www/system_gateway_groups.php, line: 193
 msgid "Tier "
-msgstr ""
+msgstr "ティア "
 
 msgid "delete group"
 msgstr "グループの削除"
@@ -15898,14 +15897,14 @@ msgstr "ゲートウェイ優先度"
 
 # File: src/www/system_gateway_groups_edit.php, line: 197
 msgid "Tier"
-msgstr ""
+msgstr "ティア"
 
 msgid "Never"
 msgstr "選択しない"
 
 # File: src/www/system_gateway_groups_edit.php, line: 226
 msgid "Tier %d"
-msgstr ""
+msgstr "ティア %d"
 
 msgid "Interface Address"
 msgstr "インタフェースアドレス"
@@ -15948,26 +15947,23 @@ msgstr "パケットロスまたは高遅延"
 msgid "When to trigger exclusion of a member"
 msgstr "メンバ除外のトリガとなるタイミング"
 
-#, fuzzy
 msgid ""
 "Gateway '%s' cannot be deleted because it is in use on Gateway Group '%s'"
-msgstr "このエントリは削除できません。1 つ以上のゲートウェイから参照されています。"
+msgstr "ゲートウェイ %s は削除できません。ゲートウェイグループ %s で使用されています"
 
-#, fuzzy
 msgid ""
 "Gateway '%s' cannot be deleted because it is in use on Static Route '%s'"
-msgstr "この GRE トンネルは削除できません。インタフェースとして使用されています"
+msgstr "ゲートウェイ %s は削除できません。静的ルート %s で使用されています"
 
 # File: src/www/system_gateways.php, line: 194
 msgid "Add gateway"
-msgstr ""
+msgstr "ゲートウェイを追加"
 
 msgid "Do you really want to delete this gateway?"
 msgstr "本当にこのゲートウェイを削除しますか？"
 
-#, fuzzy
 msgid "Do you really want to delete the selected gateway items?"
-msgstr "本当に選択したルールを削除しますか？"
+msgstr "本当に選択したゲートウェイ項目を削除しますか？"
 
 msgid "The gateway configuration has been changed."
 msgstr "ゲートウェイの設定が変更されました。"
@@ -15977,57 +15973,54 @@ msgstr "監視 IP"
 
 # File: src/www/system_gateways.php, line: 326
 msgid "Gateway is inactive because interface is missing"
-msgstr ""
+msgstr "ゲートウェイは非アクティブです。インタフェースが見つかりません"
 
 # File: src/www/system_gateways.php, line: 329
 # File: src/www/system_gateways.php, line: 334
 msgid "disable gateway"
-msgstr ""
+msgstr "ゲートウェイを無効"
 
 # File: src/www/system_gateways.php, line: 329
 # File: src/www/system_gateways.php, line: 334
 msgid "enable gateway"
-msgstr ""
+msgstr "ゲートウェイを有効"
 
 # File: src/www/system_gateways.php, line: 356
 msgid "edit gateway"
-msgstr ""
+msgstr "ゲートウェイを編集"
 
 # File: src/www/system_gateways.php, line: 361
 msgid "delete gateway"
-msgstr ""
+msgstr "ゲートウェイを削除"
 
 # File: src/www/system_gateways.php, line: 368
 msgid "clone gateway"
-msgstr ""
+msgstr "ゲートウェイをクローン"
 
-#, fuzzy
 msgid "delete selected items"
-msgstr "選択したルールを削除"
+msgstr "選択した項目を削除"
 
 # File: src/www/system_gateways_edit.php, line: 118
 msgid "A valid gateway name must be specified."
-msgstr ""
+msgstr "有効なゲートウェイ名を指定してください。"
 
 msgid "A valid gateway IP address must be specified."
-msgstr "有効なゲートウェイ IP アドレスを指定してください"
+msgstr "有効なゲートウェイ IP アドレスを指定してください。"
 
-#, fuzzy
 msgid ""
 "Cannot add IPv4 Gateway Address because no IPv4 address could be found on "
 "the interface."
-msgstr "IPv6 only インタフェースで、IPv4 ゲートウェイアドレスは使用できません"
+msgstr "IPv4 ゲートウェイアドレスを追加できません。そのインタフェースには IPv4 アドレスが設定されていません。"
 
 msgid ""
 "The gateway address %1$s does not lie within one of the chosen interface's "
 "subnets."
-msgstr "ゲートウェイアドレス %1$s は、選択されたインタフェースのサブネット内に存在しません"
+msgstr "ゲートウェイアドレス %1$s は、選択されたインタフェースのサブネット内に存在しません。"
 
-#, fuzzy
 msgid ""
 "Cannot add IPv6 Gateway Address because no IPv6 address could be found on "
 "the interface."
-msgstr "IPv4 only インタフェースで、IPv6 ゲートウェイアドレスは使用できません"
+msgstr "IPv6 ゲートウェイアドレスを追加できません。そのインタフェースには IPv6 アドレスが設定されていません。"
 
 msgid ""
 "Dynamic gateway values cannot be specified for interfaces with a static IPv4 "
@@ -16095,13 +16088,11 @@ msgid ""
 "threshold"
 msgstr "高パケットロスしきい値は、低パケットロスしきい値よりも高い値にしてください。"
 
-#, fuzzy
 msgid "The probe interval needs to be a numeric value."
-msgstr "プローブ頻度間隔は、数値です。"
+msgstr "プローブ間隔は、数値です。"
 
-#, fuzzy
 msgid "The probe interval needs to be positive."
-msgstr "プローブ頻度間隔は、正の値です。"
+msgstr "プローブ間隔は、正の値です。"
 
 msgid "The down time setting needs to be a numeric value."
 msgstr "停止時間設定は、数値です。"
@@ -16109,45 +16100,36 @@ msgstr "停止時間設定は、数値です。"
 msgid "The down time setting needs to be positive."
 msgstr "停止時間設定は、正の値です。"
 
-#, fuzzy
 msgid "The probe interval needs to be less than the down time setting."
-msgstr "「周波数プローブ間隔は、ダウン時間設定未満である必要がある。"
+msgstr "プローブ間隔は、ダウン時間の設定よりも小さい値になります。"
 
-#, fuzzy
 msgid "The average delay replies qty needs to be a numeric value."
-msgstr "高遅延しきい値は、数値です。"
+msgstr "平均遅延応答数は、数値です。"
 
-#, fuzzy
 msgid "The average delay replies qty needs to be positive."
-msgstr "高遅延しきい値は、正の値です。"
+msgstr "平均遅延応答数は、正の値です。"
 
-#, fuzzy
 msgid "The average packet loss probes qty needs to be a numeric value."
-msgstr "高パケットロスしきい値は、数値です。"
+msgstr "平均パケットロスプローブ数は、数値です。"
 
-#, fuzzy
 msgid "The average packet loss probes qty needs to be positive."
-msgstr "高パケットロスしきい値は、正の値です。"
+msgstr "平均パケットロスプローブ数は、正の値です。"
 
-#, fuzzy
 msgid "The lost probe delay needs to be a numeric value."
-msgstr "低パケットロスウォーターマークは数値です"
+msgstr "損失プローブ遅延は数値です。"
 
-#, fuzzy
 msgid "The lost probe delay needs to be positive."
-msgstr "プローブ頻度間隔は、正の値です。"
+msgstr "損失プローブ遅延は、正の値です。"
 
 msgid "Edit gateway"
 msgstr "ゲートウェイの編集"
 
-#, fuzzy
 msgid "Disable this gateway"
-msgstr "このルールを無効"
+msgstr "このゲートウェイを無効"
 
-#, fuzzy
 msgid ""
 "Set this option to disable this gateway without removing it from the list."
-msgstr "このオプションを設定すると、このルールをリストから削除せずに無効にします"
+msgstr "このオプションを設定すると、このゲートウェイをリストから削除せずに無効にします。"
 
 msgid "Choose which interface this gateway applies to."
 msgstr "このゲートウェイに適用するインタフェースを選択してください。"
@@ -16187,11 +16169,10 @@ msgstr ""
 # File: src/www/system_gateways_edit.php, line: 792
 # File: src/www/system_gateways_edit.php, line: 797
 msgid "Mark Gateway as Down"
-msgstr ""
+msgstr "ゲートウェイをダウンにマーク"
 
-#, fuzzy
 msgid "This will force this gateway to be considered Down"
-msgstr "このゲートウェイが常にアップであると見なします"
+msgstr "強制的に、このゲートウェイがダウンだと見なされます"
 
 msgid " - Show advanced option"
 msgstr " - 詳細オプションを表示"
@@ -16211,45 +16192,43 @@ msgstr "To"
 msgid "Packet Loss thresholds"
 msgstr "パケットロスしきい値"
 
-#, fuzzy
 msgid "Probe Interval"
-msgstr "間隔"
+msgstr "プローブ間隔"
 
-#, fuzzy
 msgid ""
 "NOTE: The quality graph is averaged over seconds, not intervals, so as the "
 "probe interval is increased the accuracy of the quality graph is decreased."
 msgstr ""
-"注意: プローブ頻度が増加することで、品質グラフの正確さは低下することがないように、品質グラフは、間隔単位の平均ではなく、秒単位の平均になっています。"
+"注意: 品質グラフは、間隔単位ではなく、秒単位の平均になっています。"
+"そのため、プローブ間隔が増加すると、品質グラフの正確さは低下します。"
 
 msgid "Down"
 msgstr "ダウン"
 
 # File: src/www/system_gateways_edit.php, line: 772
 msgid "Avg Delay Replies Qty"
-msgstr ""
+msgstr "平均遅延応答数"
 
 # File: src/www/system_gateways_edit.php, line: 882
 # File: src/www/system_gateways_edit.php, line: 894
 # File: src/www/system_gateways_edit.php, line: 906
 msgid "Use calculated value."
-msgstr ""
+msgstr "計算された値を使用します。"
 
 # File: src/www/system_gateways_edit.php, line: 783
 msgid "Avg Packet Loss Probes Qty"
-msgstr ""
+msgstr "平均パケットロスプローブ数"
 
 # File: src/www/system_gateways_edit.php, line: 899
 msgid "Lost Probe Delay"
-msgstr ""
+msgstr "損失プローブ遅延"
 
-#, fuzzy
 msgid ""
 "The probe interval must be less than the down time, otherwise the gateway "
 "will seem to go down then come up again at the next probe."
 msgstr ""
-"プローブ頻度間隔には、停止時間よりも小さい値を設定してください。停止時間より大きい値を設定すると、次のプローブで、ゲートウェイはダウンしてから再度アップし"
-"たかのように見えます。"
+"プローブ間隔には、ダウン時間よりも小さい値を設定してください。"
+"ダウン時間より大きい値を設定すると、次のプローブで、ゲートウェイはダウンしてから再度アップしたかのように見えます。"
 
 # File: src/www/system_gateways_edit.php, line: 913
 msgid ""
@@ -16261,6 +16240,11 @@ msgid ""
 "probe interval is 1 second, so 10 probes would have to fail before the "
 "gateway is marked down."
 msgstr ""
+"ダウン時間はゲートウェイがダウンとマークされる前の時間の長さを定義しますが、正確さはプローブ間隔でコントロールされます。"
+"例えば、ダウン時間が 40 秒で プローブ間隔が 30 秒である場合、ゲートウェイが 40 秒でダウンとマークされる前に、"
+"エラーにならなければいけないプローブは、たった 1 つだけです。"
+"デフォルトでは、ゲートウェイは 10 秒後にダウンとみなされますし、プローブ間隔は 1 秒なので、ゲートウェイが"
+"ダウンとマークされる前にエラーにならなければいけないプローブは 10 になります。"
 
 msgid "English"
 msgstr "英語"
@@ -16305,7 +16289,7 @@ msgstr "ファイアウォールホスト名、ドメイン部分は含まない
 
 # File: src/www/system_general.php, line: 331
 msgid "firewall"
-msgstr ""
+msgstr "ファイアウォール"
 
 msgid ""
 "Do not use 'local' as a domain name. It will cause local hosts running mDNS ("
@@ -16316,7 +16300,7 @@ msgstr ""
 
 # File: src/www/system_general.php, line: 341
 msgid "e.g. %smycorp.com, home, office, private, etc.%s"
-msgstr ""
+msgstr "例 : %smycorp.com、home、office、private 等%s"
 
 msgid "DNS Server"
 msgstr "DNS サーバ"
@@ -16324,12 +16308,11 @@ msgstr "DNS サーバ"
 msgid "Use gateway"
 msgstr "ゲートウェイを使用"
 
-#, fuzzy
 msgid ""
 "Enter IP addresses to be used by the system for DNS resolution. These are "
 "also used for the DHCP service, DNS forwarder and for PPTP VPN clients."
 msgstr ""
-"DNS 名前解決システムで使用される IP アドレスを入力してください。DHCP サービス、DNS フォワーダ、PPTP VPN "
+"DNS 解決にシステムで使用される IP アドレスを入力してください。DHCP サービス、DNS フォワーダ、PPTP VPN "
 "クライアントでも使用されます。"
 
 msgid ""
@@ -16342,7 +16325,7 @@ msgstr ""
 
 # File: src/www/system_general.php, line: 401
 msgid "DNS server options"
-msgstr ""
+msgstr "DNS サーバオプション"
 
 msgid "Allow DNS server list to be overridden by DHCP/PPP on WAN"
 msgstr "WAN の DHCP/PPP による DNS サーバリストの無効化を許可"
@@ -16358,16 +16341,16 @@ msgstr ""
 msgid "Do not use the DNS Forwarder as a DNS server for the firewall"
 msgstr "ファイアウォールの DNS サーバとして、DNS フォワーダを使用しない"
 
-#, fuzzy
 msgid ""
 "By default localhost (127.0.0.1) will be used as the first DNS server where "
 "the DNS Forwarder or DNS Resolver is enabled and set to listen on Localhost, "
 "so system can use the local DNS service to perform lookups. Checking this "
 "box omits localhost from the list of DNS servers."
 msgstr ""
-"DNS フォワーダが有効の場合、デフォルトでは、localhost (127.0.0.1) が最初の DNS サーバとして使用されるため、"
-"システムは検索の実行に DNS フォワーダを使用できます。このボックスをチェックしている時は DNS サーバのリストから localhost "
-"を削除してください。"
+"DNS フォワーダもしくは DNS リゾルバが有効で、ローカルホストをリスンに設定していれば、"
+"デフォルトではローカルホスト ( 127.0.0.1 ) が最初の DNS サーバとして使用されます。"
+"そのため、検索の実行にローカル DNS サービスを使用できます。"
+"このボックスをチェックすると、DNS サーバのリストから localhost を削除します。"
 
 msgid "Time zone"
 msgstr "タイムゾーン"
@@ -16399,33 +16382,31 @@ msgstr "次のルック・アンド・フィールを変更します: "
 
 # File: src/www/system_general.php, line: 565
 msgid "Firmware Mirror"
-msgstr ""
+msgstr "ファームウェアミラー"
 
 # File: src/www/system_general.php, line: 579
 msgid "Select an alternate firmware mirror."
-msgstr ""
+msgstr "代替ファームウェアミラーを選択してください。"
 
 # File: src/www/system_general.php, line: 584
 msgid "Firmware Flavour"
-msgstr ""
+msgstr "ファームウェアフレイバ"
 
 # File: src/www/system_general.php, line: 598
 msgid "Select the firmware cryptography flavour."
-msgstr ""
+msgstr "ファームウェア暗号フレイバを選択してください。"
 
 msgid "The group name contains invalid characters."
-msgstr "グループ名に無効な文字が含まれています"
+msgstr "グループ名に無効な文字が含まれています。"
 
-#, fuzzy
 msgid "The group name is longer than 16 characters."
-msgstr "ユーザ名が 16 文字を超えています"
+msgstr "グループ名が 16 文字を超えています。"
 
 msgid "Another entry with the same group name already exists."
 msgstr "同じグループ名の別のエントリが既に存在しています"
 
-#, fuzzy
 msgid "That groupname is reserved by the system."
-msgstr "そのユーザ名は、システムに予約されています"
+msgstr "そのグループ名は、システムに予約されています。"
 
 msgid "Do you really want to delete this privilege?"
 msgstr "本当にこの権限を削除しますか？"
@@ -16463,9 +16444,8 @@ msgstr "CTRL (pc) / Command (Mac) キーを押したままにすると、複数�
 msgid "Assigned Privileges"
 msgstr "権限の割当"
 
-#, fuzzy
 msgid "delete privilege"
-msgstr "選択した権限"
+msgstr "権限を削除"
 
 msgid "Member Count"
 msgstr "メンバ数"
@@ -16483,6 +16463,10 @@ msgid ""
 "                      Some system object properties can be modified but they "
 "cannot be deleted."
 msgstr ""
+"Web 設定管理画面のグループはここで追加できます。\n"
+"                      グループパーミッションも割当て可能で、グループメンバーのユーザに継承されます。\n"
+"                      グレイ表示されるアイコンはシステムが定義したオブジェクトです。\n"
+"                      一部のシステムオブジェクトプロパティは変更できますが、削除することはできません。"
 
 msgid "Selected priveleges"
 msgstr "選択した権限"
@@ -16495,11 +16479,11 @@ msgstr "説明する権限を、上記のリストから選択してください
 
 # File: src/www/system_hasync.php, line: 98
 msgid "State Synchronization"
-msgstr ""
+msgstr "同期のステータス"
 
 # File: src/www/system_hasync.php, line: 127
 msgid "Synchronize States"
-msgstr ""
+msgstr "ステータスを同期"
 
 # File: src/www/system_hasync.php, line: 132
 msgid ""
@@ -16510,26 +16494,34 @@ msgid ""
 "and imports them into the local state table.%sThis setting should be enabled "
 "on all members of a failover group."
 msgstr ""
+"pfsync はステータス挿入、更新、削除のメッセージをファイアウォール間で転送します。"
+"%sそれぞれのファイアウォールは、PFSYNC プロトコル (%sIP プロトコル 240%s) を使用して、"
+"それらのメッセージを指定したインタフェースにマルチキャスト経由で外向きに送信します。%s"
+"また、その他のファイアウォールからの同様のメッセージをインタフェースでリスンし、"
+"ローカルステータステーブルにそれらをインポートします。%s"
+"この設定はフェイルオーバグループの全てのメンバで有効にしなければいけません。"
 
 # File: src/www/system_hasync.php, line: 136
 msgid ""
 "Clicking save will force a configuration sync if it is enabled! (see "
 "Configuration Synchronization Settings below)"
 msgstr ""
+"クリックして保存すると、構成の同期が有効な場合は、強制的に構成が同期されます！"
+"( 下の構成同期設定を参照 )"
 
 # File: src/www/system_hasync.php, line: 140
 msgid "Synchronize Interface"
-msgstr ""
+msgstr "同期するインタフェース"
 
 # File: src/www/system_hasync.php, line: 123
 msgid "loopback"
-msgstr ""
+msgstr "ループバック"
 
 # File: src/www/system_hasync.php, line: 151
 msgid ""
 "If Synchronize States is enabled, it will utilize this interface for "
 "communication."
-msgstr ""
+msgstr "ステータスの同期が有効な場合は、通信にこのインタフェースを使用するようになります。"
 
 # File: src/www/system_hasync.php, line: 154
 msgid ""
