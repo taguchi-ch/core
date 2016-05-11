@@ -16243,7 +16243,7 @@ msgstr ""
 "ダウン時間はゲートウェイがダウンとマークされる前の時間の長さを定義しますが、正確さはプローブ間隔でコントロールされます。"
 "例えば、ダウン時間が 40 秒で プローブ間隔が 30 秒である場合、ゲートウェイが 40 秒でダウンとマークされる前に、"
 "エラーにならなければいけないプローブは、たった 1 つだけです。"
-"デフォルトでは、ゲートウェイは 10 秒後にダウンとみなされますし、プローブ間隔は 1 秒なので、ゲートウェイが"
+"デフォルトでは、ゲートウェイは 10 秒後にダウンとみなされ、プローブ間隔は 1 秒なので、ゲートウェイが"
 "ダウンとマークされる前にエラーにならなければいけないプローブは 10 になります。"
 
 msgid "English"
@@ -16300,7 +16300,7 @@ msgstr ""
 
 # File: src/www/system_general.php, line: 341
 msgid "e.g. %smycorp.com, home, office, private, etc.%s"
-msgstr "例 : %smycorp.com、home、office、private 等%s"
+msgstr "例: %smycorp.com、home、office、private 等%s"
 
 msgid "DNS Server"
 msgstr "DNS サーバ"
