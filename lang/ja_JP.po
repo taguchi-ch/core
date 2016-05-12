@@ -16554,7 +16554,7 @@ msgstr ""
 
 # File: src/www/system_hasync.php, line: 178
 msgid "Configuration Synchronization Settings (XMLRPC Sync)"
-msgstr "同期設定の構成 (XMLRPC Sync)"
+msgstr "同期設定の構成 ( XMLRPC 同期 )"
 
 # File: src/www/system_hasync.php, line: 183
 msgid "Synchronize Config to IP"
@@ -16564,7 +16564,7 @@ msgstr "IP に構成を同期"
 msgid ""
 "Enter the IP address of the firewall to which the selected configuration "
 "sections should be synchronized."
-msgstr "選択した構成セクションを同期させるファイアウォールの IP アドレスを入力してください。"
+msgstr "選択した構成セクションを同期させる、ファイアウォールの IP アドレスを入力してください。"
 
 # File: src/www/system_hasync.php, line: 189
 msgid ""
@@ -16580,7 +16580,7 @@ msgstr ""
 msgid ""
 "Do not use the Synchronize Config to IP and password option on backup "
 "cluster members!"
-msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、パスワードオプションを使用しないでください。"
+msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、パスワードオプションを使用しないでください！"
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Remote System Username"
@@ -16596,7 +16596,7 @@ msgstr "あなたの構成を同期するために、上で入力したシステ
 msgid ""
 "Do not use the Synchronize Config to IP and username option on backup "
 "cluster members!"
-msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、ユーザ名オプションを使用しないでください。"
+msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、ユーザ名オプションを使用しないでください！"
 
 # File: src/www/system_hasync.php, line: 207
 msgid "Remote System Password"
