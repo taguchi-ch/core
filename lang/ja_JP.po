@@ -16527,42 +16527,44 @@ msgstr "ステータスの同期が有効な場合は、通信にこのインタ
 msgid ""
 "We recommend setting this to a interface other than LAN!  A dedicated "
 "interface works the best."
-msgstr ""
+msgstr "LAN 以外のインタフェースにこれを設定することを推奨します！専用インタフェースが最もよく機能します。"
 
 # File: src/www/system_hasync.php, line: 155
 msgid ""
 "You must define a IP on each machine participating in this failover group."
-msgstr ""
+msgstr "このフェイルオーバグループに参加しているマシン毎に IP を定義してください。"
 
 # File: src/www/system_hasync.php, line: 156
 msgid ""
 "You must have an IP assigned to the interface on any participating sync "
 "nodes."
-msgstr ""
+msgstr "全ての同期ノードに参加しているインタフェースに IP を割り当ててください。"
 
 # File: src/www/system_hasync.php, line: 145
 msgid "Synchronize Peer IP"
-msgstr ""
+msgstr "同期ピア IP"
 
 # File: src/www/system_hasync.php, line: 165
 msgid ""
 "Setting this option will force pfsync to synchronize its state table to this "
 "IP address.  The default is directed multicast."
 msgstr ""
+"このオプション設定は pfsync にこの IP アドレスへ、自分のステータステーブルを同期するよう強制します。"
+"デフォルトはマルチキャストを指定されます。"
 
 # File: src/www/system_hasync.php, line: 178
 msgid "Configuration Synchronization Settings (XMLRPC Sync)"
-msgstr ""
+msgstr "同期設定の構成 (XMLRPC Sync)"
 
 # File: src/www/system_hasync.php, line: 183
 msgid "Synchronize Config to IP"
-msgstr ""
+msgstr "IP に構成を同期"
 
 # File: src/www/system_hasync.php, line: 186
 msgid ""
 "Enter the IP address of the firewall to which the selected configuration "
 "sections should be synchronized."
-msgstr ""
+msgstr "選択した構成セクションを同期させるファイアウォールの IP アドレスを入力してください。"
 
 # File: src/www/system_hasync.php, line: 189
 msgid ""
@@ -16570,172 +16572,174 @@ msgid ""
 "protocol and port as this system - make sure the remote system's port and "
 "protocol are set accordingly!"
 msgstr ""
+"現時点では XMLRPC 同期は、このシステムのように同じプロトコルとポートを使用した通信のみに対応しています。"
+"リモートシステムのポートとプロトコルがこれに基づいて設定されているかどうか確認してください。"
 
 # File: src/www/system_hasync.php, line: 190
 # File: src/www/system_hasync.php, line: 213
 msgid ""
 "Do not use the Synchronize Config to IP and password option on backup "
 "cluster members!"
-msgstr ""
+msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、パスワードオプションを使用しないでください。"
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Remote System Username"
-msgstr ""
+msgstr "リモートシステムユーザ名"
 
 # File: src/www/system_hasync.php, line: 200
 msgid ""
 "Enter the webConfigurator username of the system entered above for "
 "synchronizing your configuration."
-msgstr ""
+msgstr "あなたの構成を同期するために、上で入力したシステムの web 設定管理画面ユーザ名を入力してください。"
 
 # File: src/www/system_hasync.php, line: 202
 msgid ""
 "Do not use the Synchronize Config to IP and username option on backup "
 "cluster members!"
-msgstr ""
+msgstr "バックアップクラスタメンバに、IP に構成を同期、及び、ユーザ名オプションを使用しないでください。"
 
 # File: src/www/system_hasync.php, line: 207
 msgid "Remote System Password"
-msgstr ""
+msgstr "リモートシステムパスワード"
 
 # File: src/www/system_hasync.php, line: 211
 msgid ""
 "Enter the webConfigurator password of the system entered above for "
 "synchronizing your configuration."
-msgstr ""
+msgstr "あなたの構成を同期するために、上で入力したシステムの web 設定管理画面パスワードを入力してください。"
 
 # File: src/www/system_hasync.php, line: 196
 msgid "Users and Groups"
-msgstr ""
+msgstr "ユーザとグループ"
 
 # File: src/www/system_hasync.php, line: 223
 msgid ""
 "Automatically sync the users and groups over to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、ユーザとグループは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 205
 msgid "Auth Servers"
-msgstr ""
+msgstr "認証サーバ"
 
 # File: src/www/system_hasync.php, line: 232
 msgid ""
 "Automatically sync the authentication servers (e.g. LDAP, RADIUS) over to "
 "the other HA host when changes are made."
-msgstr ""
+msgstr "変更が発生すると、認証サーバ ( 例: LDAP、RADIUS ) は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 241
 msgid ""
 "Automatically sync the Certificate Authorities, Certificates, and "
 "Certificate Revocation Lists over to the other HA host when changes are made."
-msgstr ""
+msgstr "変更が発生すると、認証局、証明書、証明書失効リストは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 250
 msgid ""
 "Automatically sync the firewall rules to the other HA host when changes are "
 "made."
-msgstr ""
+msgstr "変更が発生すると、ファイアウォールルールは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 232
 msgid "Firewall Schedules"
-msgstr ""
+msgstr "ファイアウォールスケジュール"
 
 # File: src/www/system_hasync.php, line: 259
 msgid ""
 "Automatically sync the firewall schedules to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、ファイアウォールスケジュールは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 268
 msgid ""
 "Automatically sync the aliases over to the other HA host when changes are "
 "made."
-msgstr ""
+msgstr "変更が発生すると、エイリアスは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 277
 msgid ""
 "Automatically sync the NAT rules over to the other HA host when changes are "
 "made."
-msgstr ""
+msgstr "変更が発生すると、NAT ルールは他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 286
 msgid ""
 "Automatically sync the IPsec configuration to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、IPsec 構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 295
 msgid ""
 "Automatically sync the OpenVPN configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、OpenVPN 構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 296
 msgid ""
 "Using this option implies \"Synchronize Certificates\" as they are required "
 "for OpenVPN."
-msgstr ""
+msgstr "このオプションを使用する場合は、OpenVPN で「証明書の同期」が必須であることを暗に示しています。"
 
 # File: src/www/system_hasync.php, line: 278
 msgid "DHCPD"
-msgstr ""
+msgstr "DHCPD"
 
 # File: src/www/system_hasync.php, line: 305
 msgid ""
 "Automatically sync the DHCP Server settings over to the other HA host when "
 "changes are made. This only applies to DHCP for IPv4."
-msgstr ""
+msgstr "変更が発生すると、DHCP サーバ設定は他の HA ホストに自動的に同期されます。"
+"これは DHCP が IPv4 用である場合のみ適用されます。"
 
 # File: src/www/system_hasync.php, line: 314
 msgid ""
 "Automatically sync the WoL configuration to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、WoL 構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 296
 msgid "Static Routes"
-msgstr ""
+msgstr "静的ルート"
 
 # File: src/www/system_hasync.php, line: 323
 msgid ""
 "Automatically sync the Static Route configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、静的ルート構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 332
 msgid ""
 "Automatically sync the Load Balancer configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、ロードバランサ構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 341
 msgid ""
 "Automatically sync the CARP Virtual IPs to the other HA host when changes "
 "are made."
-msgstr ""
+msgstr "変更が発生すると、CARP 仮想 IP は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_hasync.php, line: 350
 msgid ""
 "Automatically sync the DNS Forwarder configuration to the other HA host when "
 "changes are made."
-msgstr ""
+msgstr "変更が発生すると、DNS フォワーダ構成は他の HA ホストに自動的に同期されます。"
 
 # File: src/www/system_routes.php, line: 210
 msgid "Add route"
-msgstr ""
+msgstr "ルートを追加"
 
 # File: src/www/system_routes.php, line: 165
 # File: src/www/system_routes.php, line: 187
 msgid "Route"
-msgstr ""
+msgstr "ルート"
 
 # File: src/www/system_routes.php, line: 166
 msgid "Do you really want to delete this route?"
-msgstr ""
+msgstr "本当にこのルートを削除しますか？"
 
-#, fuzzy
 msgid "Do you really want to delete the selected routes?"
-msgstr "本当に選択したルールを削除しますか？"
+msgstr "本当に選択したルートを削除しますか？"
 
 msgid ""
 "The static route configuration has been changed.%sYou must apply the changes "
@@ -16744,39 +16748,37 @@ msgstr "静的ルート構成は変更されました。%s有効にするには�
 
 # File: src/www/system_routes.php, line: 258
 msgid "disable route"
-msgstr ""
+msgstr "ルートを無効"
 
 # File: src/www/system_routes.php, line: 258
 msgid "enable route"
-msgstr ""
+msgstr "ルートを有効"
 
 # File: src/www/system_routes.php, line: 275
 msgid "move selected routes before this route"
-msgstr ""
+msgstr "選択したルートをこのルートの前に移動"
 
 # File: src/www/system_routes.php, line: 279
 msgid "edit route"
-msgstr ""
+msgstr "ルートを編集"
 
 # File: src/www/system_routes.php, line: 283
 msgid "delete route"
-msgstr ""
+msgstr "ルートを削除"
 
 # File: src/www/system_routes.php, line: 287
 msgid "clone route"
-msgstr ""
+msgstr "ルートをクローン"
 
-#, fuzzy
 msgid "move selected routes to end"
-msgstr "選択したルールを末尾に移動"
+msgstr "選択したルートを末尾に移動"
 
-#, fuzzy
 msgid "delete selected routes"
-msgstr "選択したルールを削除"
+msgstr "選択したルートを削除"
 
 # File: src/www/system_routes.php, line: 321
 msgid "add route"
-msgstr ""
+msgstr "ルートを追加"
 
 msgid ""
 "Do not enter static routes for networks assigned on any interface of this "
