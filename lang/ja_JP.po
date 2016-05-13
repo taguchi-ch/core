@@ -16834,7 +16834,7 @@ msgstr "関連付けは削除されました"
 
 # File: src/www/system_usermanager.php, line: 227
 msgid "API key"
-msgstr API 鍵""
+msgstr "API 鍵"
 
 # File: src/www/system_usermanager.php, line: 228
 msgid "removed."
@@ -16977,14 +16977,14 @@ msgid "IPsec Pre-Shared Key"
 msgstr "IPsec 事前共有鍵"
 
 msgid "edit user"
-msgstr "ユーザの編集"
+msgstr "ユーザを編集"
 
 msgid "delete user"
-msgstr "ユーザの削除"
+msgstr "ユーザを削除"
 
 # File: src/www/system_usermanager.php, line: 983
 msgid "import users"
-msgstr "ユーザのインポート"
+msgstr "ユーザをインポート"
 
 msgid ""
 "Additional users can be added here. User permissions for accessing the "
