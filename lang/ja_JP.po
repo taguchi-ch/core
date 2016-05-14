@@ -17854,7 +17854,7 @@ msgid ""
 "will prevent installing these SPDs."
 msgstr ""
 "デフォルトでは、IPsec が有効の場合、保護を提供するために否定の SPD が挿入されます。"
-"この振る舞いはこれらの SPD のインストールを防ぐこの設定を有効にすることで変更されます。"
+"この設定を有効にすると、これらの SPD のインストールを防ぐため、この振る舞いを変更できます。"
 
 msgid "Security Associations"
 msgstr "セキュリティアソシエーション"
@@ -18405,7 +18405,7 @@ msgid ""
 "if you want a good summary of what's happening without being swamped by "
 "output."
 msgstr ""
-"どのレベルも前のレベルから全ての情報を表示します。"
+"どのレベルも、前のレベルから全ての情報を表示します。"
 "出力で溢れさせることなしに、なにが起きたのかの良い概要が欲しいのであれば、推奨はレベル 3 です。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1012
