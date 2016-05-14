@@ -17628,19 +17628,17 @@ msgstr "DH 鍵グループ"
 msgid "Disable Rekey"
 msgstr "リキーを無効"
 
-#, fuzzy
 msgid "Whether a connection should be renegotiated when it is about to expire."
-msgstr "接続数は 1 より大きい値を設定してください"
+msgstr "有効期限切れが間近な場合に、接続を再ネゴシエートすべきかどうかです。"
 
-#, fuzzy
 msgid "Disable Reauth"
-msgstr "CARP を無効"
+msgstr "再認証 を無効"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 994
 msgid ""
 "Whether rekeying of an IKE_SA should also reauthenticate the peer. In IKEv1, "
 "reauthentication is always done."
-msgstr ""
+msgstr "IKE_SA のリキーでもピアを再認証すべきかどうかです。IKEv1 では再認証は常に行われます。"
 
 msgid "NAT Traversal"
 msgstr "NAT トラバーサル"
@@ -17654,6 +17652,8 @@ msgid ""
 "UDP packets) if needed, which can help with clients that are behind "
 "restrictive firewalls."
 msgstr ""
+"必要であれば、このオプションで NAT-T ( UDP パケットの ESP のカプセル化 ) の使用を有効、に設定してください。"
+"制限のあるファイアウォールの背後にあるクライアントには役立ちます。"
 
 msgid "Dead Peer Detection"
 msgstr "デッドピア検知"
@@ -17663,14 +17663,14 @@ msgstr "DPD を有効"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1029
 msgid "Delay between requesting peer acknowledgement."
-msgstr ""
+msgstr "ピア受信確認要求間に遅延が発生しています。"
 
 msgid "retries"
 msgstr "再試行"
 
 # File: src/www/vpn_ipsec_phase1.php, line: 1035
 msgid "Number of consecutive failures allowed before disconnect."
-msgstr ""
+msgstr "切断前に許容する連続失敗の数。"
 
 msgid "A valid ikeid must be specified."
 msgstr "有効な ikeid を指定してください"
@@ -17678,9 +17678,8 @@ msgstr "有効な ikeid を指定してください"
 msgid "Local network type"
 msgstr "ローカルネットワークタイプ"
 
-#, fuzzy
 msgid "Unique Identifier"
-msgstr "DUID 識別子"
+msgstr "固有識別子"
 
 msgid "Remote network type"
 msgstr "リモートネットワークタイプ"
@@ -17732,7 +17731,7 @@ msgstr "有効な NAT ローカルネットワーク IPv6 アドレスを指定�
 msgid ""
 "BINAT requires that the netmask of the local network matches the one of the "
 "NAT/BINAT network."
-msgstr ""
+msgstr "BINAT には、NAT/BINAT ネットワークの 1 つが一致する、ローカルネットワークのネットマスクが必要です。"
 
 msgid "A valid remote network bit count must be specified."
 msgstr "有効なリモートネットワークビット数を指定してください"
@@ -17759,14 +17758,13 @@ msgid ""
 msgstr "このローカル / リモートネットワークにおけるフェーズ 2 の組み合わせは、このフェーズ 1 で既に定義されています。"
 
 msgid "At least one encryption algorithm must be selected."
-msgstr "1 つ以上の暗号化アルゴリズムを選択してください"
+msgstr "1 つ以上の暗号化アルゴリズムを選択してください。"
 
-#, fuzzy
 msgid "At least one hashing algorithm needs to be selected."
-msgstr "1 つ以上の暗号化アルゴリズムを選択してください"
+msgstr "1 つ以上のハッシュアルゴリズムを選択してください。"
 
 msgid "The P2 lifetime must be an integer."
-msgstr "P2 有効期間は整数です"
+msgstr "P2 有効期間は整数です。"
 
 msgid "Disable this phase2 entry"
 msgstr "このフェーズ 2 エントリを無効"
@@ -17784,21 +17782,23 @@ msgstr "%s サブネット"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 725
 msgid "NAT/BINAT"
-msgstr ""
+msgstr "NAT/BINAT"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 746
 msgid "NAT Type"
-msgstr ""
+msgstr "NAT タイプ"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 756
 msgid "BINAT"
-msgstr ""
+msgstr "BINAT"
 
 # File: src/www/vpn_ipsec_phase2.php, line: 760
 msgid ""
 "Enforce the type of NAT by choosing either NAT or BINAT. Leave it to Auto to "
 "let OPNsense automatically choose the best NAT option."
 msgstr ""
+"NAT もしくは BINAT を選択することで NAT のタイプを強制します。"
+"自動に設定すると OPNsense は自動的に最も良い NAT オプションを選択します。"
 
 msgid ""
 "In case you need NAT/BINAT on this network specify the address to be "
@@ -17841,11 +17841,11 @@ msgstr "IPSec 詳細設定"
 
 # File: src/www/vpn_ipsec_settings.php, line: 162
 msgid "LAN security associations"
-msgstr ""
+msgstr "LAN セキュリティアソシエーション"
 
 # File: src/www/vpn_ipsec_settings.php, line: 175
 msgid "Do not install LAN SPD"
-msgstr ""
+msgstr "LAN SPD をインストールしない"
 
 # File: src/www/vpn_ipsec_settings.php, line: 177
 msgid ""
@@ -17853,6 +17853,8 @@ msgid ""
 "protection. This behaviour can be changed by enabling this setting which "
 "will prevent installing these SPDs."
 msgstr ""
+"デフォルトでは、IPsec が有効の場合、保護を提供するために否定の SPD が挿入されます。"
+"この振る舞いはこれらの SPD のインストールを防ぐこの設定を有効にすることで変更されます。"
 
 msgid "Security Associations"
 msgstr "セキュリティアソシエーション"
@@ -17873,21 +17875,20 @@ msgstr "IPsec デバッグ"
 
 # File: src/www/vpn_ipsec_settings.php, line: 197
 msgid "Start IPSec in debug mode based on sections selected"
-msgstr ""
+msgstr "IPsec を、選択したセクションに基づいたデバックモードで開始"
 
-#, fuzzy
 msgid ""
 "Launches IPSec in debug mode so that more verbose logs will be generated to "
 "aid in troubleshooting."
-msgstr "racoon をデバッグモードで起動し、トラブルシューティングに役立つ、より詳細なログを生成させます。"
+msgstr "IPsec をデバッグモードで起動し、トラブルシューティングに役立つ、より詳細なログを生成させます。"
 
 # File: src/www/vpn_ipsec_settings.php, line: 226
 msgid "IPsec Reload on Failover"
-msgstr ""
+msgstr "フェイルオーバで IPsec リロード"
 
 # File: src/www/vpn_ipsec_settings.php, line: 231
 msgid "Force IPsec Reload on Failover"
-msgstr ""
+msgstr "フェイルオーバで IPsec リロードを強制"
 
 # File: src/www/vpn_ipsec_settings.php, line: 233
 msgid ""
@@ -17897,6 +17898,10 @@ msgid ""
 "behavior is disabled by default. Check this box to force IPsec to fully "
 "reload on failover."
 msgstr ""
+"一部の状況では、IPsec トンネルのインタフェースとしてゲートウェイグループを使用していると、適切に動作しません。"
+"また、IPsec はフェイルオーバの発生時には強制的にリロードしなければいけません。"
+"これは全ての IPsec トンネルを破壊するため、デフォルトではこの振る舞いは無効になっています。"
+"フェイルオーバで IPsec に完全なリロードを強制する場合は、このボックスをチェックしてください。"
 
 msgid "Maximum MSS"
 msgstr "最大 MSS"
@@ -17953,7 +17958,7 @@ msgstr "サーバアドレス"
 msgid ""
 "Enter the IP address the L2TP server should give to clients for use as their "
 "\"gateway\"."
-msgstr ""
+msgstr "L2TP サーバの IP アドレスを入力してください。クライアントに「ゲートウェイ」として使用するよう設定されます。"
 
 msgid "Typically this is set to an unused IP just outside of the client range"
 msgstr "通常は、クライアントの範囲に含まれない未使用の IP を設定します"
@@ -17962,7 +17967,7 @@ msgstr "通常は、クライアントの範囲に含まれない未使用の IP
 msgid ""
 "NOTE: This should NOT be set to any IP address currently in use on this "
 "firewall."
-msgstr ""
+msgstr "注意: このファイアウォールで現在使用している IP アドレスは、設定「しないで」ください。"
 
 msgid "Remote Address Range"
 msgstr "リモートアドレス範囲"
@@ -17978,7 +17983,7 @@ msgstr "L2TP ユーザ数"
 
 # File: src/www/vpn_l2tp.php, line: 377
 msgid "10 is ten L2TP clients"
-msgstr ""
+msgstr "10 は L2TP クライアントの数が 10 です"
 
 msgid "Secret"
 msgstr "秘密鍵"
@@ -18101,7 +18106,7 @@ msgstr "IPv6 プロトコルが選択されましたが、選択したインタ�
 # File: src/www/vpn_openvpn_client.php, line: 178
 msgid ""
 "The field Local port must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "ローカルポートフィールドには、有効なポートを設定してください。範囲は 0 - 65535 です。"
 
 msgid "The specified 'Local port' is in use. Please select another value"
 msgstr "指定された「ローカルポート」は使用されています。別の値を選択してください"
@@ -18111,24 +18116,24 @@ msgstr "指定された「ローカルポート」は使用されています。
 msgid ""
 "The field Server host or address must contain a valid IP address or domain "
 "name."
-msgstr ""
+msgstr "サーバホストもしくはアドレスフィールドには、有効な IP アドレスもしくはドメイン名を設定してください。"
 
 # File: src/www/vpn_openvpn_client.php, line: 190
 msgid ""
 "The field Server port must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "サーバポートフィールドには、有効なポートを設定してください。範囲は 0 - 65535 です。"
 
 # File: src/www/vpn_openvpn_client.php, line: 195
 # File: src/www/vpn_openvpn_client.php.orig, line: 195
 msgid ""
 "The field Proxy host or address must contain a valid IP address or domain "
 "name."
-msgstr ""
+msgstr "プロキシホストもしくはアドレスフィールドには、有効な IP アドレスもしくはドメイン名を設定してください。"
 
 # File: src/www/vpn_openvpn_client.php, line: 198
 msgid ""
 "The field Proxy port must contain a valid port, ranging from 0 to 65535."
-msgstr ""
+msgstr "プロキシポートフィールドには、有効なポートを設定してください。範囲は 0 - 65535 です。"
 
 msgid "User name and password are required for proxy with authentication."
 msgstr "認証付きプロキシには、ユーザ名とパスワードが必要です。"
@@ -18149,7 +18154,7 @@ msgstr "共有鍵"
 msgid ""
 "If no Client Certificate is selected, a username and password must be "
 "entered."
-msgstr ""
+msgstr "クライアント証明書が選択されていない場合は、ユーザ名とパスワードの入力が必要です。"
 
 msgid "add client"
 msgstr "クライアントの追加"
@@ -18210,17 +18215,14 @@ msgid ""
 "communicating with a server that is not permanently connected to the Internet"
 msgstr "サーバホスト名の名前解決を、継続的に試みます。インターネットと常時接続されていないサーバとの通信時に便利です。"
 
-#, fuzzy
 msgid "User Authentication Settings"
-msgstr "ユーザ認証元"
+msgstr "ユーザ認証設定"
 
-#, fuzzy
 msgid "User name/pass"
-msgstr "ユーザ名"
+msgstr "ユーザ名 / パスワード"
 
-#, fuzzy
 msgid "Leave empty when no user name and password are needed."
-msgstr "ログインするにはユーザ名とパスワードを入力してください"
+msgstr "ユーザ名とパスワードの入力が不要の場合は、空白にしてください。"
 
 msgid "Cryptographic Settings"
 msgstr "暗号化設定"
@@ -18240,7 +18242,7 @@ msgstr "ここに自分の共有鍵を貼り付けてください"
 # File: src/www/vpn_openvpn_client.php, line: 752
 # File: src/www/vpn_openvpn_client.php.orig, line: 752
 msgid "(Username and Password required)"
-msgstr ""
+msgstr "( ユーザ名とパスワードは必須です )"
 
 msgid "No Certificates defined."
 msgstr "定義された証明書はありません。"
@@ -18248,7 +18250,7 @@ msgstr "定義された証明書はありません。"
 # File: src/www/vpn_openvpn_client.php, line: 756
 # File: src/www/vpn_openvpn_client.php.orig, line: 756
 msgid "if one is required for this connection."
-msgstr ""
+msgstr "( この接続に必要な場合 )"
 
 msgid "Shared Key"
 msgstr "共有鍵"
@@ -18256,15 +18258,14 @@ msgstr "共有鍵"
 msgid "Automatically generate a shared key"
 msgstr "自動的に共有鍵を生成"
 
-#, fuzzy
 msgid "Auth Digest Algorithm"
-msgstr "ダイジェストアルゴリズム"
+msgstr "認証ダイジェストアルゴリズム"
 
 # File: src/www/vpn_openvpn_client.php, line: 956
 msgid ""
 "NOTE: Leave this set to SHA1 unless the server is set to match. SHA1 is the "
 "default for OpenVPN."
-msgstr ""
+msgstr "注意: サーバを一致するよう設定する場合を除き、この設定は SHA1 にしてください。SHA1 は OpenVPN のデフォルトです。"
 
 msgid "Hardware Crypto"
 msgstr "ハードウェア暗号"
@@ -18340,6 +18341,8 @@ msgid ""
 "dynamically disable compression for a period of time if OpenVPN detects that "
 "the data in the packets is not being compressed efficiently."
 msgstr ""
+"LZO アルゴリズムを使用してトンネルパケットを圧縮します。アダプティブ圧縮は、"
+"パケットのデータが効果的に圧縮されていないことを OpenVPN が検出した場合に、その期間の圧縮を動的に無効にします。"
 
 msgid "Type-of-Service"
 msgstr "サービスタイプ (TOS)"
@@ -18349,28 +18352,27 @@ msgid ""
 "packet value"
 msgstr "カプセル化されたパケットの値と一致する、トンネルパケットの TOS IP ヘッダの値を設定してください。"
 
-#, fuzzy
 msgid "Disable IPv6"
-msgstr "無効"
+msgstr "IPv6 を無効"
 
 # File: src/www/vpn_openvpn_client.php, line: 1095
 # File: src/www/vpn_openvpn_server.php, line: 1577
 msgid "Don't forward IPv6 traffic"
-msgstr ""
+msgstr "IPv6 トラフィックを転送しない"
 
 # File: src/www/vpn_openvpn_client.php, line: 1104
 msgid "Don't pull routes"
-msgstr ""
+msgstr "ルートをプルしない"
 
 # File: src/www/vpn_openvpn_client.php, line: 967
 msgid ""
 "Don't add or remove routes automatically. Instead pass routes to %s--route-"
 "up%s script using environmental variables"
-msgstr ""
+msgstr "ルートを自動的に追加もしくは削除しません。"
+"その代わり、環境変数を使用してルートを %s--route-up%s スクリプトに渡します"
 
-#, fuzzy
 msgid "Don't add/remove routes"
-msgstr "次へのルートを削除: "
+msgstr "ルートを追加 / 削除しない"
 
 # File: src/www/vpn_openvpn_client.php, line: 1134
 msgid ""
@@ -18378,6 +18380,9 @@ msgid ""
 "routing table, however note that this option still allows the server to set "
 "the TCP/IP properties of the client's TUN/TAP interface"
 msgstr ""
+"このオプションは、サーバがクライアントのルーティングテーブルにルートを追加することを効果的に禁止します。"
+"ただし、このオプションは、サーバがクライアントの TUN/TAP インタフェースに TCP/IP プロパティを設定することは許可します。"
+"注意してください。"
 
 msgid "Advanced configuration"
 msgstr "詳細設定"
@@ -18390,9 +18395,8 @@ msgstr "OpenVPN クライアントに追加する、追加オプションを入�
 msgid "EXAMPLE:"
 msgstr "例: "
 
-#, fuzzy
 msgid "Verbosity level"
-msgstr "第 1 階層タグ"
+msgstr "詳細レベル"
 
 # File: src/www/vpn_openvpn_client.php, line: 1011
 # File: src/www/vpn_openvpn_server.php, line: 1680
@@ -18401,16 +18405,18 @@ msgid ""
 "if you want a good summary of what's happening without being swamped by "
 "output."
 msgstr ""
+"どのレベルも前のレベルから全ての情報を表示します。"
+"出力で溢れさせることなしに、なにが起きたのかの良い概要が欲しいのであれば、推奨はレベル 3 です。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1012
 # File: src/www/vpn_openvpn_server.php, line: 1681
 msgid "%snone%s -- No output except fatal errors."
-msgstr ""
+msgstr "%sなし%s -- 致命的なエラー以外は出力しません。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1013
 # File: src/www/vpn_openvpn_server.php, line: 1682
 msgid "%sdefault%s-%s4%s -- Normal usage range."
-msgstr ""
+msgstr "%sデフォルト%s-%s4%s -- 標準の使用範囲です。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1014
 # File: src/www/vpn_openvpn_server.php, line: 1683
@@ -18419,11 +18425,13 @@ msgid ""
 "write, uppercase is used for TCP/UDP packets and lowercase is used for TUN/"
 "TAP packets."
 msgstr ""
+"%s5%s -- 読み込み及び書き込みパケット毎に、コンソールに R と W の文字を出力します。"
+"大文字は TCP/UDP パケットに使用され、小文字は TUN/TAP パケットに使用されます。"
 
 # File: src/www/vpn_openvpn_client.php, line: 1015
 # File: src/www/vpn_openvpn_server.php, line: 1684
 msgid "%s6%s-%s11%s -- Debug info range."
-msgstr ""
+msgstr "%s6%s-%s11%s -- デバッグ情報の範囲です。"
 
 msgid "delete client"
 msgstr "クライアントの削除"
@@ -18475,6 +18483,8 @@ msgid ""
 "These are the IPv4 networks that will be accessible from this particular "
 "client. Expressed as a comma-separated list of one or more CIDR ranges."
 msgstr ""
+"この特定のクライアントからアクセス可能になる IPv4 ネットワークです。"
+"1 つ以上の CIDR 範囲のカンマ区切りリストとして表記します。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 454
 # File: src/www/vpn_openvpn_csc.php, line: 464
@@ -18482,36 +18492,35 @@ msgid ""
 "NOTE: You do not need to specify networks here if they have already been "
 "defined on the main server configuration."
 msgstr ""
+"注意: メインサーバの構成で既に定義されている場合は、ここでネットワークを指定する必要はありません。"
 
 msgid "IPv6 Local Network/s"
 msgstr "IPv6 ローカルネットワーク"
 
-#, fuzzy
 msgid ""
 "These are the IPv6 networks that will be accessible from this particular "
 "client. Expressed as a comma-separated list of one or more IP/PREFIX "
 "networks."
 msgstr ""
-"リモートエンドポイントからアクセス可能な IPv6 ネットワークです。1 つ以上の IP/PREFIX のカンマ区切りリストとして表記します。リモート機器"
-"に対して、このトンネルを経由したローカルネットワークへのルートを追加したくない場合は、空白にしてください。一般的には、自分の LAN "
-"ネットワークに対して設定します。"
+"この特定のクライアントからアクセス可能になる IPv6 ネットワークです。"
+"1 つ以上の IP/PREFIX ネットワークのカンマ区切りリストとして表記します。"
 
-#, fuzzy
 msgid ""
 "These are the IPv4 networks that will be routed to this client specifically "
 "using iroute, so that a site-to-site VPN can be established. Expressed as a "
 "comma-separated list of one or more CIDR ranges. You may leave this blank if "
 "there are no client-side networks to be routed"
 msgstr ""
-"トンネル経由でルーティングされる IPv4 ネットワークです。ルーティングテーブルを手動で変更せずに、サイト間 VPN 接続を確立させることができます。"
-"1 つ以上の CIDR 範囲のカンマ区切りリストとして表記します。サイト間 VPN の場合は、リモート LAN をここに入力してください。サイト間 "
-"VPN を使用しない場合は、空白にしてください。"
+"iroute を使用して、このクライアントに具体的にルーティングされる IPv4 ネットワークです。"
+"サイト間 VPN 接続を確立させることができます。1 つ以上の CIDR 範囲のカンマ区切りリストとして表記します。"
+"ルーティングするクライアント側のネットワークがない場合は、空白にしてください。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 478
 msgid ""
 "NOTE: Remember to add these subnets to the IPv4 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
+"注意: 対応する OpenVPN サーバ設定の IPv4 リモートネットワークリストに、これらのサブネットを追加するのを忘れないでください。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 439
 msgid ""
@@ -18520,12 +18529,16 @@ msgid ""
 "comma-separated list of one or more IP/PREFIX networks. You may leave this "
 "blank if there are no client-side networks to be routed."
 msgstr ""
+"iroute を使用して、このクライアントに具体的にルーティングされる IPv6 ネットワークです。"
+"サイト間 VPN 接続を確立させることができます。1 つ以上の IP/PREFIX ネットワークのカンマ区切りリストとして表記します。"
+"ルーティングするクライアント側のネットワークがない場合は、空白にしてください。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 492
 msgid ""
 "NOTE: Remember to add these subnets to the IPv6 Remote Networks list on the "
 "corresponding OpenVPN server settings."
 msgstr ""
+"注意: 対応する OpenVPN サーバ設定の IPv6 リモートネットワークリストに、これらのサブネットを追加するのを忘れないでください。"
 
 msgid "Redirect Gateway"
 msgstr "リダイレクトゲートウェイ"
@@ -18538,7 +18551,7 @@ msgstr "サーバ定義"
 
 # File: src/www/vpn_openvpn_csc.php, line: 470
 msgid "Prevent this client from receiving any server-defined client settings."
-msgstr ""
+msgstr "このクライアントが、全てのサーバ定義のクライアント設定を受信することを防ぎます。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 491
 # File: src/www/vpn_openvpn_csc.php, line: 510
@@ -18547,7 +18560,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 1551
 # File: src/www/vpn_openvpn_server.php, line: 1625
 msgid "Server #1:"
-msgstr ""
+msgstr "サーバ #1: "
 
 # File: src/www/vpn_openvpn_csc.php, line: 493
 # File: src/www/vpn_openvpn_csc.php, line: 512
@@ -18556,17 +18569,17 @@ msgstr ""
 # File: src/www/vpn_openvpn_server.php, line: 1555
 # File: src/www/vpn_openvpn_server.php, line: 1629
 msgid "Server #2:"
-msgstr ""
+msgstr "サーバ #2: "
 
 # File: src/www/vpn_openvpn_csc.php, line: 495
 # File: src/www/vpn_openvpn_server.php, line: 1519
 msgid "Server #3:"
-msgstr ""
+msgstr "サーバ #3: "
 
 # File: src/www/vpn_openvpn_csc.php, line: 497
 # File: src/www/vpn_openvpn_server.php, line: 1523
 msgid "Server #4:"
-msgstr ""
+msgstr "サーバ #4: "
 
 msgid "NTP Servers"
 msgstr "NTP サーバ"
@@ -18596,6 +18609,8 @@ msgid ""
 "to a WINS server), m-node (broadcast then query name server), and h-node ("
 "query name server, then broadcast)."
 msgstr ""
+"使用可能なオプション: b-node ( ブロードキャスト )、p-node ( WINS サーバへのポイントツーポイント名前照会 )、"
+"m-node (ブロードキャストしてからネームサーバ照会 )、h-node ( ネームサーバ照会してからブロードキャスト )。"
 
 # File: src/www/vpn_openvpn_csc.php, line: 555
 msgid ""
