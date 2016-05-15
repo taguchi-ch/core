@@ -18618,6 +18618,8 @@ msgid ""
 "TCP/IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
+"NetBIOS スコープ ID は NetBIOS over TCP/IP に対する拡張名前サービスを提供します。/t"
+"NetBIOS スコープ ID は単一ネットワークの NetBIOS トラフィックを、同じ NetBIOS スコープ ID のノードのみに分離します。"
 
 msgid ""
 "Enter any additional options you would like to add for this client specific "
@@ -18636,111 +18638,111 @@ msgstr "OpenVPN クライアント固有の上書きは、ここで追加でき�
 # File: src/www/vpn_openvpn_export.php, line: 139
 # File: src/www/vpn_openvpn_export_shared.php, line: 79
 msgid "You need to specify an IP or hostname."
-msgstr ""
+msgstr "IP もしくはホスト名を指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 149
 msgid ""
 "You cannot use Microsoft Certificate Storage with an Inline configuration."
-msgstr ""
+msgstr "Microsoft 証明書ストレージを、インライン構成で使用できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 152
 msgid ""
 "You cannot use Microsoft Certificate Storage with a Yealink or SNOM "
 "configuration."
-msgstr ""
+msgstr "Microsoft 証明書ストレージを、Yealink もしくは SNOM 構成で使用できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 163
 # File: src/www/vpn_openvpn_export_shared.php, line: 88
 msgid "You need to specify an address for the proxy port."
-msgstr ""
+msgstr "プロキシポートにアドレスを指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 168
 # File: src/www/vpn_openvpn_export_shared.php, line: 93
 msgid "You need to specify a port for the proxy ip."
-msgstr ""
+msgstr "プロキシ IP にポートを指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 179
 # File: src/www/vpn_openvpn_export_shared.php, line: 101
 msgid "You need to specify a username with the proxy config."
-msgstr ""
+msgstr "プロキシ構成でユーザ名を指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 184
 # File: src/www/vpn_openvpn_export_shared.php, line: 106
 msgid "You need to specify a password with the proxy user."
-msgstr ""
+msgstr "プロキシユーザにパスワードを指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 246
 # File: src/www/vpn_openvpn_export_shared.php, line: 119
 msgid "Failed to export config files!"
-msgstr ""
+msgstr "構成ファイルのエクスポートに失敗しました！"
 
 # File: src/www/vpn_openvpn_export.php, line: 338
 # File: src/www/vpn_openvpn_export_shared.php, line: 177
 msgid "Please specify an IP address or hostname."
-msgstr ""
+msgstr "IP アドレスもしくはホスト名を指定してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 367
 msgid "The password or confirm field is empty"
-msgstr ""
+msgstr "パスワードもしくは確認フィールドが未入力です"
 
 # File: src/www/vpn_openvpn_export.php, line: 371
 msgid "The password and confirm fields must match"
-msgstr ""
+msgstr "パスワードと確認フィールドは一致する必要があります"
 
 # File: src/www/vpn_openvpn_export.php, line: 385
 # File: src/www/vpn_openvpn_export_shared.php, line: 193
 msgid "The proxy ip and port cannot be empty"
-msgstr ""
+msgstr "プロキシ IP とポートは指定が必要です"
 
 # File: src/www/vpn_openvpn_export.php, line: 400
 # File: src/www/vpn_openvpn_export_shared.php, line: 208
 msgid "Please fill the proxy username and password."
-msgstr ""
+msgstr "プロキシユーザ名とパスワードを入力してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 404
 # File: src/www/vpn_openvpn_export_shared.php, line: 212
 msgid "The proxy password or confirm field is empty"
-msgstr ""
+msgstr "プロキシパスワードもしくは確認フィールドが未入力です"
 
 # File: src/www/vpn_openvpn_export.php, line: 408
 # File: src/www/vpn_openvpn_export_shared.php, line: 216
 msgid "The proxy password and confirm fields must match"
-msgstr ""
+msgstr "プロキシパスワードと確認フィールドは一致する必要があります"
 
 # File: src/www/vpn_openvpn_export.php, line: 638
 # File: src/www/vpn_openvpn_export.php.orig, line: 638
 msgid "Remote Access Server"
-msgstr ""
+msgstr "リモートアクセスサーバ"
 
 # File: src/www/vpn_openvpn_export.php, line: 650
 # File: src/www/vpn_openvpn_export.php.orig, line: 650
 # File: src/www/vpn_openvpn_export_shared.php, line: 329
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 329
 msgid "Host Name Resolution"
-msgstr ""
+msgstr "ホスト名解決"
 
 # File: src/www/vpn_openvpn_export.php, line: 653
 # File: src/www/vpn_openvpn_export.php.orig, line: 653
 # File: src/www/vpn_openvpn_export_shared.php, line: 332
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 332
 msgid "Interface IP Address"
-msgstr ""
+msgstr "インタフェース IP アドレス"
 
 # File: src/www/vpn_openvpn_export.php, line: 654
 # File: src/www/vpn_openvpn_export.php.orig, line: 654
 msgid "Automagic Multi-WAN IPs (port forward targets)"
-msgstr ""
+msgstr "オートマジックマルチ WAN IP ( ポートフォワードの対象です )"
 
 # File: src/www/vpn_openvpn_export.php, line: 656
 msgid "Automagic Multi-WAN dynamic DNS Hostnames (port forward targets)"
-msgstr ""
+msgstr "オートマジックマルチ WAN ダイナミック DNS ホスト名 ( ポートフォワードの対象です )"
 
 # File: src/www/vpn_openvpn_export.php, line: 656
 # File: src/www/vpn_openvpn_export.php.orig, line: 656
 # File: src/www/vpn_openvpn_export_shared.php, line: 333
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 333
 msgid "Installation hostname"
-msgstr ""
+msgstr "インストールホスト名"
 
 # File: src/www/vpn_openvpn_export.php, line: 679
 # File: src/www/vpn_openvpn_export.php.orig, line: 679
@@ -18749,32 +18751,32 @@ msgstr ""
 msgid ""
 "Enter the hostname or IP address the client will use to connect to this "
 "server."
-msgstr ""
+msgstr "クライアントがこのサーバに接続するのに使用する、ホスト名もしくは IP アドレスを入力してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 686
 # File: src/www/vpn_openvpn_export.php.orig, line: 686
 msgid "Verify Server CN"
-msgstr ""
+msgstr "サーバ CN を検証"
 
 # File: src/www/vpn_openvpn_export.php, line: 689
 # File: src/www/vpn_openvpn_export.php.orig, line: 689
 msgid "Automatic - Use verify-x509-name (OpenVPN 2.3+) where possible"
-msgstr ""
+msgstr "自動 - 可能であれば verify-x509-name ( OpenVPN 2.3 以降 ) を使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 690
 # File: src/www/vpn_openvpn_export.php.orig, line: 690
 msgid "Use tls-remote (Deprecated, use only on old clients &lt;= OpenVPN 2.2.x"
-msgstr ""
+msgstr "tls-remote を使用 ( 廃止済、OpenVPN 2.2.x 以前の古いクライアントでのみ使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 691
 # File: src/www/vpn_openvpn_export.php.orig, line: 691
 msgid "Use tls-remote and quote the server CN"
-msgstr ""
+msgstr "tls-remote を使用してサーバ CN を引用符で囲む"
 
 # File: src/www/vpn_openvpn_export.php, line: 692
 # File: src/www/vpn_openvpn_export.php.orig, line: 692
 msgid "Do not verify the server CN"
-msgstr ""
+msgstr "サーバ CN を検証しない"
 
 # File: src/www/vpn_openvpn_export.php, line: 695
 # File: src/www/vpn_openvpn_export.php.orig, line: 695
@@ -18784,6 +18786,9 @@ msgid ""
 "Viscosity, Tunnelblick, OpenVPN on iOS and Android and so on should all work "
 "at the default automatic setting."
 msgstr ""
+"オプションで、クライアントの接続時にサーバ証明書のコモンネーム ( CN ) を検証します。"
+"Windows の最新バージョン、Viscosity、Tunnelblick、iOS 及び Android の OpenVPN 等を含む、"
+"現在のクライアントは全てデフォルトの自動設定で動作すべきです。"
 
 # File: src/www/vpn_openvpn_export.php, line: 696
 # File: src/www/vpn_openvpn_export.php.orig, line: 696
@@ -18792,6 +18797,8 @@ msgid ""
 "The option has been deprecated by OpenVPN and will be removed in the next "
 "major version."
 msgstr ""
+"tls-remote は、あなたが管理できない古いクライアントを使用しなければいけない場合にのみ使用します。"
+"このオプションは OpenVPN では廃止されており、次のメジャーバージョンで削除される予定です。"
 
 # File: src/www/vpn_openvpn_export.php, line: 697
 # File: src/www/vpn_openvpn_export.php.orig, line: 697
@@ -18801,11 +18808,14 @@ msgid ""
 "server CN. Some clients have problems parsing the CN with quotes. Use only "
 "as needed."
 msgstr ""
+"tls-remote では、サーバ CN はオプションで引用符で囲むことができます。"
+"これはサーバ CN に空白が含まれていて、特定のクライアントがサーバ CN を解析できない場合に有効です。"
+"一部のクライアントは 引用符のある CN の解析がうまくいきません。必要な場合のみ使用してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 702
 # File: src/www/vpn_openvpn_export.php.orig, line: 702
 msgid "Use Random Local Port"
-msgstr ""
+msgstr "ランダムローカルポートを使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 706
 # File: src/www/vpn_openvpn_export.php.orig, line: 706
@@ -18813,65 +18823,66 @@ msgid ""
 "Use a random local source port (lport) for traffic from the client. Without "
 "this set, two clients may not run concurrently."
 msgstr ""
+"クライアントからのトラフィックに対してランダムローカル送信元ポート ( lport ) を使用します。"
+"この設定を使用しないと、2 つのクライアントが同時に動作できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 708
 # File: src/www/vpn_openvpn_export.php.orig, line: 708
 msgid ""
 "NOTE: Not supported on older clients. Automatically disabled for Yealink and "
 "Snom configurations."
-msgstr ""
+msgstr "注意: 古いクライアントは対応していません。Yealink 及び一部の構成では自動的に無効になります。"
 
 # File: src/www/vpn_openvpn_export.php, line: 712
 # File: src/www/vpn_openvpn_export.php.orig, line: 712
 msgid "Certificate Export Options"
-msgstr ""
+msgstr "証明書エクスポートオプション"
 
 # File: src/www/vpn_openvpn_export.php, line: 716
 # File: src/www/vpn_openvpn_export.php.orig, line: 716
 msgid "Use Microsoft Certificate Storage instead of local files."
-msgstr ""
+msgstr "ローカルファイルの代わりに、Microsoft 証明書ストレージを使用。"
 
 # File: src/www/vpn_openvpn_export.php, line: 720
 # File: src/www/vpn_openvpn_export.php.orig, line: 720
 msgid ""
 "Use a password to protect the pkcs12 file contents or key in Viscosity "
 "bundle."
-msgstr ""
+msgstr "pkcs12 ファイルの内容もしくは Viscosity バンドルの鍵の保護にパスワードを使用。"
 
-#, fuzzy
 msgid "Confirm"
-msgstr "確認: "
+msgstr "確認"
 
 # File: src/www/vpn_openvpn_export.php, line: 731
 # File: src/www/vpn_openvpn_export.php.orig, line: 731
 # File: src/www/vpn_openvpn_export_shared.php, line: 352
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 352
 msgid "Use Proxy"
-msgstr ""
+msgstr "プロキシを使用"
 
 # File: src/www/vpn_openvpn_export.php, line: 735
 # File: src/www/vpn_openvpn_export.php.orig, line: 735
 # File: src/www/vpn_openvpn_export_shared.php, line: 383
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 383
 msgid "Use proxy to communicate with the server."
-msgstr ""
+msgstr "サーバとの通信にプロキシを使用。"
 
 # File: src/www/vpn_openvpn_export.php, line: 733
 # File: src/www/vpn_openvpn_export_shared.php, line: 356
 msgid "SOCKS"
-msgstr ""
+msgstr "SOCKS"
 
 # File: src/www/vpn_openvpn_export.php, line: 748
 # File: src/www/vpn_openvpn_export.php.orig, line: 748
 # File: src/www/vpn_openvpn_export_shared.php, line: 367
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 367
 msgid "Choose proxy authentication if any."
-msgstr ""
+msgstr "もしあれば、プロキシ認証を選択してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 767
 # File: src/www/vpn_openvpn_export.php.orig, line: 767
 msgid "Management Interface OpenVPNManager"
-msgstr ""
+msgstr "OpenVPNManager 管理インタフェース"
 
 # File: src/www/vpn_openvpn_export.php, line: 771
 # File: src/www/vpn_openvpn_export.php.orig, line: 771
@@ -18882,6 +18893,10 @@ msgid ""
 "users.This is also useful for Windows Vista/7/8 systems where elevated "
 "permissions are needed to add routes to the system."
 msgstr ""
+"この設定は、生成した .ovpn 構成を、管理インタフェースの使用を許可するよう変更します。"
+"そして、OpenVPNManager プログラムを「Windows インストーラ」に含めます。"
+"これを使うと管理者ではないユーザでも OpenVPN が使用できるようになります。"
+"システムにルートを追加するのに権限の昇格が必要な Windows Vista/7/8 システムでも有用です。"
 
 # File: src/www/vpn_openvpn_export.php, line: 775
 # File: src/www/vpn_openvpn_export.php.orig, line: 775
@@ -18889,32 +18904,31 @@ msgid ""
 "NOTE: This is not currently compatible with the 64-bit OpenVPN installer. It "
 "will work with the 32-bit installer on a 64-bit system."
 msgstr ""
+"注意: これは、現在 64 ビット OpenVPN インストーラと互換性がありません。"
+"64 ビットシステムで 32 ビットインストーラを使用すれば動作します。"
 
 # File: src/www/vpn_openvpn_export.php, line: 783
 # File: src/www/vpn_openvpn_export.php.orig, line: 783
 msgid "Additional configuration options"
-msgstr ""
+msgstr "追加構成オプション"
 
-#, fuzzy
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN client "
 "export configuration here, separated by a line break or semicolon"
-msgstr "OpenVPN クライアントに追加する、追加オプションを入力してください。セミコロン区切りです。"
+msgstr "OpenVPN クライアントエクスポート構成に追加する、追加オプションを入力してください。セミコロン区切りです。"
 
 # File: src/www/vpn_openvpn_export.php, line: 927
 msgid "EXAMPLE: remote-random"
-msgstr ""
+msgstr "例: remote-random"
 
 # File: src/www/vpn_openvpn_export.php, line: 793
 # File: src/www/vpn_openvpn_export.php.orig, line: 793
 msgid "Client Install Packages"
-msgstr ""
+msgstr "クライアントインストールパッケージ"
 
-#, fuzzy
 msgid "Export"
-msgstr "CRL のエクスポート"
+msgstr "エクスポート"
 
-#, fuzzy
 msgid "NOTES:"
 msgstr "注意: "
 
@@ -18924,68 +18938,69 @@ msgid ""
 "The &quot;win6&quot; Windows installers include a new tap-windows6 driver "
 "that works only on Windows Vista and later."
 msgstr ""
+"&quot;XP&quot; Windows インストーラは、Windows XP 以降で動作します。"
+"&quot;win6&quot; Windows インストーラは、Windows Vista 以降でのみ動作する、"
+"新 tap-windows6 ドライバが含まれます。"
 
 # File: src/www/vpn_openvpn_export.php, line: 951
 msgid "Links to OpenVPN clients for various platforms:"
-msgstr ""
+msgstr "様々なプラットフォームに対する OpenVPN クライアントへのリンク: "
 
 # File: src/www/vpn_openvpn_export.php, line: 956
 msgid ""
 "Binaries for Windows, Source for other platforms. Packaged above in the "
 "Windows Installers"
 msgstr ""
+"Windows 用はバイナリ、その他のプラットフォーム用はソースです。"
+"上の Windows インストーラでパッケージ化されています。"
 
-#, fuzzy
 msgid "OpenVPN Community Client"
-msgstr "コミュニティ文字列の読込み"
+msgstr "OpenVPN コミュニティクライアント"
 
-#, fuzzy
 msgid "OpenVPN For Android"
-msgstr "OpenVPN %s ウィザード"
+msgstr "OpenVPN For Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 957
 msgid "Recommended client for Android"
-msgstr ""
+msgstr "Android の推奨クライアント"
 
 # File: src/www/vpn_openvpn_export.php, line: 958
 msgid "FEAT VPN For Android"
-msgstr ""
+msgstr "FEAT VPN For Android"
 
 # File: src/www/vpn_openvpn_export.php, line: 958
 msgid "For older versions of Android"
-msgstr ""
+msgstr "Android の古いバージョン向け"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "Android (Google Play)"
-msgstr ""
+msgstr "Android (Google Play)"
 
-#, fuzzy
 msgid "OpenVPN Connect"
-msgstr "OpenVPN サポート"
+msgstr "OpenVPN 接続"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "Recommended client for iOS"
-msgstr ""
+msgstr "iOS の推奨クライアント"
 
 # File: src/www/vpn_openvpn_export.php, line: 959
 msgid "iOS (App Store)"
-msgstr ""
+msgstr "iOS (App Store)"
 
 # File: src/www/vpn_openvpn_export.php, line: 960
 msgid "Recommended client for Mac OSX"
-msgstr ""
+msgstr "Mac OSX の推奨クライアント"
 
 # File: src/www/vpn_openvpn_export.php, line: 960
 msgid "Viscosity"
-msgstr ""
+msgstr "Viscosity"
 
 # File: src/www/vpn_openvpn_export.php, line: 961
 msgid "Free client for OSX"
-msgstr ""
+msgstr "OSX 用の無料クライアント"
 
-#, fuzzy
 msgid "Tunnelblick"
-msgstr "トンネル"
+msgstr "Tunnelblick"
 
 # File: src/www/vpn_openvpn_export.php, line: 948
 msgid ""
@@ -18993,24 +19008,25 @@ msgid ""
 "usually due to a CA mismatch between the OpenVPN server instance and the "
 "client certificates found in the User Manager."
 msgstr ""
+"リストで特定のクライアントを探しているのに見つからなかった場合、通常は OpenVPN サーバインスタンスと"
+"ユーザマネジャにあるユーザ証明書とで CA が一致しないことが原因です。"
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 317
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 317
 msgid "Shared Key Server"
-msgstr ""
+msgstr "共有鍵サーバ"
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 340
 msgid "Dynamic DNS:"
-msgstr ""
+msgstr "ダイナミック DNS: "
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 388
 # File: src/www/vpn_openvpn_export_shared.php.orig, line: 388
 msgid "Client Configuration Packages"
-msgstr ""
+msgstr "クライアント構成パッケージ"
 
-#, fuzzy
 msgid "Client Type"
-msgstr "クライアント"
+msgstr "クライアントタイプ"
 
 # File: src/www/vpn_openvpn_export_shared.php, line: 481
 msgid ""
@@ -19018,6 +19034,8 @@ msgid ""
 "other routers. Shared key tunnels are not normally used for remote access "
 "connections to end users."
 msgstr ""
+"他のルータとのサイト間トンネルで使用する共有鍵の構成です。通常、共有鍵トンネルはエンドユーザとの"
+"リモートアクセス通信用途には使用されません。"
 
 msgid ""
 "You must select a Backend for Authentication if the server mode requires "
@@ -19074,7 +19092,7 @@ msgstr "ピアの証明書失効リスト"
 # File: src/www/vpn_openvpn_server.php, line: 991
 # File: src/www/vpn_openvpn_server.php.orig, line: 991
 msgid "No Certificate Revocation Lists (CRLs) defined."
-msgstr ""
+msgstr "証明書失効リスト ( CRL ) が定義されていません。"
 
 msgid "DH Parameters Length"
 msgstr "DH パラメータ長"
@@ -19083,34 +19101,35 @@ msgstr "DH パラメータ長"
 msgid ""
 "NOTE: Leave this set to SHA1 unless all clients are set to match. SHA1 is "
 "the default for OpenVPN."
-msgstr ""
+msgstr "注意: 全てのクライアントを一致するよう設定する場合を除き、この設定は SHA1 にしてください。"
+"SHA1 は OpenVPN のデフォルトです。"
 
 msgid "Certificate Depth"
 msgstr "証明書の深さ"
 
 # File: src/www/vpn_openvpn_server.php, line: 1160
 msgid "Do Not Check"
-msgstr ""
+msgstr "確認しない"
 
 # File: src/www/vpn_openvpn_server.php, line: 1163
 msgid "One (Client+Server)"
-msgstr ""
+msgstr "1 ( クライアント + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1164
 msgid "Two (Client+Intermediate+Server)"
-msgstr ""
+msgstr "2 ( クライアント + 中間 + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1165
 msgid "Three (Client+2xIntermediate+Server)"
-msgstr ""
+msgstr "3 ( クライアント + 2 x 中間 + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1166
 msgid "Four (Client+3xIntermediate+Server)"
-msgstr ""
+msgstr "4 ( クライアント + 3 x 中間 + サーバ )"
 
 # File: src/www/vpn_openvpn_server.php, line: 1167
 msgid "Five (Client+4xIntermediate+Server)"
-msgstr ""
+msgstr "5 ( クライアント + 4 x 中間 + サーバ )"
 
 msgid ""
 "When a certificate-based client logs in, do not accept certificates below "
@@ -19136,6 +19155,10 @@ msgid ""
 "remaining network addresses can optionally be assigned to connecting "
 "clients. (see Address Pool)"
 msgstr ""
+"このサーバとクライアントホスト間のプライベート通信に使用される IPv4 仮想ネットワークで "
+"CIDR ( 例: 10.0.8.0/24 ) を使用して表記します。"
+"最初のネットワークアドレスはサーバ仮想インタフェースに割り当てられます。"
+"残りのネットワークアドレスは、オプションで、クライアントの接続に割り当てることができます。( アドレスプールを参照 )"
 
 msgid ""
 "This is the IPv6 virtual network used for private communications between "
@@ -19241,6 +19264,8 @@ msgid ""
 "dynamically disable compression for a period of time if OpenVPN detects that "
 "the data in the packets is not being compressed efficiently"
 msgstr ""
+"LZO アルゴリズムを使用してトンネルパケットを圧縮します。アダプティブ圧縮は、"
+"パケットのデータが効果的に圧縮されていないことを OpenVPN が検出した場合に、その期間の圧縮を動的に無効にします"
 
 msgid "Inter-client communication"
 msgstr "クライアント間通信"
@@ -19251,13 +19276,12 @@ msgstr "このサーバに接続しているクライアント間の通信を許
 msgid "Duplicate Connections"
 msgstr "重複接続"
 
-#, fuzzy
 msgid ""
 "Allow multiple concurrent connections from clients using the same Common "
 "Name.<br />NOTE: This is not generally recommended, but may be needed for "
 "some scenarios."
 msgstr ""
-"同じコモンネームを使用しているクライアントからの複数の同時接続を許可します。<br/>注意: "
+"同じコモンネームを使用しているクライアントからの複数の同時接続を許可します。<br />注意: "
 "一般的には推奨されません。しかし、一部のケースで必要になる場合があります。"
 
 msgid "Dynamic IP"
@@ -19299,7 +19323,7 @@ msgstr ""
 
 # File: src/www/vpn_openvpn_server.php, line: 1733
 msgid "Force DNS cache update"
-msgstr ""
+msgstr "DNS キャッシュ更新を強制"
 
 # File: src/www/vpn_openvpn_server.php, line: 1743
 msgid ""
@@ -19307,6 +19331,9 @@ msgid ""
 "and ''ipconfig /registerdns'' on connection initiation. This is known to "
 "kick Windows into recognizing pushed DNS servers."
 msgstr ""
+"接続開始時に ''net stop dnscache''、''net start dnscache''、''ipconfig /flushdns''、"
+"及び、''ipconfig /registerdns'' を実行します。"
+"これは Windows にプッシュされた DNS サーバ を認識させる手法として知られています。"
 
 msgid "Scope ID"
 msgstr "スコープ ID"
@@ -19317,10 +19344,11 @@ msgid ""
 "TCP/IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
+"NetBIOS スコープ ID は NetBIOS over TCP/IP に対する拡張名前サービスを提供します。"
+"NetBIOS スコープ ID は単一ネットワークの NetBIOS トラフィックを、同じ NetBIOS スコープ ID のノードのみに分離します。"
 
-#, fuzzy
 msgid "Client Management Port"
-msgstr "証明書管理"
+msgstr "クライアント管理ポート"
 
 # File: src/www/vpn_openvpn_server.php, line: 1898
 msgid ""
@@ -19328,6 +19356,8 @@ msgid ""
 "a different port if the client machines need to select from multiple OpenVPN "
 "links."
 msgstr ""
+"クライアントで異なる管理ポートを使用します。デフォルトポートは 166 です。"
+"クライアントマシンが、複数の OpenVPN リンクから選択する必要がある場合に異なるポートを指定します。"
 
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN server "
@@ -19346,7 +19376,7 @@ msgstr "サーバを削除"
 # File: src/www/vpn_openvpn_server.php, line: 1749
 # File: src/www/vpn_openvpn_server.php.orig, line: 1749
 msgid "Use a wizard to setup a new server"
-msgstr ""
+msgstr "新規サーバの設定にウィザードを使用"
 
 msgid "add a new pppoe instance"
 msgstr "新規 PPPoE インスタンスを追加"
@@ -19504,10 +19534,13 @@ msgid ""
 "your traffic can be decrypted by virtually any third party. It should be "
 "considered an unencrypted tunneling protocol."
 msgstr ""
+"PPTP は、侵害された MS-CHAPv2 プロトコルを信頼しているため、セキュアな VPN テクノロジとはみなされていません。"
+"PPTP の使用を選択する場合は、事実上どの第三者にもトラフィックを解読されうるということに注意してください。"
+"非暗号化トンネルプロトコルだと考えてください。"
 
 # File: src/www/vpn_pptp.php, line: 318
 msgid "Read more"
-msgstr ""
+msgstr "続きを読む"
 
 msgid "Redirect incoming PPTP connections to"
 msgstr "次に対する着信 PPTP 接続をリダイレクト"
@@ -19587,7 +19620,7 @@ msgstr ""
 msgid ""
 "Note: don't forget to %sadd a firewall rule%s to permit traffic from PPTP "
 "clients!"
-msgstr ""
+msgstr "注意: PPTP クライアントからのトラフィックを許可する%sファイアウォールのルールを追加%sすることを忘れないでください！"
 
 msgid "The PPTP user list has been modified"
 msgstr "PPTP ユーザリストが変更されました"
@@ -19603,15 +19636,15 @@ msgstr "ユーザのパスワードを変更する場合は、ここに 2 回入
 
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 64
 msgid "DISABLED"
-msgstr ""
+msgstr "無効"
 
 # File: src/www/widgets/widgets/carp_status.widget.php, line: 84
 msgid "No CARP Interfaces Defined. Click %shere%s to configure CARP."
-msgstr ""
+msgstr "CARP インタフェースが定義されていません。%sここ%sをクリックして CARP を構成してください。"
 
 # File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 68
 msgid "N/A "
-msgstr ""
+msgstr "N/A"
 
 msgid "Int."
 msgstr "Int."
@@ -19623,31 +19656,25 @@ msgstr "確認しています..."
 # File: src/www/widgets/widgets/interface_statistics.widget.php, line: 65
 # File: src/www/widgets/widgets/interface_statistics.widget.php, line: 70
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
-#, fuzzy
 msgid "Packets In"
-msgstr "パケット"
+msgstr "受信パケット"
 
-#, fuzzy
 msgid "Packets Out"
-msgstr "パケット"
+msgstr "送信パケット"
 
-#, fuzzy
 msgid "Bytes In"
-msgstr "送信バイト"
+msgstr "受信バイト"
 
-#, fuzzy
 msgid "Bytes Out"
 msgstr "送信バイト"
 
-#, fuzzy
 msgid "Errors In"
-msgstr "エラー"
+msgstr "受信エラー"
 
-#, fuzzy
 msgid "Errors Out"
-msgstr "エラー"
+msgstr "送信エラー"
 
 msgid "Tunnels"
 msgstr "トンネル"
@@ -19655,41 +19682,38 @@ msgstr "トンネル"
 msgid "Mobile"
 msgstr "モバイル"
 
-#, fuzzy
 msgid "Active Tunnels"
-msgstr "アクティブユーザ"
+msgstr "アクティブトンネル"
 
-#, fuzzy
 msgid "Inactive Tunnels"
-msgstr "トンネル"
+msgstr "非アクティブトンネル"
 
-#, fuzzy
 msgid "Mobile Users"
 msgstr "モバイルユーザ"
 
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 245
 msgid "Note: There are no configured IPsec Tunnels"
-msgstr ""
+msgstr "注意: IPsec トンネルは構成されていません"
 
 # File: src/www/widgets/widgets/ipsec.widget.php, line: 248
 msgid "You can configure your IPsec %shere%s."
-msgstr ""
+msgstr "IPsec は%sここで%s構成できます。"
 
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 79
 msgid "Active"
-msgstr ""
+msgstr "アクティブ"
 
 # File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 87
 msgid "Unknown - relayd not running?"
-msgstr ""
+msgstr "不明 - relayd は動作していますか？"
 
 # File: src/www/widgets/widgets/log.widget.php, line: 153
 msgid "Number of lines to display:"
-msgstr ""
+msgstr "表示する行数: "
 
 # File: src/www/widgets/widgets/log.widget.php, line: 190
 msgid "Interfaces:"
-msgstr ""
+msgstr "インタフェース: "
 
 msgid "IF"
 msgstr "IF"
@@ -19699,51 +19723,51 @@ msgstr "DNS で逆引き"
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 135
 msgid "No active peers available"
-msgstr ""
+msgstr "利用可能なアクティブピアがありません"
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 147
 msgid "Clock location"
-msgstr ""
+msgstr "時計の位置"
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 165
 msgid "in view "
-msgstr ""
+msgstr "表示中 "
 
 # File: src/www/widgets/widgets/ntp_status.widget.php, line: 171
 msgid "in use "
-msgstr ""
+msgstr "使用中 "
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 192
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 245
 msgid "Name/Time"
-msgstr ""
+msgstr "名前 / 時間"
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 193
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 246
 msgid "Remote/Virtual IP"
-msgstr ""
+msgstr "リモート / 仮想 IP"
 
 # File: src/www/widgets/widgets/openvpn.widget.php, line: 289
 msgid ""
 "You need to bind each OpenVPN client to enable its management daemon: use "
 "'Local port' setting in the OpenVPN client screen"
-msgstr ""
+msgstr "OpenVPN クライアント画面の「ローカルポート」設定"
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 97
 msgid "Display number of items:"
-msgstr ""
+msgstr "項目数を表示: "
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 112
 msgid "Widget height:"
-msgstr ""
+msgstr "ウィジェットの高さ: "
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 127
 msgid "Show how many characters from story:"
-msgstr ""
+msgstr "ストーリーから表示する文字数: "
 
 # File: src/www/widgets/widgets/services_status.widget.php, line: 52
 msgid "Comma separated list of services to NOT display in the widget"
-msgstr ""
+msgstr "ウィジェットで表示「しない」サービスのカンマ区切りリスト"
 
 msgid "Drive"
 msgstr "ドライブ"
@@ -19753,45 +19777,37 @@ msgstr "ID"
 
 # File: src/www/widgets/widgets/smart_status.widget.php, line: 58
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-#, fuzzy
 msgid "Click to retry"
-msgstr "クリック: "
+msgstr "クリックで再試行"
 
-#, fuzzy
 msgid "Connection Error"
-msgstr "接続タイムアウト"
+msgstr "接続エラー"
 
-#, fuzzy
 msgid "Repository Problem"
-msgstr "リポジトリ URL"
+msgstr "リポジトリの問題"
 
-#, fuzzy
 msgid "Click to check for updates"
-msgstr "更新を確認できません"
+msgstr "クリックで更新確認"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 49
 msgid "Your system is up to date."
-msgstr ""
+msgstr "システムは最新です。"
 
-#, fuzzy
 msgid " update(s) available."
-msgstr "使用できません"
+msgstr "更新が利用可能です。"
 
-#, fuzzy
 msgid "Click to upgrade"
-msgstr "クリック: "
+msgstr "クリックでアップグレード"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 50
 msgid "Re-check now"
-msgstr ""
+msgstr "今すぐ再確認"
 
-#, fuzzy
 msgid "There are "
-msgstr "復元領域: "
+msgstr "次が存在します: "
 
-#, fuzzy
 msgid "Versions"
 msgstr "バージョン"
 
@@ -19833,7 +19849,7 @@ msgstr "CPU 使用率"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 233
 msgid "Updating in 10 seconds"
-msgstr ""
+msgstr "10 秒で更新"
 
 msgid "Memory usage"
 msgstr "メモリ使用量"
@@ -19846,47 +19862,47 @@ msgstr "ディスク使用状況"
 
 # File: src/www/widgets/widgets/system_log.widget.php, line: 58
 msgid "Number of Log lines to display"
-msgstr ""
+msgstr "表示するログの行数"
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 181
 msgid "Thresholds in &deg;C (1 to 100):"
-msgstr ""
+msgstr "&deg;C の閾値 ( 1 - 100 ):"
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 184
 msgid "Display settings:"
-msgstr ""
+msgstr "表示設定: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 189
 msgid "Zone Warning:"
-msgstr ""
+msgstr "ゾーン警告: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 198
 msgid "Show raw output (no graph):"
-msgstr ""
+msgstr "生の出力を表示 ( グラフを使用しない ): "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 208
 msgid "Zone Critical:"
-msgstr ""
+msgstr "ゾーン重篤: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 217
 msgid "Show full sensor name:"
-msgstr ""
+msgstr "完全なセンサ名を表示: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 227
 msgid "Core Warning:"
-msgstr ""
+msgstr "コア警告: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 236
 msgid "Pulsate Warning:"
-msgstr ""
+msgstr "パルス警告: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 246
 msgid "Core Critical:"
-msgstr ""
+msgstr "コア重篤: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 255
 msgid "Pulsate Critical:"
-msgstr ""
+msgstr "パルス重篤: "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 270
 msgid ""
@@ -19894,38 +19910,39 @@ msgid ""
 "    &nbsp;&nbsp;&nbsp;<a href=\"system_advanced_misc.php\">System &gt; "
 "Advanced &gt; Miscellaneous : Thermal Sensors section</a>."
 msgstr ""
+"<a href=\"system_advanced_misc.php\">システム &gt; 詳細設定 &gt; その他 : サーマルセンサセクション</a><br />\n"
+"    &nbsp;&nbsp;&nbsp;で、サーマルセンサ / モジュールを適切に構成可能です。"
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 280
 msgid "Updating..."
-msgstr ""
+msgstr "更新しています..."
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 114
 msgid "Default AutoScale:"
-msgstr ""
+msgstr "デフォルト自動スケール: "
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 133
 msgid "Scale up"
-msgstr ""
+msgstr "拡大"
 
-#, fuzzy
 msgid "Scale follow"
-msgstr "追従"
+msgstr "スケールを合わせる"
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 139
 msgid "Refresh Interval:"
-msgstr ""
+msgstr "更新間隔: "
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 148
 msgid "Seconds"
-msgstr ""
+msgstr "秒"
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 148
 msgid "changing this setting will increase CPU utilization"
-msgstr ""
+msgstr "この設定の変更は、CPU 稼働率を増加させます"
 
 # File: src/www/widgets/widgets/traffic_graphs.widget.php, line: 190
 msgid "Current %s Traffic"
-msgstr ""
+msgstr "現在の %s トラフィック"
 
 msgid "Computer / Device"
 msgstr "コンピュータ / デバイス"
@@ -19938,8 +19955,8 @@ msgstr "WOL アドレスは保存されていません"
 
 # File: src/www/widgets/widgets/wake_on_lan.widget.php, line: 80
 msgid "DHCP Leases Status"
-msgstr ""
+msgstr "DHCP リースステータス"
 
 # File: src/www/wizard.php, line: 126
 msgid "ERROR: Could not parse %s wizard file."
-msgstr ""
+msgstr "エラー: %s ウィザードファイルを解析できません。"
