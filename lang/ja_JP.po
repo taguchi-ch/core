@@ -4593,11 +4593,11 @@ msgstr "時間"
 
 # File: src/www/diag_ipsec.php, line: 174
 msgid "Bytes in"
-msgstr "IN バイト"
+msgstr "入力バイト"
 
 # File: src/www/diag_ipsec.php, line: 175
 msgid "Bytes out"
-msgstr "OUT バイト"
+msgstr "出力バイト"
 
 msgid "Pool: "
 msgstr "プール: "
@@ -7818,10 +7818,10 @@ msgid "Cannot get data about interface %s"
 msgstr "インタフェース %s のデータを取得できません"
 
 msgid "In"
-msgstr "内"
+msgstr "In"
 
 msgid "Out"
-msgstr "外"
+msgstr "Out"
 
 msgid "Switch to bytes/s"
 msgstr "byte/s に切替"
@@ -13494,10 +13494,10 @@ msgid "Host Name or IP"
 msgstr "ホスト名または IP"
 
 msgid "Bandwidth In"
-msgstr "下り帯域幅"
+msgstr "入力帯域幅"
 
 msgid "Bandwidth Out"
-msgstr "上り帯域幅"
+msgstr "出力帯域幅"
 
 # File: src/www/status_graph.php, line: 202
 msgid ""
@@ -19659,22 +19659,22 @@ msgid "n/a"
 msgstr "n/a"
 
 msgid "Packets In"
-msgstr "受信パケット"
+msgstr "入力パケット"
 
 msgid "Packets Out"
-msgstr "送信パケット"
+msgstr "出力パケット"
 
 msgid "Bytes In"
-msgstr "受信バイト"
+msgstr "入力バイト"
 
 msgid "Bytes Out"
-msgstr "送信バイト"
+msgstr "出力バイト"
 
 msgid "Errors In"
-msgstr "受信エラー"
+msgstr "入力エラー"
 
 msgid "Errors Out"
-msgstr "送信エラー"
+msgstr "出力エラー"
 
 msgid "Tunnels"
 msgstr "トンネル"
