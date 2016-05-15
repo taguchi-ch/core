@@ -18618,7 +18618,7 @@ msgid ""
 "TCP/IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
-"NetBIOS スコープ ID は NetBIOS over TCP/IP に対する拡張名前サービスを提供します。/t"
+"NetBIOS スコープ ID は\t NetBIOS over TCP/IP に対する拡張名前サービスを提供します。\t"
 "NetBIOS スコープ ID は単一ネットワークの NetBIOS トラフィックを、同じ NetBIOS スコープ ID のノードのみに分離します。"
 
 msgid ""
@@ -18643,13 +18643,13 @@ msgstr "IP もしくはホスト名を指定してください。"
 # File: src/www/vpn_openvpn_export.php, line: 149
 msgid ""
 "You cannot use Microsoft Certificate Storage with an Inline configuration."
-msgstr "Microsoft 証明書ストレージを、インライン構成で使用できません。"
+msgstr "Microsoft 証明書ストレージは、インライン構成で使用できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 152
 msgid ""
 "You cannot use Microsoft Certificate Storage with a Yealink or SNOM "
 "configuration."
-msgstr "Microsoft 証明書ストレージを、Yealink もしくは SNOM 構成で使用できません。"
+msgstr "Microsoft 証明書ストレージは、Yealink もしくは SNOM 構成で使用できません。"
 
 # File: src/www/vpn_openvpn_export.php, line: 163
 # File: src/www/vpn_openvpn_export_shared.php, line: 88
@@ -18731,11 +18731,11 @@ msgstr "インタフェース IP アドレス"
 # File: src/www/vpn_openvpn_export.php, line: 654
 # File: src/www/vpn_openvpn_export.php.orig, line: 654
 msgid "Automagic Multi-WAN IPs (port forward targets)"
-msgstr "オートマジックマルチ WAN IP ( ポートフォワードの対象です )"
+msgstr "Automagic マルチ WAN IP ( ポートフォワードの対象です )"
 
 # File: src/www/vpn_openvpn_export.php, line: 656
 msgid "Automagic Multi-WAN dynamic DNS Hostnames (port forward targets)"
-msgstr "オートマジックマルチ WAN ダイナミック DNS ホスト名 ( ポートフォワードの対象です )"
+msgstr "Automagic マルチ WAN ダイナミック DNS ホスト名 ( ポートフォワードの対象です )"
 
 # File: src/www/vpn_openvpn_export.php, line: 656
 # File: src/www/vpn_openvpn_export.php.orig, line: 656
@@ -18810,7 +18810,7 @@ msgid ""
 msgstr ""
 "tls-remote では、サーバ CN はオプションで引用符で囲むことができます。"
 "これはサーバ CN に空白が含まれていて、特定のクライアントがサーバ CN を解析できない場合に有効です。"
-"一部のクライアントは 引用符のある CN の解析がうまくいきません。必要な場合のみ使用してください。"
+"一部のクライアントは引用符のある CN の解析がうまくいきません。必要な場合のみ使用してください。"
 
 # File: src/www/vpn_openvpn_export.php, line: 702
 # File: src/www/vpn_openvpn_export.php.orig, line: 702
@@ -18915,7 +18915,7 @@ msgstr "追加構成オプション"
 msgid ""
 "Enter any additional options you would like to add to the OpenVPN client "
 "export configuration here, separated by a line break or semicolon"
-msgstr "OpenVPN クライアントエクスポート構成に追加する、追加オプションを入力してください。セミコロン区切りです。"
+msgstr "OpenVPN クライアントエクスポート構成に追加する、追加オプションを入力してください。改行もしくはセミコロン区切りです。"
 
 # File: src/www/vpn_openvpn_export.php, line: 927
 msgid "EXAMPLE: remote-random"
@@ -19101,7 +19101,8 @@ msgstr "DH パラメータ長"
 msgid ""
 "NOTE: Leave this set to SHA1 unless all clients are set to match. SHA1 is "
 "the default for OpenVPN."
-msgstr "注意: 全てのクライアントを一致するよう設定する場合を除き、この設定は SHA1 にしてください。"
+msgstr ""
+"注意: 全てのクライアントを一致するよう設定する場合を除き、この設定は SHA1 にしてください。"
 "SHA1 は OpenVPN のデフォルトです。"
 
 msgid "Certificate Depth"
@@ -19333,7 +19334,7 @@ msgid ""
 msgstr ""
 "接続開始時に ''net stop dnscache''、''net start dnscache''、''ipconfig /flushdns''、"
 "及び、''ipconfig /registerdns'' を実行します。"
-"これは Windows にプッシュされた DNS サーバ を認識させる手法として知られています。"
+"これは Windows に通知された DNS サーバ を認識させる手法として知られています。"
 
 msgid "Scope ID"
 msgstr "スコープ ID"
@@ -19644,7 +19645,7 @@ msgstr "CARP インタフェースが定義されていません。%sここ%sを
 
 # File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 68
 msgid "N/A "
-msgstr "N/A"
+msgstr "N/A "
 
 msgid "Int."
 msgstr "Int."
@@ -19751,7 +19752,9 @@ msgstr "リモート / 仮想 IP"
 msgid ""
 "You need to bind each OpenVPN client to enable its management daemon: use "
 "'Local port' setting in the OpenVPN client screen"
-msgstr "OpenVPN クライアント画面の「ローカルポート」設定"
+msgstr ""
+"管理デーモンを有効にするために、全ての OpenVPN クライアントをバインドする必要があります: "
+"OpenVPN クライアント画面の「ローカルポート」設定を使用してください"
 
 # File: src/www/widgets/widgets/rss.widget.php, line: 97
 msgid "Display number of items:"
@@ -19866,7 +19869,7 @@ msgstr "表示するログの行数"
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 181
 msgid "Thresholds in &deg;C (1 to 100):"
-msgstr "&deg;C の閾値 ( 1 - 100 ):"
+msgstr "&deg;C の閾値 ( 1 - 100 ): "
 
 # File: src/www/widgets/widgets/thermal_sensors.widget.php, line: 184
 msgid "Display settings:"
